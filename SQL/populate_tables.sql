@@ -1,0 +1,12 @@
+\COPY delphi.Item FROM 'item.csv' DELIMITER ',' CSV HEADER;
+\COPY delphi.Ingredient FROM 'ingredient.csv' DELIMITER ',' CSV HEADER;
+\COPY delphi.ItemIngredient FROM 'itemingredient.csv' DELIMITER ',' CSV HEADER;
+\COPY delphi.NutritionFacts FROM 'nutritionfacts.csv' DELIMITER ',' CSV HEADER;
+\COPY delphi.Menu FROM 'menu.csv' DELIMITER ',' CSV HEADER;
+\COPY delphi.Customer FROM 'customer.csv' DELIMITER ',' CSV HEADER;
+\COPY delphi.Order FROM 'order.csv' DELIMITER ',' CSV HEADER;
+\COPY delphi.OrderItem FROM 'orderitem.csv' DELIMITER ',' CSV HEADER;
+\COPY delphi.Customization FROM 'customization.csv' DELIMITER ',' CSV HEADER;
+\COPY delphi.OrderItemCustomization FROM 'orderitemcustomization.csv' DELIMITER ',' CSV HEADER;
+\COPY delphi.DietaryPreference FROM 'dietarypreference.csv' DELIMITER ',' CSV HEADER;
+\COPY delphi.CustomerDietaryPreference FROM 'customerdietarypreference.csv' DELIMITER ',' CSV HEADER;
