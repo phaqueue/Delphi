@@ -108,11 +108,11 @@ CREATE TABLE delphi.NutritionFacts (
 );
 
 CREATE TABLE delphi.Menu (
-    menu_item_id int NOT NULL,
+    menu_id int NOT NULL,
     item_id int NOT NULL,
     brand text NOT NULL,
     store_id int NOT NULL,
-    PRIMARY KEY (menu_item_id),
+    PRIMARY KEY (menu_id),
     FOREIGN KEY (item_id) REFERENCES delphi.Item ON DELETE NO ACTION
 );
 
@@ -139,20 +139,20 @@ CREATE TYPE delphi.Weather AS ENUM (
 
 -- Order history for a customer
 CREATE TABLE delphi.Order (
-    order_history_id int NOT NULL,
+    order_id int NOT NULL,
     customer_id int NOT NULL,
     order_timestamp timestamp NOT NULL,
     weather delphi.Weather NOT NULL,
-    PRIMARY KEY (order_history_id),
+    PRIMARY KEY (order_id),
     FOREIGN KEY (customer_id) REFERENCES delphi.Customer ON DELETE CASCADE
 );
 
 -- M:M mapping table for ordered items
 CREATE TABLE delphi.OrderItem (
-    order_history_id int NOT NULL,
+    order_id int NOT NULL,
     item_id int NOT NULL,
-    PRIMARY KEY (order_history_id, item_id),
-    FOREIGN KEY (order_history_id) REFERENCES delphi.Order ON DELETE CASCADE,
+    PRIMARY KEY (order_id, item_id),
+    FOREIGN KEY (order_id) REFERENCES delphi.Order ON DELETE CASCADE,
     FOREIGN KEY (item_id) REFERENCES delphi.Item ON DELETE CASCADE
 );
 
@@ -179,11 +179,11 @@ CREATE TABLE delphi.Customization (
 
 -- M:M mapping table for order item customizations
 CREATE TABLE delphi.OrderItemCustomization (
-    order_history_id int NOT NULL,
+    order_id int NOT NULL,
     item_id int NOT NULL,
     customization_id int NOT NULL,
-    PRIMARY KEY (order_history_id, item_id, customization_id),
-    FOREIGN KEY (order_history_id, item_id) REFERENCES delphi.OrderItem ON DELETE CASCADE,
+    PRIMARY KEY (order_id, item_id, customization_id),
+    FOREIGN KEY (order_id, item_id) REFERENCES delphi.OrderItem ON DELETE CASCADE,
     FOREIGN KEY (customization_id) REFERENCES delphi.Customization
 );
 
