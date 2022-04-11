@@ -1,0 +1,35 @@
+customer_id,opt_in,birthday,gender,order_id,weather,order_timestamp,item_id,item_name,item_description,item_image,price,taste_profile,item_type,customization_id,customization
+19,True,2003-11-01,male,5,snowy,2019-10-16 04:11:47,640405112,Double Cheeseburger,"Our top-quality hamburgers are made from hormone-free, free-range USDA Choice beef.",,3.29,savory,burger,33,no pickles
+7,True,1993-08-23,male,22,snowy,2016-05-01 23:35:57,640405085,Double Hamburger,"Our top-quality hamburgers are made from hormone-free, free-range USDA Choice beef.",,2.99,savory,burger,24,no mayonnaise
+20,True,1995-02-21,male,13,snowy,2017-07-04 12:53:59,640404963,Cheeseburger,"Our top-quality hamburgers are made from hormone-free, free-range USDA Choice beef.",,2.29,savory,burger,8,no ketchup
+20,True,1995-02-21,male,13,snowy,2017-07-04 12:53:59,640404963,Cheeseburger,"Our top-quality hamburgers are made from hormone-free, free-range USDA Choice beef.",,2.29,savory,burger,14,no tomatoes
+19,True,2003-11-01,male,5,snowy,2019-10-16 04:11:47,640405112,Double Cheeseburger,"Our top-quality hamburgers are made from hormone-free, free-range USDA Choice beef.",,3.29,savory,burger,29,no ketchup
+14,True,2005-12-23,male,28,sunny,2019-11-15 09:17:38,640405172,Double Bacon Cheeseburger,"Our top-quality hamburgers are made from hormone-free, free-range USDA Choice bacon.",,3.79,savory,burger,47,no lettuce
+19,True,2003-11-01,male,5,snowy,2019-10-16 04:11:47,640405112,Double Cheeseburger,"Our top-quality hamburgers are made from hormone-free, free-range USDA Choice beef.",,3.29,savory,burger,31,no mayonnaise
+14,True,2005-12-23,male,28,sunny,2019-11-15 09:17:38,640405172,Double Bacon Cheeseburger,"Our top-quality hamburgers are made from hormone-free, free-range USDA Choice bacon.",,3.79,savory,burger,49,no onions
+12,True,2003-03-22,other,7,rainy,2020-01-28 06:30:59,640405348,Coffee,Fresh coffee made daily.,,2.00,bitter,beverage,,
+13,True,1993-11-19,female,27,rainy,2020-07-20 21:12:55,640405172,Double Bacon Cheeseburger,"Our top-quality hamburgers are made from hormone-free, free-range USDA Choice bacon.",,3.79,savory,burger,,
+5,True,1992-04-24,other,3,cloudy,2016-01-22 07:01:31,640405085,Double Hamburger,"Our top-quality hamburgers are made from hormone-free, free-range USDA Choice beef.",,2.99,savory,burger,,
+10,True,1990-12-18,male,19,rainy,2018-09-25 00:57:21,640405355,Small Drink,,,1.59,chilling,beverage,,
+5,True,1992-04-24,other,24,sunny,2017-03-26 06:58:44,640405389,Small Shake,,,2.09,sweet,beverage,,
+5,True,1992-04-24,other,10,snowy,2015-03-08 00:49:21,640405348,Coffee,Fresh coffee made daily.,,2.00,bitter,beverage,,
+4,True,2002-07-19,male,23,rainy,2018-06-14 05:35:20,640405315,Large Fries,Our french fries are made to order onsite from fresh Idaho potatoes.,/MENU/IMAGE/LARGE_FRIES.PNG,2.09,savory,side,,
+2,True,1992-11-15,male,29,cloudy,2015-05-08 02:24:02,640405296,Small Fries,Our french fries are made to order onsite from fresh Idaho potatoes.,/MENU/IMAGE/SMALL_FRIES.PNG,1.49,savory,side,,
+2,True,1992-11-15,male,15,snowy,2017-01-07 03:23:37,640405339,Large Curly Fries,Our french fries are made to order onsite from fresh Idaho potatoes.,/MENU/IMAGE/LARGE_CURLY_FRIES.PNG,2.09,savory,side,,
+6,True,2000-04-15,female,11,snowy,2018-11-01 18:46:50,640405307,Regular Fries,Our french fries are made to order onsite from fresh Idaho potatoes.,/MENU/IMAGE/REGULAR_FRIES.PNG,1.79,savory,side,,
+5,True,1992-04-24,other,4,cloudy,2017-01-19 08:48:59,640405389,Small Shake,,,2.09,sweet,beverage,,
+7,True,1993-08-23,male,18,rainy,2020-11-12 16:29:07,640405296,Small Fries,Our french fries are made to order onsite from fresh Idaho potatoes.,/MENU/IMAGE/SMALL_FRIES.PNG,1.49,savory,side,,
+9,True,1995-03-16,male,20,snowy,2019-05-18 08:45:53,640405380,Large Drink,,,1.99,chilling,beverage,,
+8,True,1991-11-07,female,16,rainy,2020-01-23 13:53:43,640405323,Small Curly Fries,Our french fries are made to order onsite from fresh Idaho potatoes.,/MENU/IMAGE/SMALL_CURLY_FRIES.PNG,1.49,savory,side,,
+18,True,2002-07-27,male,26,sunny,2017-05-06 11:18:36,640405025,Bacon Cheeseburger,"Our top-quality hamburgers are made from hormone-free, free-range USDA Choice bacon.",,2.79,savory,burger,,
+5,True,1992-04-24,other,14,rainy,2017-11-24 07:04:50,640405315,Large Fries,Our french fries are made to order onsite from fresh Idaho potatoes.,/MENU/IMAGE/LARGE_FRIES.PNG,2.09,savory,side,,
+1,True,2001-12-18,female,21,cloudy,2018-05-23 14:03:58,640405348,Coffee,Fresh coffee made daily.,,2.00,bitter,beverage,,
+18,True,2002-07-27,male,8,snowy,2016-07-15 13:12:50,640405347,Onion Rings,Our onion rings are made to order onsite from Vidalia onions.,/MENU/IMAGE/ONION_RINGS.PNG,2.19,sweet,side,,
+6,True,2000-04-15,female,12,sunny,2017-01-14 01:37:47,640405395,Regular Shake,,,2.29,sweet,beverage,,
+1,True,2001-12-18,female,6,cloudy,2017-03-21 07:52:50,640405296,Small Fries,Our french fries are made to order onsite from fresh Idaho potatoes.,/MENU/IMAGE/SMALL_FRIES.PNG,1.49,savory,side,,
+15,True,2005-04-13,other,9,snowy,2015-09-03 11:38:23,640405389,Small Shake,,,2.09,sweet,beverage,,
+20,True,1995-02-21,male,1,rainy,2016-11-03 11:03:25,640405348,Coffee,Fresh coffee made daily.,,2.00,bitter,beverage,,
+11,True,2002-05-23,male,2,snowy,2017-03-01 22:30:57,640405380,Large Drink,,,1.99,chilling,beverage,,
+7,True,1993-08-23,male,30,snowy,2015-01-24 11:12:18,640405339,Large Curly Fries,Our french fries are made to order onsite from fresh Idaho potatoes.,/MENU/IMAGE/LARGE_CURLY_FRIES.PNG,2.09,savory,side,,
+15,True,2005-04-13,other,17,cloudy,2016-06-18 09:49:26,640405085,Double Hamburger,"Our top-quality hamburgers are made from hormone-free, free-range USDA Choice beef.",,2.99,savory,burger,,
+18,True,2002-07-27,male,25,snowy,2019-04-08 02:45:28,640404923,Hamburger,"Our top-quality hamburgers are made from hormone-free, free-range USDA Choice beef.",,3.07,savory,burger,,
