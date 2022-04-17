@@ -1,0 +1,22 @@
+item_id,item_name,item_description,item_image,price,taste_profile,item_type
+640404923,Hamburger,"Our top-quality hamburgers are made from hormone-free, free-range USDA Choice beef.",,3.07,savory,burger
+640404963,Cheeseburger,"Our top-quality hamburgers are made from hormone-free, free-range USDA Choice beef.",,2.29,savory,burger
+640405025,Bacon Cheeseburger,"Our top-quality hamburgers are made from hormone-free, free-range USDA Choice bacon.",,2.79,savory,burger
+640405058,Veggie Burger,Our veggie burger is fresh and delicious.,,2.49,healthy,burger
+640405085,Double Hamburger,"Our top-quality hamburgers are made from hormone-free, free-range USDA Choice beef.",,2.99,savory,burger
+640405112,Double Cheeseburger,"Our top-quality hamburgers are made from hormone-free, free-range USDA Choice beef.",,3.29,savory,burger
+640405172,Double Bacon Cheeseburger,"Our top-quality hamburgers are made from hormone-free, free-range USDA Choice bacon.",,3.79,savory,burger
+640405355,Small Drink,,,1.59,chilling,beverage
+640405371,Regular Drink,,,1.79,chilling,beverage
+640405380,Large Drink,,,1.99,chilling,beverage
+640405389,Small Shake,,,2.09,sweet,beverage
+640405395,Regular Shake,,,2.29,sweet,beverage
+640405399,Large Shake,,,2.49,sweet,beverage
+640405296,Small Fries,Our french fries are made to order onsite from fresh Idaho potatoes.,/MENU/IMAGE/SMALL_FRIES.PNG,1.49,savory,side
+640405307,Regular Fries,Our french fries are made to order onsite from fresh Idaho potatoes.,/MENU/IMAGE/REGULAR_FRIES.PNG,1.79,savory,side
+640405315,Large Fries,Our french fries are made to order onsite from fresh Idaho potatoes.,/MENU/IMAGE/LARGE_FRIES.PNG,2.09,savory,side
+640405323,Small Curly Fries,Our french fries are made to order onsite from fresh Idaho potatoes.,/MENU/IMAGE/SMALL_CURLY_FRIES.PNG,1.49,savory,side
+640405331,Regular Curly Fries,Our french fries are made to order onsite from fresh Idaho potatoes.,/MENU/IMAGE/REGULAR_CURLY_FRIES.PNG,1.79,savory,side
+640405339,Large Curly Fries,Our french fries are made to order onsite from fresh Idaho potatoes.,/MENU/IMAGE/LARGE_CURLY_FRIES.PNG,2.09,savory,side
+640405347,Onion Rings,Our onion rings are made to order onsite from Vidalia onions.,/MENU/IMAGE/ONION_RINGS.PNG,2.19,sweet,side
+640405348,Coffee,Fresh coffee made daily.,,2.00,bitter,beverage
