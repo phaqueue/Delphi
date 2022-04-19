@@ -2,6 +2,11 @@ from collections import defaultdict
 import random
 
 
+NUM_CUSTOMERS = 200
+NUM_ORDERS = 2000
+NUM_ORDER_ITEM_CUSTOMIZATIONS = 500
+
+
 def ingredient():
     columns = ['ingredient_id', 'ingredient_name']
     ingredient_types = ['ketchup',
@@ -27,13 +32,13 @@ def ingredient():
 
     ingredients_dict = {}
 
-    with open('ingredient.csv', 'w') as file:
+    with open('CSVs/ingredient.csv', 'w') as file:
         file.write(','.join(columns) + '\n')
 
         for id, ingredient in enumerate(ingredient_types):
             file.write(f'{id + 1},{ingredient}\n')
             ingredients_dict[ingredient] = id + 1
-    
+
     return ingredients_dict
 
 
@@ -63,7 +68,7 @@ def itemingredient(ingredients_dict):
         640405348: "Coffee, Milk, Sugar"
     }
 
-    with open('itemingredient.csv', 'w') as file:
+    with open('CSVs/itemingredient.csv', 'w') as file:
         file.write(','.join(columns) + '\n')
 
         for id, ingredients in items.items():
@@ -74,7 +79,7 @@ def itemingredient(ingredients_dict):
 
 
 def menu():
-    columns = ['menu_item_id', 'item_id', 'brand', 'store_id']
+    columns = ['menu_id', 'item_id', 'brand', 'store_id']
     item_ids = [
         640404923,
         640404963,
@@ -99,7 +104,7 @@ def menu():
         640405348
     ]
 
-    with open('menu.csv', 'w') as file:
+    with open('CSVs/menu.csv', 'w') as file:
         file.write(','.join(columns) + '\n')
 
         for id, item in enumerate(item_ids):
@@ -114,16 +119,16 @@ def customer():
         'other'
     ]
 
-    with open('customer.csv', 'w') as file:
+    with open('CSVs/customer.csv', 'w') as file:
         file.write(','.join(columns) + '\n')
 
-        for i in range(1, 21):
+        for i in range(1, NUM_CUSTOMERS + 1):
             date = f'{random.randint(1990, 2005)}-{random.randint(1, 12)}-{random.randint(1, 28)}'
-            file.write(f'{i},true,{date},{random.choice(genders)}\n')
+            file.write(f'{i},true,{date},{random.choices(genders, weights=[0.45, 0.45, 0.1])[0]}\n')
 
 
 def order():
-    columns = ['order_history_id', 'customer_id', 'order_timestamp', 'weather']
+    columns = ['order_id', 'customer_id', 'order_timestamp', 'weather']
     weather = [
         'sunny',
         'cloudy',
@@ -131,9 +136,9 @@ def order():
         'snowy'
     ]
 
-    random_customer_ids = [random.randint(1, 20) for i in range(30)]
+    random_customer_ids = [random.randint(1, NUM_CUSTOMERS) for i in range(1, NUM_ORDERS + 1)]
 
-    with open('order.csv', 'w') as file:
+    with open('CSVs/order.csv', 'w') as file:
         file.write(','.join(columns) + '\n')
 
         for order_id, customer_id in enumerate(random_customer_ids):
@@ -142,7 +147,7 @@ def order():
 
 
 def orderitem():
-    columns = ['order_history_id', 'item_id']
+    columns = ['order_id', 'item_id']
     item_ids = [
         640404923,
         640404963,
@@ -169,13 +174,13 @@ def orderitem():
 
     orders = defaultdict(list)
 
-    with open('orderitem.csv', 'w') as file:
+    with open('CSVs/orderitem.csv', 'w') as file:
         file.write(','.join(columns) + '\n')
 
-        for id in range(30):
+        for id in range(1, NUM_ORDERS + 1):
             item_id = random.choice(item_ids)
-            file.write(f'{id + 1},{item_id}\n')
-            orders[item_id].append(id + 1)
+            file.write(f'{id},{item_id}\n')
+            orders[item_id].append(id)
 
     return orders
 
@@ -206,7 +211,7 @@ def customization():
 
     customization_dict = defaultdict(list)
 
-    with open('customization.csv', 'w') as file:
+    with open('CSVs/customization.csv', 'w') as file:
         file.write(','.join(columns) + '\n')
 
         id = 1
@@ -231,20 +236,19 @@ def customization():
 
 
 def orderitemcustomization(orders, customization_dict):
-    columns = ['order_history_id', 'item_id', 'customization_id']
+    columns = ['order_id', 'item_id', 'customization_id']
     order_item_customizations = set()
 
-    with open('orderitemcustomization.csv', 'w') as file:
+    with open('CSVs/orderitemcustomization.csv', 'w') as file:
         file.write(','.join(columns) + '\n')
 
-        for i in range(10):
+        for i in range(NUM_ORDER_ITEM_CUSTOMIZATIONS):
             item_id = random.choice(list(orders.keys()))
 
             while item_id not in customization_dict:
                 item_id = random.choice(list(orders.keys()))
 
             order_history_id = random.choice(orders[item_id])
-
             order_item_customizations.add((order_history_id, item_id, random.choice(customization_dict[item_id])))
 
         for row in order_item_customizations:
@@ -264,10 +268,11 @@ def dietarypreference():
 
     preference_weight_pairs = set()
 
-    for i in range(8):
-        preference_weight_pairs.add((random.choice(preferences), random.randint(1, 5)))
+    for preference in preferences:
+        for i in range(1, 6):
+            preference_weight_pairs.add((preference, i))
 
-    with open('dietarypreference.csv', 'w') as file:
+    with open('CSVs/dietarypreference.csv', 'w') as file:
         file.write(','.join(columns) + '\n')
 
         for id, pair in enumerate(preference_weight_pairs):
@@ -278,12 +283,16 @@ def dietarypreference():
 
 def customerdietarypreference(preference_weight_pairs):
     columns = ['customer_id', 'preference_id']
+    customer_dietary_preference_pairs = set()
 
-    with open('customerdietarypreference.csv', 'w') as file:
+    for i in range(1, int(NUM_CUSTOMERS / 4) + 1):
+        customer_dietary_preference_pairs.add((random.randint(1, NUM_CUSTOMERS), random.randint(1, len(preference_weight_pairs))))
+
+    with open('CSVs/customerdietarypreference.csv', 'w') as file:
         file.write(','.join(columns) + '\n')
 
-        for i in range(1, 11):
-            file.write(f'{2 * i},{random.randint(1, len(preference_weight_pairs))}\n')
+        for pair in customer_dietary_preference_pairs:
+            file.write(f'{pair[0]},{pair[1]}\n')
 
 
 if __name__ == '__main__':

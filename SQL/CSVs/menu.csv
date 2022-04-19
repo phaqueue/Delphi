@@ -1,4 +1,4 @@
-menu_item_id,item_id,brand,store_id
+menu_id,item_id,brand,store_id
 1,640404923,"Generic Restaurant",50
 2,640404963,"Generic Restaurant",50
 3,640405025,"Generic Restaurant",50
