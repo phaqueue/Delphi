@@ -188,8 +188,8 @@ CREATE TABLE delphi.OrderItemCustomization (
 );
 
 CREATE TYPE delphi.Preference AS ENUM (
-    'dairy',
-    'nuts',
+    'dairy-free',
+    'nut-free',
     'vegan',
     'vegetarian',
     'kosher',
@@ -200,11 +200,12 @@ CREATE TYPE delphi.Preference AS ENUM (
 CREATE TABLE delphi.DietaryPreference (
     preference_id int NOT NULL,
     preference delphi.Preference NOT NULL,
-    preference_weight int NOT NULL,
+    -- preference_weight int NOT NULL,
     PRIMARY KEY (preference_id),
-    UNIQUE (preference, preference_weight),
-    CONSTRAINT weight_constraint
-        CHECK (preference_weight BETWEEN 1 AND 5)
+    UNIQUE (preference)
+    -- UNIQUE (preference, preference_weight),
+    -- CONSTRAINT weight_constraint
+    --     CHECK (preference_weight BETWEEN 1 AND 5)
 );
 
 -- M:M mapping table for customer dietary preferences
@@ -213,5 +214,14 @@ CREATE TABLE delphi.CustomerDietaryPreference (
     preference_id int NOT NULL,
     PRIMARY KEY (customer_id, preference_id),
     FOREIGN KEY (customer_id) REFERENCES delphi.Customer,
+    FOREIGN KEY (preference_id) REFERENCES delphi.DietaryPreference
+);
+
+-- M:M mapping table for item dietary preferences
+CREATE TABLE delphi.ItemDietaryPreference (
+    item_id int NOT NULL,
+    preference_id int NOT NULL,
+    PRIMARY kEY (item_id, preference_id),
+    FOREIGN KEY (item_id) REFERENCES delphi.Item,
     FOREIGN KEY (preference_id) REFERENCES delphi.DietaryPreference
 );

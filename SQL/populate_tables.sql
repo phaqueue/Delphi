@@ -10,3 +10,4 @@
 \COPY delphi.OrderItemCustomization FROM 'CSVs/orderitemcustomization.csv' DELIMITER ',' CSV HEADER;
 \COPY delphi.DietaryPreference FROM 'CSVs/dietarypreference.csv' DELIMITER ',' CSV HEADER;
 \COPY delphi.CustomerDietaryPreference FROM 'CSVs/customerdietarypreference.csv' DELIMITER ',' CSV HEADER;
+\COPY delphi.ItemDietaryPreference FROM 'CSVs/itemdietarypreference.csv' DELIMITER ',' CSV HEADER;
