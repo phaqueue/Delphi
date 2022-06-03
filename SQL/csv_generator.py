@@ -1,5 +1,7 @@
+from asyncio.windows_events import NULL
 from collections import defaultdict
 import random
+from datetime import datetime
 
 NUM_CUSTOMERS = 200
 NUM_ORDERS = 2000
@@ -150,13 +152,14 @@ def order():
     a random timestamp between 2015 and 2020, and weather chosen from a list.'''
 
     columns = ['order_id', 'customer_id', 'order_timestamp', 'weather']
-    weather = [
+    weathers = [
         'sunny',
         'cloudy',
         'rainy',
         'snowy'
     ]
     customer_orders = defaultdict(list)
+    order_details = defaultdict(list)
     random_customer_ids = [random.randint(1, NUM_CUSTOMERS) for i in range(1, NUM_ORDERS + 1)]
 
     with open('CSVs/order.csv', 'w') as file:
@@ -165,14 +168,16 @@ def order():
         # Create order: order_id, customer_id (randomly chosen), order_timestamp (randomly chosen), weather (randomly chosen)
         for order_id, customer_id in enumerate(random_customer_ids):
             timestamp = f'"{random.randint(2015, 2020)}-{random.randint(1, 12)}-{random.randint(1, 28)} {str(random.randint(0, 23)).zfill(2)}:{str(random.randint(0, 59)).zfill(2)}:{str(random.randint(0, 59)).zfill(2)}"'
+            weather = random.choice(weathers)
             customer_orders[customer_id].append(order_id + 1)
-            file.write(f'{order_id + 1},{customer_id},{timestamp},{random.choice(weather)}\n')
+            order_details[order_id] = (weather, timestamp)
+            file.write(f'{order_id + 1},{customer_id},{timestamp},{weather}\n')
 
     # customer_id: [order_id]
-    return customer_orders
+    return (customer_orders, order_details)
 
 
-def orderitem(customer_orders, customer_preferences, item_preferences):
+def orderitem(customer_orders, customer_preferences, item_preferences, order_details):
     '''Creates a random orderitem that suits the preferences.'''
 
     columns = ['order_id', 'item_id']
@@ -227,7 +232,8 @@ def orderitem(customer_orders, customer_preferences, item_preferences):
             if valid_items:
                 # Choose random items
                 for i in range(num_items):
-                    items.add(random.choice(valid_items))
+                    weights = get_weights(valid_items, order_details[id-1][0], order_details[id-1][1])
+                    items.add(random.choices(valid_items, weights=weights)[0])
 
                 # Create orderitem: order_id, item_id
                 for item in items:
@@ -237,6 +243,58 @@ def orderitem(customer_orders, customer_preferences, item_preferences):
     # item_id: [order_id]
     return orders
 
+def get_weights(items, weather, timestamp):
+    '''Given the weather and time this function returns
+    weights that *hopefully* show some pattern.'''
+    timestamp = datetime.strptime(timestamp, '"%Y-%m-%d %H:%M:%S"')
+    # arbitrary weights
+    weights = {
+        640404923: 1,
+        640404963: 2,
+        640405025: 2,
+        640405058: 1,
+        640405085: 1,
+        640405112: 2,
+        640405172: 2,
+        640405355: 2,
+        640405371: 1,
+        640405380: 2,
+        640405389: 1,
+        640405395: 2,
+        640405399: 1,
+        640405296: 1,
+        640405307: 2,
+        640405315: 2,
+        640405323: 1,
+        640405331: 2,
+        640405339: 1,
+        640405347: 1,
+        640405348: 1
+    }
+    # CORRELATION 1: On sunny days soda + shakes are popular
+    if weather == "sunny":
+        weights[640405355] += 1
+        weights[640405371] += 1
+        weights[640405380] += 1
+        weights[640405389] += 1
+        weights[640405395] += 1
+        weights[640405399] += 1
+
+    # CORRELATION 2: In the morning, coffee is ordered more often
+    if 5 <= timestamp.hour <= 10:
+        weights[640405348] += 1
+    
+    # CORRELATION 3: In the summer, ppl like to order shakes
+    if 6 <= timestamp.month <= 9:
+        weights[640405389] += 1
+        weights[640405395] += 1
+        weights[640405399] += 1 
+
+    ret = []
+    for item in items:
+        ret.append(weights[item])
+
+    return ret
 
 def customization():
     '''Menu items with customizable features (ingredients that
@@ -437,7 +495,7 @@ if __name__ == '__main__':
     customer_preferences = customerdietarypreference(preference_ids)
     item_preferences = itemdietarypreference(preference_ids)
 
-    customer_orders = order()
-    orders = orderitem(customer_orders, customer_preferences, item_preferences)
+    customer_orders, order_details = order()
+    orders = orderitem(customer_orders, customer_preferences, item_preferences, order_details)
     customization_dict = customization()
     orderitemcustomization(orders, customization_dict)
