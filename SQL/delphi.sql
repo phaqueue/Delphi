@@ -106,7 +106,10 @@ CREATE TABLE delphi.NutritionFacts (
     PRIMARY KEY (nutrition_facts_id),
     FOREIGN KEY (item_id) REFERENCES delphi.Item ON DELETE CASCADE
 );
-
+/*
+Menu table may need to be relooked at as there can be many items in a Menu
+May need a delphi.contains Table
+*/
 CREATE TABLE delphi.Menu (
     menu_id int NOT NULL,
     item_id int NOT NULL,
