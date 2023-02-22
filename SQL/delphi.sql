@@ -119,6 +119,27 @@ CREATE TABLE delphi.Menu (
     FOREIGN KEY (item_id) REFERENCES delphi.Item ON DELETE NO ACTION
 );
 
+
+-- SUGGESTION from (Daniel Soto) 
+
+/*
+CREATE TABLE delphi.Menu (
+    menu_id int NOT NULL,
+    brand text NOT NULL,
+    store_id int NOT NULL,
+    location text NOT NULL,
+    PRIMARY KEY (menu_id),
+);
+
+CREATE TABLE delphi.MenuContainsItem (
+    menu_id int,
+    item_id int,
+    PRIMARY KEY (menu_id, item_id),
+    FOREIGN KEY (menu_id) REFERENCES delphi.Menu ON DELETE NO CASCADE,
+    FOREIGN KEY (item_id) REFERENCES delphi.Item ON DELETE NO CASCADE
+);
+*/
+
 CREATE TYPE delphi.Gender AS ENUM (
     'male',
     'female',
