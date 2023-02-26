@@ -3,18 +3,18 @@ DROP SCHEMA IF EXISTS delphi CASCADE;
 CREATE SCHEMA IF NOT EXISTS delphi;
 
 -- DROP TABLES
+DROP TABLE IF EXISTS delphi.ItemDietaryPreference;
 DROP TABLE IF EXISTS delphi.CustomerDietaryPreference;
 DROP TABLE IF EXISTS delphi.DietaryPreference;
 DROP TYPE IF EXISTS delphi.Preference;
 DROP TABLE IF EXISTS delphi.OrderItemCustomization;
-DROP TYPE IF EXISTS delphi.CustomizationEnum;
 DROP TABLE IF EXISTS delphi.Customization;
+DROP TYPE IF EXISTS delphi.CustomizationEnum;
 DROP TABLE IF EXISTS delphi.OrderItem;
 DROP TABLE IF EXISTS delphi.Order;
 DROP TYPE IF EXISTS delphi.Weather;
 DROP TABLE IF EXISTS delphi.Customer;
 DROP TYPE IF EXISTS delphi.Gender;
-DROP TABLE IF EXISTS delphi.Menu;
 DROP TABLE IF EXISTS delphi.NutritionFacts;
 DROP TABLE IF EXISTS delphi.ItemIngredient;
 DROP TABLE IF EXISTS delphi.Ingredient;
@@ -22,6 +22,19 @@ DROP TYPE IF EXISTS delphi.IngredientEnum;
 DROP TABLE IF EXISTS delphi.Item;
 DROP TYPE IF EXISTS delphi.TasteProfile;
 DROP TYPE IF EXISTS delphi.ItemType;
+DROP TABLE IF EXISTS delphi.Menu;
+
+/*
+One menu per location
+*/
+CREATE TABLE delphi.Menu (
+    menu_id int NOT NULL,
+    brand text NOT NULL,
+    store_id int NOT NULL,
+    store_address text NOT NULL,
+    UNIQUE (brand),
+    PRIMARY KEY (menu_id)
+);
 
 -- CREATE TABLES
 CREATE TYPE delphi.ItemType AS ENUM (
@@ -46,7 +59,9 @@ CREATE TABLE delphi.Item (
     price decimal NOT NULL,
     taste_profile delphi.TasteProfile NOT NULL,
     item_type delphi.ItemType NOT NULL,
-    PRIMARY KEY (item_id)
+    menu_id int NOT NULL, -- FOLDED as a Menu contains N Items
+    PRIMARY KEY (item_id),
+    FOREIGN KEY (menu_id) REFERENCES delphi.Menu ON DELETE CASCADE
 );
 
 CREATE TYPE delphi.IngredientEnum AS ENUM (
@@ -73,7 +88,7 @@ CREATE TYPE delphi.IngredientEnum AS ENUM (
 
 CREATE TABLE delphi.Ingredient (
     ingredient_id int NOT NULL,
-    ingredient_name delphi.IngredientEnum NOT NULL,
+    ingredient_name delphi.IngredientEnum NOT NULL, -- Could be text as well
     PRIMARY KEY (ingredient_id),
     UNIQUE (ingredient_name)
 );
@@ -106,39 +121,6 @@ CREATE TABLE delphi.NutritionFacts (
     PRIMARY KEY (nutrition_facts_id),
     FOREIGN KEY (item_id) REFERENCES delphi.Item ON DELETE CASCADE
 );
-/*
-Menu table may need to be relooked at as there can be many items in a Menu
-May need a delphi.contains Table
-*/
-CREATE TABLE delphi.Menu (
-    menu_id int NOT NULL,
-    item_id int NOT NULL,
-    brand text NOT NULL,
-    store_id int NOT NULL,
-    PRIMARY KEY (menu_id),
-    FOREIGN KEY (item_id) REFERENCES delphi.Item ON DELETE NO ACTION
-);
-
-
--- SUGGESTION from (Daniel Soto) 
-
-/*
-CREATE TABLE delphi.Menu (
-    menu_id int NOT NULL,
-    brand text NOT NULL,
-    store_id int NOT NULL,
-    location text NOT NULL,
-    PRIMARY KEY (menu_id),
-);
-
-CREATE TABLE delphi.MenuContainsItem (
-    menu_id int,
-    item_id int,
-    PRIMARY KEY (menu_id, item_id),
-    FOREIGN KEY (menu_id) REFERENCES delphi.Menu ON DELETE NO CASCADE,
-    FOREIGN KEY (item_id) REFERENCES delphi.Item ON DELETE NO CASCADE
-);
-*/
 
 CREATE TYPE delphi.Gender AS ENUM (
     'male',
@@ -147,11 +129,14 @@ CREATE TYPE delphi.Gender AS ENUM (
 );
 
 CREATE TABLE delphi.Customer (
+    bluetooth_id int NOT NULL,
     customer_id int NOT NULL,
     opt_in boolean NOT NULL,
+    email text,
     birthday date,
     gender delphi.Gender,
-    PRIMARY KEY (customer_id)
+    PRIMARY KEY (customer_id),
+    UNIQUE (bluetooth_id)
 );
 
 CREATE TYPE delphi.Weather AS ENUM (
@@ -166,6 +151,7 @@ CREATE TABLE delphi.Order (
     order_id int NOT NULL,
     customer_id int NOT NULL,
     order_timestamp timestamp NOT NULL,
+    order_location text NOT NULL,
     weather delphi.Weather NOT NULL,
     PRIMARY KEY (order_id),
     FOREIGN KEY (customer_id) REFERENCES delphi.Customer ON DELETE CASCADE
@@ -194,11 +180,9 @@ CREATE TYPE delphi.CustomizationEnum AS ENUM (
 -- Lookup table for all possible item customizations
 CREATE TABLE delphi.Customization (
     customization_id int NOT NULL,
-    item_id int NOT NULL,
     customization delphi.CustomizationEnum NOT NULL,
     PRIMARY KEY (customization_id),
-    UNIQUE (item_id, customization),
-    FOREIGN KEY (item_id) REFERENCES delphi.Item ON DELETE CASCADE
+    UNIQUE (customization)
 );
 
 -- M:M mapping table for order item customizations
@@ -224,18 +208,15 @@ CREATE TYPE delphi.Preference AS ENUM (
 CREATE TABLE delphi.DietaryPreference (
     preference_id int NOT NULL,
     preference delphi.Preference NOT NULL,
-    -- preference_weight int NOT NULL,
     PRIMARY KEY (preference_id),
     UNIQUE (preference)
-    -- UNIQUE (preference, preference_weight),
-    -- CONSTRAINT weight_constraint
-    --     CHECK (preference_weight BETWEEN 1 AND 5)
 );
 
 -- M:M mapping table for customer dietary preferences
 CREATE TABLE delphi.CustomerDietaryPreference (
     customer_id int NOT NULL,
     preference_id int NOT NULL,
+    preference_weight int NOT NULL CHECK (preference_weight >= 1 AND preference_weight <= 5),
     PRIMARY KEY (customer_id, preference_id),
     FOREIGN KEY (customer_id) REFERENCES delphi.Customer,
     FOREIGN KEY (preference_id) REFERENCES delphi.DietaryPreference
@@ -245,6 +226,7 @@ CREATE TABLE delphi.CustomerDietaryPreference (
 CREATE TABLE delphi.ItemDietaryPreference (
     item_id int NOT NULL,
     preference_id int NOT NULL,
+    preference_weight int NOT NULL CHECK (preference_weight >= 1 AND preference_weight <= 5),
     PRIMARY kEY (item_id, preference_id),
     FOREIGN KEY (item_id) REFERENCES delphi.Item,
     FOREIGN KEY (preference_id) REFERENCES delphi.DietaryPreference
