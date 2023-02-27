@@ -2,7 +2,7 @@ from sqlalchemy import create_engine, MetaData, Table
 from sqlalchemy.ext.declarative import declarative_base
 
 db_username = 'postgres'
-db_password = 'postgres'
+db_password = 'Strike30'  #should be your password here
 db_hostname = 'localhost:5432'
 db_database = 'delphi'
 db_url = f'postgresql+psycopg2://{db_username}:{db_password}@{db_hostname}/{db_database}'
@@ -16,7 +16,7 @@ class Item(Base):
 
     def __repr__(self):
         return f'Item({self.item_id}, {self.item_name}, {self.item_description}, ' + \
-               f'{self.item_image}, {self.price}, {self.taste_profile}, {self.item_type})'
+               f'{self.item_image}, {self.price}, {self.taste_profile}, {self.item_type}, {self.menu_id})'
 
     def get_item_id(self):
         return self.item_id
@@ -38,6 +38,9 @@ class Item(Base):
 
     def get_item_type(self):
         return self.item_type
+    
+    def get_menu_id(self):
+        return self.menu_id
 
 
 class Ingredient(Base):
@@ -125,32 +128,38 @@ class Menu(Base):
     __table__ = Table('menu', Base.metadata, autoload = True, schema = 'delphi')
 
     def __repr__(self):
-        return f'Menu({self.menu_id}, {self.item_id}, {self.brand}, {self.store_id})'
+        return f'Menu({self.menu_id}, {self.brand}, {self.store_id}, {self.store_address})'
 
     def get_menu_id(self):
         return self.menu_id
-
-    def get_item_id(self):
-        return self.item_id
 
     def get_brand(self):
         return self.brand
 
     def get_store_id(self):
         return self.store_id
+    
+    def get_store_address(self):
+        return self.store_address
 
 
 class Customer(Base):
     __table__ = Table('customer', Base.metadata, autoload = True, schema = 'delphi')
 
     def __repr__(self):
-        return f'Customer({self.customer_id}, {self.opt_in}, {self.birthday}, {self.gender})'
+        return f'Customer({self.bluetooth_id}, {self.customer_id}, {self.opt_in}, {self.email}, {self.birthday}, {self.gender})'
+
+    def get_bluetooth_id(self):
+        return self.bluetooth_id
 
     def get_customer_id(self):
         return self.customer_id
 
     def get_opt_in(self):
         return self.opt_in
+
+    def get_email(self):
+        return self.email
 
     def get_birthday(self):
         return self.birthday
@@ -163,7 +172,7 @@ class Order(Base):
     __table__ = Table('order', Base.metadata, autoload = True, schema = 'delphi')
 
     def __repr__(self):
-        return f'Order({self.order_id}, {self.customer_id}, {self.order_timestamp}, {self.weather})'
+        return f'Order({self.order_id}, {self.customer_id}, {self.order_timestamp}, {self.order_location}, {self.weather})'
 
     def get_order_id(self):
         return self.order_id
@@ -176,6 +185,9 @@ class Order(Base):
 
     def get_weather(self):
         return self.weather
+
+    def get_location(self):
+        return self.order_location
 
 
 class OrderItem(Base):
@@ -195,13 +207,10 @@ class Customization(Base):
     __table__ = Table('customization', Base.metadata, autoload = True, schema = 'delphi')
 
     def __repr__(self):
-        return f'Customization({self.customization_id}, {self.item_id}, {self.customization})'
+        return f'Customization({self.customization_id}, {self.customization})'
 
     def get_customization_id(self):
         return self.customization_id
-
-    def get_item_id(self):
-        return self.item_id
 
     def get_customization(self):
         return self.customization
@@ -227,7 +236,7 @@ class DietaryPreference(Base):
     __table__ = Table('dietarypreference', Base.metadata, autoload = True, schema = 'delphi')
 
     def __repr__(self):
-        return f'DietaryPreference({self.preference_id}, {self.preference}, {self.preference_weight})'
+        return f'DietaryPreference({self.preference_id}, {self.preference})'
 
     def get_preference_id(self):
         return self.preference_id
@@ -235,18 +244,32 @@ class DietaryPreference(Base):
     def get_preference(self):
         return self.preference
 
-    def get_preference_weight(self):
-        return self.preference_weight
-
-
 class CustomerDietaryPreference(Base):
     __table__ = Table('customerdietarypreference', Base.metadata, autoload = True, schema = 'delphi')
 
     def __repr__(self):
-        return f'CustomerDietaryPreference({self.customer_id}, {self.preference_id})'
+        return f'CustomerDietaryPreference({self.customer_id}, {self.preference_id}, {self.preference_weight})'
 
     def get_customer_id(self):
         return self.customer_id
 
     def get_preference_id(self):
         return self.preference_id
+    
+    def get_preference_weight(self):
+        return self.preference_weight
+    
+class ItemDietaryPreference(Base):
+    __table__ = Table('itemdietarypreference', Base.metadata, autoload = True, schema = 'delphi')
+
+    def __repr__(self):
+        return f'ItemDietaryPreference({self.item_id}, {self.preference_id}, {self.preference_weight})'
+
+    def get_item_id(self):
+        return self.item_id
+
+    def get_preference_id(self):
+        return self.preference_id
+    
+    def get_preference_weight(self):
+        return self.preference_weight
