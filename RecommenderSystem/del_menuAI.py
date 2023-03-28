@@ -16,7 +16,8 @@ def obtain_user_id(bluetooth_id, conn):
     Given a bluetooth id should connect to database and retrieve and return user_id
     """
     user_id = None
-    cur = conn.cursor() 
+    cur = conn.cursor()
+    query = f""
     return user_id
 
 def obtain_user_weights(user_id, conn):
@@ -77,7 +78,7 @@ def begin_recommending(args, conn):
     # after obtaining user_id obtain preference weights and item filters
 
     user_weights = obtain_user_weights(user_id, conn)
-    user_filters = obtain_user_filters(user_id, conn)
+    user_filters = obtain_user_filters(user_id, conn) 
 
     # once retrieved arrays begin recommend items based on restaurant id or menu id
 

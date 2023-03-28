@@ -1,0 +1,22 @@
+{
+    "user_id" : 1,
+    "bluetooth_id" : null,
+    "name" : {"first_name": "Daniel", "last_name" : "Soto"},
+    "email" : "myemail123@gmail.com",
+    "preferences" : {
+        "calories" : 2,
+        "protein" : 5
+    },
+    "filters" : ["vegan", "chicken", "beef"]
+}
+
+{
+    "user_id" : 2,
+    "bluetooth_id" : null,
+    "name" : {"first_name": "Henry", "last_name" : "Jones"},
+    "preferences" : {
+        "calories" : 4,
+        "protein" : 8
+    },
+    "fitlers" : []
+}
