@@ -1,6 +1,7 @@
 import psycopg2
 import numpy as np
 import sys
+from pymongo import MongoClient
 
 """
     This file will contain our recommeder system which will retrive a user_id and user preferences as an array
@@ -99,6 +100,12 @@ if __name__ == "__main__":
         ERROR in providing command line args
         """
         sys.exit(1)
+
+    # this connects to database locally must have your own mongodb database set up through MongoDB Compass
+    client = MongoClient('mongodb://localhost:27017/')
+    db = client['delphi']
+    users = db['users']
+    restaurants = db['restaurants']
 
     conn = psycopg2.connect(
         dbname="delphi",
