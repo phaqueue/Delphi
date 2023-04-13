@@ -5,7 +5,10 @@
     "email" : "myemail123@gmail.com",
     "preferences" : {
         "calories" : 2,
-        "protein" : 5
+        "protein" : 7,
+        "fat" : 4,
+        "carbohydrates": 6,
+        "sugars" : 2
     },
     "filters" : ["vegan", "chicken", "beef"]
 }
@@ -14,9 +17,13 @@
     "user_id" : 2,
     "bluetooth_id" : null,
     "name" : {"first_name": "Henry", "last_name" : "Jones"},
+    "email": "testemail1@gmail.com",
     "preferences" : {
-        "calories" : 4,
-        "protein" : 8
+        "calories" : 2,
+        "protein" : 7,
+        "fat" : 1,
+        "carbohydrates": 2,
+        "sugars" : 1
     },
-    "filters" : []
+    "filters" : ["vegan"]
 }
