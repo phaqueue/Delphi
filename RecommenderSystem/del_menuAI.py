@@ -101,18 +101,23 @@ if __name__ == "__main__":
         """
         sys.exit(1)
 
-    # this connects to database locally must have your own mongodb database set up through MongoDB Compass
-    client = MongoClient('mongodb://localhost:27017/')
+    uri = "mongodb+srv://dsoto:strike30@delphicluster.rnzk9ul.mongodb.net/?retryWrites=true&w=majority"
+    
+    client = MongoClient(uri)
     db = client['delphi']
     users = db['users']
     restaurants = db['restaurants']
 
+
+    """
+    # This is for PostgreSQL
     conn = psycopg2.connect(
         dbname="delphi",
         user="postgres",
         password="Strike30",
         host="localhost",
         port="5432")
+    """
     
     begin_recommending(sys.argv, conn)
 

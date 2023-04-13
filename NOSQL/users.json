@@ -10,7 +10,7 @@
         "carbohydrates": 6,
         "sugars" : 2
     },
-    "filters" : ["vegan", "chicken", "beef"]
+    "filters" : ["vegan", "chicken", "beef", "sweet"]
 }
 
 {
@@ -25,5 +25,5 @@
         "carbohydrates": 2,
         "sugars" : 1
     },
-    "filters" : ["vegan"]
+    "filters" : ["vegan", "chicken"]
 }
