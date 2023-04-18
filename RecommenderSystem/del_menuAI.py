@@ -102,7 +102,6 @@ if __name__ == "__main__":
         sys.exit(1)
 
     uri = "mongodb+srv://dsoto:strike30@delphicluster.rnzk9ul.mongodb.net/?retryWrites=true&w=majority"
-    
     client = MongoClient(uri)
     db = client['delphi']
     users = db['users']
@@ -118,8 +117,8 @@ if __name__ == "__main__":
         host="localhost",
         port="5432")
     """
-    
-    begin_recommending(sys.argv, conn)
+
+    #begin_recommending(sys.argv, conn)
 
     # done recommending close connection
-    conn.close()       
+    #conn.close()       
