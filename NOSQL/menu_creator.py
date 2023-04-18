@@ -13,14 +13,15 @@ def create_restaurant(restaurant_obj):
                 if "(Medium)" not in row["Item"]:
                     continue
             
-            match = re.search(r'(\d+(?:\.\d+)?)\s*(?:(fl\s+)?oz|(g))', row["Serving Size"])
+            match = re.search(r'(\d+(?:\.\d+)?)\s*(fl\s+)?(oz|g)', row["Serving Size"])
 
             if match:
+                serving_size = match.group(0)
                 amount = float(match.group(1))
-                unit = match.group(2) or "g"
+                unit = match.group(3)
                 if unit == 'oz':
                     amount *= 28.35 # convert ounces to grams
-
+                
                 item_obj = {
                     "item_id" : menu_item_id,
                     "category" : row["Category"],
