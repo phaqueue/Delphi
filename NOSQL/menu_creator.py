@@ -2,6 +2,9 @@ import json
 import csv
 import re
 
+def convert_mg_to_g(amount):
+    return amount / 1000
+
 def create_restaurant(restaurant_obj):
     with open("menu.csv", newline='') as csvfile:
         menu_item_id = 1
@@ -27,14 +30,14 @@ def create_restaurant(restaurant_obj):
                     "category" : row["Category"],
                     "item_name" : row["Item"],
                     "nutrition_facts" : {
-                        "serving_size" : f"{amount:.1f} g",
+                        "serving_size" : float("{:.1f}".format(amount)),
                         "calories" : float(row["Calories"]),
                         "calories_from_fat": float(row["Calories from Fat"]),
                         "total_fat": float(row["Total Fat"]),
                         "saturated_fat" : float(row["Saturated Fat"]),
                         "trans_fat" : float(row["Trans Fat"]),
-                        "cholesterol" : float(row["Cholesterol"]),
-                        "sodium" : float(row["Sodium"]),
+                        "cholesterol" : convert_mg_to_g( float(row["Cholesterol"]) ),
+                        "sodium" : convert_mg_to_g( float(row["Sodium"]) ),
                         "carbohydrates" : float(row["Carbohydrates"]),
                         "dietary_fiber" : float(row["Dietary Fiber"]),
                         "sugars" : float(row["Sugars"]),
