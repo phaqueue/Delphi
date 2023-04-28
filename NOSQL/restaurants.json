@@ -20,7 +20,8 @@
                 "dietary_fiber": 4.0,
                 "sugars": 3.0,
                 "protein": 17.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 2,
@@ -39,7 +40,8 @@
                 "dietary_fiber": 4.0,
                 "sugars": 3.0,
                 "protein": 18.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 3,
@@ -58,7 +60,8 @@
                 "dietary_fiber": 4.0,
                 "sugars": 2.0,
                 "protein": 14.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 4,
@@ -77,7 +80,8 @@
                 "dietary_fiber": 4.0,
                 "sugars": 2.0,
                 "protein": 21.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 5,
@@ -96,7 +100,8 @@
                 "dietary_fiber": 4.0,
                 "sugars": 2.0,
                 "protein": 21.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 6,
@@ -115,7 +120,8 @@
                 "dietary_fiber": 4.0,
                 "sugars": 3.0,
                 "protein": 26.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 7,
@@ -134,7 +140,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 3.0,
                 "protein": 19.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 8,
@@ -153,7 +160,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 4.0,
                 "protein": 19.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 9,
@@ -172,7 +180,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 3.0,
                 "protein": 20.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 10,
@@ -191,7 +200,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 4.0,
                 "protein": 20.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 11,
@@ -210,7 +220,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 2.0,
                 "protein": 11.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 12,
@@ -229,7 +240,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 3.0,
                 "protein": 11.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 13,
@@ -248,7 +260,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 2.0,
                 "protein": 18.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 14,
@@ -267,7 +280,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 3.0,
                 "protein": 18.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 15,
@@ -286,7 +300,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 3.0,
                 "protein": 18.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 16,
@@ -305,7 +320,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 3.0,
                 "protein": 18.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 17,
@@ -324,7 +340,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 3.0,
                 "protein": 17.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 18,
@@ -343,7 +360,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 4.0,
                 "protein": 17.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 19,
@@ -362,7 +380,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 3.0,
                 "protein": 25.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 20,
@@ -381,7 +400,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 15.0,
                 "protein": 19.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 21,
@@ -400,7 +420,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 16.0,
                 "protein": 20.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 22,
@@ -419,7 +440,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 15.0,
                 "protein": 11.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 23,
@@ -438,7 +460,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 15.0,
                 "protein": 20.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 24,
@@ -457,7 +480,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 15.0,
                 "protein": 21.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 25,
@@ -476,7 +500,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 7.0,
                 "protein": 30.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 26,
@@ -495,7 +520,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 8.0,
                 "protein": 30.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 27,
@@ -514,7 +540,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 7.0,
                 "protein": 33.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 28,
@@ -533,7 +560,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 3.0,
                 "protein": 28.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 29,
@@ -552,7 +580,8 @@
                 "dietary_fiber": 4.0,
                 "sugars": 3.0,
                 "protein": 28.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 30,
@@ -571,7 +600,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 3.0,
                 "protein": 26.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 31,
@@ -590,7 +620,8 @@
                 "dietary_fiber": 4.0,
                 "sugars": 4.0,
                 "protein": 26.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 32,
@@ -609,7 +640,8 @@
                 "dietary_fiber": 6.0,
                 "sugars": 17.0,
                 "protein": 36.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 33,
@@ -628,7 +660,8 @@
                 "dietary_fiber": 7.0,
                 "sugars": 17.0,
                 "protein": 36.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 34,
@@ -647,7 +680,8 @@
                 "dietary_fiber": 6.0,
                 "sugars": 17.0,
                 "protein": 35.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 35,
@@ -666,7 +700,8 @@
                 "dietary_fiber": 7.0,
                 "sugars": 18.0,
                 "protein": 35.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 36,
@@ -685,7 +720,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 14.0,
                 "protein": 8.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 37,
@@ -704,7 +740,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 14.0,
                 "protein": 15.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 38,
@@ -723,7 +760,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 2.0,
                 "protein": 12.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 39,
@@ -742,7 +780,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 0.0,
                 "protein": 1.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 40,
@@ -761,7 +800,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 32.0,
                 "protein": 6.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 41,
@@ -780,7 +820,8 @@
                 "dietary_fiber": 5.0,
                 "sugars": 32.0,
                 "protein": 5.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 42,
@@ -799,7 +840,8 @@
                 "dietary_fiber": 5.0,
                 "sugars": 18.0,
                 "protein": 5.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 43,
@@ -818,7 +860,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 9.0,
                 "protein": 24.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 44,
@@ -837,7 +880,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 10.0,
                 "protein": 30.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 45,
@@ -856,7 +900,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 12.0,
                 "protein": 37.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 46,
@@ -875,7 +920,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 10.0,
                 "protein": 37.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 47,
@@ -894,7 +940,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 9.0,
                 "protein": 29.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 48,
@@ -913,7 +960,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 10.0,
                 "protein": 48.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 49,
@@ -932,7 +980,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 6.0,
                 "protein": 12.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 50,
@@ -951,7 +1000,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 7.0,
                 "protein": 15.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 51,
@@ -970,7 +1020,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 7.0,
                 "protein": 24.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 52,
@@ -989,7 +1040,8 @@
                 "dietary_fiber": 4.0,
                 "sugars": 14.0,
                 "protein": 39.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 53,
@@ -1008,7 +1060,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 7.0,
                 "protein": 22.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 54,
@@ -1027,7 +1080,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 7.0,
                 "protein": 27.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 55,
@@ -1046,7 +1100,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 7.0,
                 "protein": 22.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 56,
@@ -1065,7 +1120,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 6.0,
                 "protein": 22.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 57,
@@ -1084,7 +1140,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 11.0,
                 "protein": 22.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 58,
@@ -1103,7 +1160,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 10.0,
                 "protein": 24.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 59,
@@ -1122,7 +1180,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 8.0,
                 "protein": 28.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 60,
@@ -1141,7 +1200,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 11.0,
                 "protein": 36.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 61,
@@ -1160,7 +1220,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 9.0,
                 "protein": 40.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 62,
@@ -1179,7 +1240,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 11.0,
                 "protein": 32.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 63,
@@ -1198,7 +1260,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 9.0,
                 "protein": 36.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 64,
@@ -1217,7 +1280,8 @@
                 "dietary_fiber": 4.0,
                 "sugars": 16.0,
                 "protein": 36.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 65,
@@ -1236,7 +1300,8 @@
                 "dietary_fiber": 4.0,
                 "sugars": 14.0,
                 "protein": 40.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 66,
@@ -1255,7 +1320,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 7.0,
                 "protein": 21.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 67,
@@ -1274,7 +1340,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 5.0,
                 "protein": 14.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 68,
@@ -1293,7 +1360,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 6.0,
                 "protein": 22.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 69,
@@ -1312,7 +1380,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 6.0,
                 "protein": 20.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 70,
@@ -1331,7 +1400,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 5.0,
                 "protein": 14.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 71,
@@ -1350,7 +1420,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 7.0,
                 "protein": 32.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 72,
@@ -1369,7 +1440,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 6.0,
                 "protein": 36.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 73,
@@ -1388,7 +1460,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 8.0,
                 "protein": 27.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 74,
@@ -1407,7 +1480,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 6.0,
                 "protein": 30.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 75,
@@ -1426,7 +1500,8 @@
                 "dietary_fiber": 5.0,
                 "sugars": 12.0,
                 "protein": 27.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 76,
@@ -1445,7 +1520,8 @@
                 "dietary_fiber": 5.0,
                 "sugars": 10.0,
                 "protein": 31.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 77,
@@ -1464,7 +1540,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 14.0,
                 "protein": 23.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 78,
@@ -1483,7 +1560,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 12.0,
                 "protein": 27.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 79,
@@ -1502,7 +1580,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 0.0,
                 "protein": 9.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 80,
@@ -1521,7 +1600,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 0.0,
                 "protein": 13.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 81,
@@ -1540,7 +1620,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 0.0,
                 "protein": 22.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 82,
@@ -1559,7 +1640,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 0.0,
                 "protein": 44.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 83,
@@ -1578,7 +1660,8 @@
                 "dietary_fiber": 6.0,
                 "sugars": 1.0,
                 "protein": 87.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 84,
@@ -1597,7 +1680,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 5.0,
                 "protein": 15.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 85,
@@ -1616,7 +1700,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 4.0,
                 "protein": 9.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 86,
@@ -1635,7 +1720,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 5.0,
                 "protein": 25.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 87,
@@ -1654,7 +1740,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 4.0,
                 "protein": 29.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 88,
@@ -1673,7 +1760,8 @@
                 "dietary_fiber": 6.0,
                 "sugars": 6.0,
                 "protein": 6.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 89,
@@ -1692,7 +1780,8 @@
                 "dietary_fiber": 7.0,
                 "sugars": 12.0,
                 "protein": 23.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 90,
@@ -1711,7 +1800,8 @@
                 "dietary_fiber": 7.0,
                 "sugars": 10.0,
                 "protein": 27.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 91,
@@ -1730,7 +1820,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 8.0,
                 "protein": 14.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 92,
@@ -1749,7 +1840,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 7.0,
                 "protein": 16.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 93,
@@ -1768,7 +1860,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 3.0,
                 "protein": 14.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 94,
@@ -1787,7 +1880,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 2.0,
                 "protein": 16.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 95,
@@ -1806,7 +1900,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 3.0,
                 "protein": 15.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 96,
@@ -1825,7 +1920,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 2.0,
                 "protein": 16.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 97,
@@ -1844,7 +1940,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 0.0,
                 "protein": 2.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 98,
@@ -1863,7 +1960,8 @@
                 "dietary_fiber": 4.0,
                 "sugars": 0.0,
                 "protein": 4.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 99,
@@ -1882,7 +1980,8 @@
                 "dietary_fiber": 5.0,
                 "sugars": 0.0,
                 "protein": 6.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 100,
@@ -1901,7 +2000,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 0.0,
                 "protein": 1.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 101,
@@ -1920,7 +2020,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 2.0,
                 "protein": 1.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 102,
@@ -1939,7 +2040,8 @@
                 "dietary_fiber": 0.0,
                 "sugars": 3.0,
                 "protein": 0.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 103,
@@ -1958,7 +2060,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 23.0,
                 "protein": 4.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 104,
@@ -1977,7 +2080,8 @@
                 "dietary_fiber": 4.0,
                 "sugars": 13.0,
                 "protein": 2.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 105,
@@ -1996,7 +2100,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 15.0,
                 "protein": 2.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 106,
@@ -2015,7 +2120,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 13.0,
                 "protein": 2.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 107,
@@ -2034,7 +2140,8 @@
                 "dietary_fiber": 0.0,
                 "sugars": 6.0,
                 "protein": 1.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 108,
@@ -2053,7 +2160,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 48.0,
                 "protein": 8.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 109,
@@ -2072,7 +2180,8 @@
                 "dietary_fiber": 0.0,
                 "sugars": 43.0,
                 "protein": 7.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 110,
@@ -2091,7 +2200,8 @@
                 "dietary_fiber": 0.0,
                 "sugars": 45.0,
                 "protein": 6.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 111,
@@ -2110,7 +2220,8 @@
                 "dietary_fiber": 0.0,
                 "sugars": 55.0,
                 "protein": 0.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 112,
@@ -2129,7 +2240,8 @@
                 "dietary_fiber": 0.0,
                 "sugars": 0.0,
                 "protein": 0.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 113,
@@ -2148,7 +2260,8 @@
                 "dietary_fiber": 0.0,
                 "sugars": 51.0,
                 "protein": 0.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 114,
@@ -2167,7 +2280,8 @@
                 "dietary_fiber": 0.0,
                 "sugars": 0.0,
                 "protein": 3.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 115,
@@ -2186,7 +2300,8 @@
                 "dietary_fiber": 0.0,
                 "sugars": 54.0,
                 "protein": 0.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 116,
@@ -2205,7 +2320,8 @@
                 "dietary_fiber": 0.0,
                 "sugars": 39.0,
                 "protein": 3.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 117,
@@ -2224,7 +2340,8 @@
                 "dietary_fiber": 0.0,
                 "sugars": 0.0,
                 "protein": 0.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 118,
@@ -2243,7 +2360,8 @@
                 "dietary_fiber": 0.0,
                 "sugars": 45.0,
                 "protein": 1.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 119,
@@ -2262,7 +2380,8 @@
                 "dietary_fiber": 0.0,
                 "sugars": 0.0,
                 "protein": 0.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 120,
@@ -2281,7 +2400,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 15.0,
                 "protein": 11.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 121,
@@ -2300,7 +2420,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 48.0,
                 "protein": 11.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 122,
@@ -2319,7 +2440,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 47.0,
                 "protein": 11.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 123,
@@ -2338,7 +2460,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 45.0,
                 "protein": 11.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 124,
@@ -2357,7 +2480,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 15.0,
                 "protein": 12.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 125,
@@ -2376,7 +2500,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 16.0,
                 "protein": 12.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 126,
@@ -2395,7 +2520,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 48.0,
                 "protein": 12.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 127,
@@ -2414,7 +2540,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 48.0,
                 "protein": 12.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 128,
@@ -2433,7 +2560,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 46.0,
                 "protein": 12.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 129,
@@ -2452,7 +2580,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 16.0,
                 "protein": 12.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 130,
@@ -2471,7 +2600,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 53.0,
                 "protein": 13.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 131,
@@ -2490,7 +2620,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 53.0,
                 "protein": 13.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 132,
@@ -2509,7 +2640,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 50.0,
                 "protein": 12.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 133,
@@ -2528,7 +2660,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 51.0,
                 "protein": 13.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 134,
@@ -2547,7 +2680,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 56.0,
                 "protein": 14.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 135,
@@ -2566,7 +2700,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 57.0,
                 "protein": 14.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 136,
@@ -2585,7 +2720,8 @@
                 "dietary_fiber": 0.0,
                 "sugars": 30.0,
                 "protein": 1.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 137,
@@ -2604,7 +2740,8 @@
                 "dietary_fiber": 0.0,
                 "sugars": 28.0,
                 "protein": 1.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 138,
@@ -2623,7 +2760,8 @@
                 "dietary_fiber": 0.0,
                 "sugars": 28.0,
                 "protein": 1.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 139,
@@ -2642,7 +2780,8 @@
                 "dietary_fiber": 0.0,
                 "sugars": 26.0,
                 "protein": 1.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 140,
@@ -2661,7 +2800,8 @@
                 "dietary_fiber": 0.0,
                 "sugars": 2.0,
                 "protein": 1.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 141,
@@ -2680,7 +2820,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 43.0,
                 "protein": 9.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 142,
@@ -2699,7 +2840,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 43.0,
                 "protein": 10.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 143,
@@ -2718,7 +2860,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 41.0,
                 "protein": 9.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 144,
@@ -2737,7 +2880,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 41.0,
                 "protein": 10.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 145,
@@ -2756,7 +2900,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 71.0,
                 "protein": 9.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 146,
@@ -2775,7 +2920,8 @@
                 "dietary_fiber": 0.0,
                 "sugars": 71.0,
                 "protein": 9.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 147,
@@ -2794,7 +2940,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 81.0,
                 "protein": 9.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 148,
@@ -2813,7 +2960,8 @@
                 "dietary_fiber": 4.0,
                 "sugars": 54.0,
                 "protein": 3.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 149,
@@ -2832,7 +2980,8 @@
                 "dietary_fiber": 3.0,
                 "sugars": 54.0,
                 "protein": 4.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 150,
@@ -2851,7 +3000,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 56.0,
                 "protein": 3.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 151,
@@ -2870,7 +3020,8 @@
                 "dietary_fiber": 0.0,
                 "sugars": 81.0,
                 "protein": 14.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 152,
@@ -2889,7 +3040,8 @@
                 "dietary_fiber": 0.0,
                 "sugars": 100.0,
                 "protein": 15.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 153,
@@ -2908,7 +3060,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 97.0,
                 "protein": 15.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 154,
@@ -2927,7 +3080,8 @@
                 "dietary_fiber": 0.0,
                 "sugars": 93.0,
                 "protein": 14.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 155,
@@ -2946,7 +3100,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 128.0,
                 "protein": 20.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 156,
@@ -2965,7 +3120,8 @@
                 "dietary_fiber": 1.0,
                 "sugars": 85.0,
                 "protein": 15.0
-            }
+            },
+            "ingredients": []
         },
         {
             "item_id": 157,
@@ -2984,7 +3140,8 @@
                 "dietary_fiber": 2.0,
                 "sugars": 103.0,
                 "protein": 21.0
-            }
+            },
+            "ingredients": []
         }
     ]
 }
