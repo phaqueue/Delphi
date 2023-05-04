@@ -2,10 +2,20 @@ import json
 import csv
 import re
 import requests
+import time
 
 """
 Still working on grabbing ingredients using an API
 """
+
+drink_ingredients = {
+    "Beverages": ["Ice", "Water", "Sugar"],
+    "Coffee & Tea": ["Sugar", "Cream", "Caffeine"],
+    "Smoothies & Shakes": ["Fruit", "Milk", "Sugar"]
+}
+
+requests_per_minute = 5
+delay_time = 60 / requests_per_minute
 
 def get_ingredients(item):
     app_id = 'a396278c'
@@ -18,11 +28,10 @@ def get_ingredients(item):
                 if "foodContentsLabel" in result['food'] and result['food']['foodContentsLabel'] not in ["", "We are working on getting the ingredients for this item"]:
                     if type(result['food']['foodContentsLabel']) == str:
                         ingredients = result['food']['foodContentsLabel'].split(";")
-                        return (True, ingredients)
-                    else:
-                        return (False, [])
+                        return ingredients
+        return []         
     else:
-        return (False, [])
+        return []
 
 def convert_mg_to_g(amount):
     return amount / 1000
@@ -33,10 +42,16 @@ def create_restaurant(restaurant_obj):
         reader = csv.DictReader(csvfile)
         
         for row in reader:
-
             if row["Category"] in ["Beverages", "Coffee & Tea", "Smoothies & Shakes"]:
                 if "(Medium)" not in row["Item"]:
                     continue
+                else:
+                    row["Item"] = row["Item"].replace("(Medium)", "").rstrip()
+                    ingredients = drink_ingredients[row["Category"]]
+            else:
+                ingredients = get_ingredients(row["Item"])
+                time.sleep(delay_time)
+
             
             match = re.search(r'(\d+(?:\.\d+)?)\s*(fl\s+)?(oz|g)', row["Serving Size"])
 
@@ -65,9 +80,8 @@ def create_restaurant(restaurant_obj):
                         "sugars" : float(row["Sugars"]),
                         "protein": float(row["Protein"])
                     },
-                    "ingredients": []
+                    "ingredients": ingredients
                 }
-
                 restaurant_obj["menu_items"].append(item_obj)
                 menu_item_id += 1
 
