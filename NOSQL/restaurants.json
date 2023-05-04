@@ -21,7 +21,13 @@
                 "sugars": 3.0,
                 "protein": 17.0
             },
-            "ingredients": []
+            "ingredients": [
+                "egg",
+                " English muffin",
+                " Canadian bacon",
+                " American cheese",
+                " butter"
+            ]
         },
         {
             "item_id": 2,
@@ -41,7 +47,81 @@
                 "sugars": 3.0,
                 "protein": 18.0
             },
-            "ingredients": []
+            "ingredients": [
+                "ENGLISH MUFFIN _x000d_\nIngredients",
+                " Enriched Flour",
+                " Wheat Flour",
+                " Malted Barley Flour",
+                " Niacin",
+                " Iron",
+                " Thiamine",
+                " Riboflavin",
+                " Folic Acid",
+                " Water",
+                " Yeast",
+                " Yellow Corn Meal",
+                " Degermed Yellow Corn Meal and Corn Flour",
+                " Contains 2% or Less",
+                " Sugar",
+                " Soybean Oil",
+                " Salt",
+                " Dough Conditioners",
+                " Mono-",
+                " Di- and Tricalcium Phosphate",
+                " DATEM",
+                " Ascorbic Acid",
+                " Enzymes",
+                " Ethylated Mono and Digylcerides",
+                " Wheat Gluten",
+                " Calcium Propionate",
+                " Preservative",
+                " Citric Acid",
+                " Calcium Citrate",
+                " Baking Soda",
+                " Fumaric Acid",
+                " Contains",
+                " WHEAT _x000d_\n_x000d_\nEGG WHITES _x000d_\nIngredients",
+                " Egg Whites",
+                " Contains",
+                " EGGS _x000d_\n_x000d_\nCANADIAN BACON _x000d_\nIngredients",
+                " Pork Cured with Water",
+                " Sugar",
+                " Salt",
+                " Sodium Lactate",
+                " Sodium Phosphate",
+                " Natural Flavor",
+                " Sodium Diacetate and Sodium Nitrite",
+                " Preservatives",
+                " PASTEURIZED PROCESS WHITE CHEDDAR CHEESE _x000d_\nIngredients",
+                " Milk",
+                " Water",
+                " Cheese Culture",
+                " Cream",
+                " Sodium Citrate",
+                " Contains 2% or Less",
+                " Salt",
+                " Citric Acid",
+                " Sorbic Acid",
+                " Preservative",
+                " May Contain One or More of",
+                " Sodium Phosphate",
+                " Sodium Pyrophosphate",
+                " Sodium Hexametaphosphate",
+                " Enzymes",
+                " Acetic Acid",
+                " Soy Lecithin _x000d_\nContains",
+                " MILK",
+                " SOY",
+                " SALTED BUTTER _x000d_\nIngredients",
+                " Cream",
+                " Salt",
+                " Contains",
+                " MILK _x000d_\n_x000d_\nCLARIFIED BUTTER _x000d_\nIngredients",
+                " Pasteurized Cream",
+                " Butterfat",
+                " Contains",
+                " MILK"
+            ]
         },
         {
             "item_id": 3,
@@ -61,7 +141,15 @@
                 "sugars": 2.0,
                 "protein": 14.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Unsalted Butter",
+                " Egg",
+                " Salt",
+                " Black Pepper",
+                " English Muffin",
+                " American Cheese",
+                " Sausage"
+            ]
         },
         {
             "item_id": 4,
@@ -81,7 +169,13 @@
                 "sugars": 2.0,
                 "protein": 21.0
             },
-            "ingredients": []
+            "ingredients": [
+                "egg",
+                " English muffin",
+                " Canadian bacon",
+                " American cheese",
+                " butter"
+            ]
         },
         {
             "item_id": 5,
@@ -101,7 +195,81 @@
                 "sugars": 2.0,
                 "protein": 21.0
             },
-            "ingredients": []
+            "ingredients": [
+                "ENGLISH MUFFIN _x000d_\nIngredients",
+                " Enriched Flour",
+                " Wheat Flour",
+                " Malted Barley Flour",
+                " Niacin",
+                " Iron",
+                " Thiamine",
+                " Riboflavin",
+                " Folic Acid",
+                " Water",
+                " Yeast",
+                " Yellow Corn Meal",
+                " Degermed Yellow Corn Meal and Corn Flour",
+                " Contains 2% or Less",
+                " Sugar",
+                " Soybean Oil",
+                " Salt",
+                " Dough Conditioners",
+                " Mono-",
+                " Di- and Tricalcium Phosphate",
+                " DATEM",
+                " Ascorbic Acid",
+                " Enzymes",
+                " Ethylated Mono and Digylcerides",
+                " Wheat Gluten",
+                " Calcium Propionate",
+                " Preservative",
+                " Citric Acid",
+                " Calcium Citrate",
+                " Baking Soda",
+                " Fumaric Acid",
+                " Contains",
+                " WHEAT _x000d_\n_x000d_\nEGG WHITES _x000d_\nIngredients",
+                " Egg Whites",
+                " Contains",
+                " EGGS _x000d_\n_x000d_\nCANADIAN BACON _x000d_\nIngredients",
+                " Pork Cured with Water",
+                " Sugar",
+                " Salt",
+                " Sodium Lactate",
+                " Sodium Phosphate",
+                " Natural Flavor",
+                " Sodium Diacetate and Sodium Nitrite",
+                " Preservatives",
+                " PASTEURIZED PROCESS WHITE CHEDDAR CHEESE _x000d_\nIngredients",
+                " Milk",
+                " Water",
+                " Cheese Culture",
+                " Cream",
+                " Sodium Citrate",
+                " Contains 2% or Less",
+                " Salt",
+                " Citric Acid",
+                " Sorbic Acid",
+                " Preservative",
+                " May Contain One or More of",
+                " Sodium Phosphate",
+                " Sodium Pyrophosphate",
+                " Sodium Hexametaphosphate",
+                " Enzymes",
+                " Acetic Acid",
+                " Soy Lecithin _x000d_\nContains",
+                " MILK",
+                " SOY",
+                " SALTED BUTTER _x000d_\nIngredients",
+                " Cream",
+                " Salt",
+                " Contains",
+                " MILK _x000d_\n_x000d_\nCLARIFIED BUTTER _x000d_\nIngredients",
+                " Pasteurized Cream",
+                " Butterfat",
+                " Contains",
+                " MILK"
+            ]
         },
         {
             "item_id": 6,
@@ -141,7 +309,13 @@
                 "sugars": 3.0,
                 "protein": 19.0
             },
-            "ingredients": []
+            "ingredients": [
+                "eggs",
+                " Parmesan cheese",
+                " bacon bits",
+                " scallions",
+                " Pepper"
+            ]
         },
         {
             "item_id": 8,
@@ -161,7 +335,13 @@
                 "sugars": 4.0,
                 "protein": 19.0
             },
-            "ingredients": []
+            "ingredients": [
+                "eggs",
+                " Parmesan cheese",
+                " bacon bits",
+                " scallions",
+                " Pepper"
+            ]
         },
         {
             "item_id": 9,
@@ -181,7 +361,13 @@
                 "sugars": 3.0,
                 "protein": 20.0
             },
-            "ingredients": []
+            "ingredients": [
+                "eggs",
+                " Parmesan cheese",
+                " bacon bits",
+                " scallions",
+                " Pepper"
+            ]
         },
         {
             "item_id": 10,
@@ -201,7 +387,13 @@
                 "sugars": 4.0,
                 "protein": 20.0
             },
-            "ingredients": []
+            "ingredients": [
+                "eggs",
+                " Parmesan cheese",
+                " bacon bits",
+                " scallions",
+                " Pepper"
+            ]
         },
         {
             "item_id": 11,
@@ -221,7 +413,18 @@
                 "sugars": 2.0,
                 "protein": 11.0
             },
-            "ingredients": []
+            "ingredients": [
+                "sausage",
+                " onion",
+                " buttermilk",
+                " all purpose flour",
+                " baking powder",
+                " butter",
+                " salt",
+                " flour",
+                " milk",
+                " cheddar cheese"
+            ]
         },
         {
             "item_id": 12,
@@ -241,7 +444,18 @@
                 "sugars": 3.0,
                 "protein": 11.0
             },
-            "ingredients": []
+            "ingredients": [
+                "sausage",
+                " onion",
+                " buttermilk",
+                " all purpose flour",
+                " baking powder",
+                " butter",
+                " salt",
+                " flour",
+                " milk",
+                " cheddar cheese"
+            ]
         },
         {
             "item_id": 13,
@@ -261,7 +475,18 @@
                 "sugars": 2.0,
                 "protein": 18.0
             },
-            "ingredients": []
+            "ingredients": [
+                "sausage",
+                " onion",
+                " buttermilk",
+                " all purpose flour",
+                " baking powder",
+                " butter",
+                " salt",
+                " flour",
+                " milk",
+                " cheddar cheese"
+            ]
         },
         {
             "item_id": 14,
@@ -281,7 +506,18 @@
                 "sugars": 3.0,
                 "protein": 18.0
             },
-            "ingredients": []
+            "ingredients": [
+                "sausage",
+                " onion",
+                " buttermilk",
+                " all purpose flour",
+                " baking powder",
+                " butter",
+                " salt",
+                " flour",
+                " milk",
+                " cheddar cheese"
+            ]
         },
         {
             "item_id": 15,
@@ -301,7 +537,18 @@
                 "sugars": 3.0,
                 "protein": 18.0
             },
-            "ingredients": []
+            "ingredients": [
+                "sausage",
+                " onion",
+                " buttermilk",
+                " all purpose flour",
+                " baking powder",
+                " butter",
+                " salt",
+                " flour",
+                " milk",
+                " cheddar cheese"
+            ]
         },
         {
             "item_id": 16,
@@ -321,7 +568,9 @@
                 "sugars": 3.0,
                 "protein": 18.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Egg"
+            ]
         },
         {
             "item_id": 17,
@@ -341,7 +590,26 @@
                 "sugars": 3.0,
                 "protein": 17.0
             },
-            "ingredients": []
+            "ingredients": [
+                "CHICKEN BREAST WITH RIB MEAT",
+                " WHEAT FLOUR",
+                " WATER",
+                " CONTAINS 2% OR LESS OF THE FOLLOWING: SUGAR",
+                " DEXTROSE",
+                " TAPIOCA STARCH",
+                " VINEGAR",
+                " SALT",
+                " TORULA YEAST",
+                " CITRUS EXTRACT",
+                " YEAST",
+                " YEAST EXTRACT",
+                " LEAVENING (CREAM OF TARTAR",
+                " SODIUM BICARBONATE)",
+                " SPICES",
+                " MALIC ACID",
+                " NATURAL FLAVORS",
+                " BREADING IS SET IN VEGETABLE OIL."
+            ]
         },
         {
             "item_id": 18,
@@ -361,7 +629,26 @@
                 "sugars": 4.0,
                 "protein": 17.0
             },
-            "ingredients": []
+            "ingredients": [
+                "CHICKEN BREAST WITH RIB MEAT",
+                " WHEAT FLOUR",
+                " WATER",
+                " CONTAINS 2% OR LESS OF THE FOLLOWING: SUGAR",
+                " DEXTROSE",
+                " TAPIOCA STARCH",
+                " VINEGAR",
+                " SALT",
+                " TORULA YEAST",
+                " CITRUS EXTRACT",
+                " YEAST",
+                " YEAST EXTRACT",
+                " LEAVENING (CREAM OF TARTAR",
+                " SODIUM BICARBONATE)",
+                " SPICES",
+                " MALIC ACID",
+                " NATURAL FLAVORS",
+                " BREADING IS SET IN VEGETABLE OIL."
+            ]
         },
         {
             "item_id": 19,
@@ -401,7 +688,13 @@
                 "sugars": 15.0,
                 "protein": 19.0
             },
-            "ingredients": []
+            "ingredients": [
+                "eggs",
+                " Parmesan cheese",
+                " bacon bits",
+                " scallions",
+                " Pepper"
+            ]
         },
         {
             "item_id": 21,
@@ -421,7 +714,13 @@
                 "sugars": 16.0,
                 "protein": 20.0
             },
-            "ingredients": []
+            "ingredients": [
+                "eggs",
+                " Parmesan cheese",
+                " bacon bits",
+                " scallions",
+                " Pepper"
+            ]
         },
         {
             "item_id": 22,
@@ -441,7 +740,20 @@
                 "sugars": 15.0,
                 "protein": 11.0
             },
-            "ingredients": []
+            "ingredients": [
+                "italian sausage",
+                " onion",
+                " pasta",
+                " garlic",
+                " olive oil",
+                " chicken broth",
+                " water",
+                " cannellini beans",
+                " stewed tomatoes",
+                " spinach",
+                " mozzarella",
+                " parmesan cheese"
+            ]
         },
         {
             "item_id": 23,
@@ -461,7 +773,16 @@
                 "sugars": 15.0,
                 "protein": 20.0
             },
-            "ingredients": []
+            "ingredients": [
+                "baguettes",
+                " Pork Sausage",
+                " eggs",
+                " heavy cream",
+                " jack cheese",
+                " green onions",
+                " salt",
+                " pepper"
+            ]
         },
         {
             "item_id": 24,
@@ -481,7 +802,16 @@
                 "sugars": 15.0,
                 "protein": 21.0
             },
-            "ingredients": []
+            "ingredients": [
+                "baguettes",
+                " Pork Sausage",
+                " eggs",
+                " heavy cream",
+                " jack cheese",
+                " green onions",
+                " salt",
+                " pepper"
+            ]
         },
         {
             "item_id": 25,
@@ -501,7 +831,13 @@
                 "sugars": 7.0,
                 "protein": 30.0
             },
-            "ingredients": []
+            "ingredients": [
+                "eggs",
+                " Parmesan cheese",
+                " bacon bits",
+                " scallions",
+                " Pepper"
+            ]
         },
         {
             "item_id": 26,
@@ -521,7 +857,13 @@
                 "sugars": 8.0,
                 "protein": 30.0
             },
-            "ingredients": []
+            "ingredients": [
+                "eggs",
+                " Parmesan cheese",
+                " bacon bits",
+                " scallions",
+                " Pepper"
+            ]
         },
         {
             "item_id": 27,
@@ -541,7 +883,66 @@
                 "sugars": 7.0,
                 "protein": 33.0
             },
-            "ingredients": []
+            "ingredients": [
+                "DICED POTATOES (POTATOES",
+                " VEGETABLE OIL [SOYBEAN AND/OR COTTONSEED OIL]",
+                " MALTODEXTRIN",
+                " SALT",
+                " DEXTROSE",
+                " TETRASODIUM PYROPHOSPHATE",
+                " SODIUM ACID PYROPHOSPHATE [TO MAINTAIN COLOR])",
+                " PRECOOKED SCRAMBLED EGGS (WHOLE EGGS",
+                " SKIM MILK",
+                " SOYBEAN OIL",
+                " MODIFIED CORN STARCH",
+                " XANTHAN GUM",
+                " LIQUID PEPPER EXTRACT",
+                " SALT",
+                " CITRIC ACID",
+                " ARTIFICIAL BUTTER FLAVOR [SOYBEAN OIL",
+                " BUTTER",
+                " LIPOLYZED BUTTER FAT",
+                " FLAVORS",
+                " ARTIFICIAL FLAVORS])",
+                " FULLY COOKED SEASONED BEEF STEAK STRIPS",
+                " WATER AND BINDER PRODUCT",
+                " TENDERIZED WITH BROMELAIN (BEEF",
+                " WATER",
+                " BEEF BASE [ROASTED SIRLOIN AND BEEF STOCK",
+                " SALT SUGAR",
+                " CORN STARCH",
+                " DRIED POTATO",
+                " BEEF FAT",
+                " CARAMEL COLOR",
+                " CORN OIL",
+                " ONION POWDER",
+                " NATURAL BEEF GRILL FLAVORING {FROM BEEF FAT}",
+                " GARLIC POWDER",
+                " SOY LECITHIN",
+                " GRILL FLAVOR",
+                " DISODIUM INOSINATE",
+                " DISODIUM GUANYLATE]",
+                " CONTAINS 2% OR LESS OF THE FOLLOWING: SEASONING MIX [MODIFIED FOOD STARCH {TAPIOCA}",
+                " WHEY PROTEIN CONCENTRATE",
+                " CARRAGEENAN",
+                " SODIUM CITRATE]",
+                " SALT",
+                " CARAMEL COLOR",
+                " SODIUM PHOSPHATES",
+                " NATURAL FLAVOR [SOY LECITHIN]",
+                " GARLIC POWDER",
+                " ONION POWDER",
+                " BEEF FAT",
+                " MALTODEXTRIN)",
+                " SHREDDED CHEDDAR CHEESE (PASTEURIZED MILK",
+                " CHEESE CULTURES",
+                " SALT",
+                " ENZYMES",
+                " ANNATTO COLOR",
+                " CELLULOSE [TO PREVENT CAKING]",
+                " NATAMYCIN [MOLD INHIBITOR])",
+                " WATER."
+            ]
         },
         {
             "item_id": 28,
@@ -561,7 +962,14 @@
                 "sugars": 3.0,
                 "protein": 28.0
             },
-            "ingredients": []
+            "ingredients": [
+                "ham",
+                " butter",
+                " flour",
+                " baking powder",
+                " salt",
+                " milk"
+            ]
         },
         {
             "item_id": 29,
@@ -581,7 +989,14 @@
                 "sugars": 3.0,
                 "protein": 28.0
             },
-            "ingredients": []
+            "ingredients": [
+                "ham",
+                " butter",
+                " flour",
+                " baking powder",
+                " salt",
+                " milk"
+            ]
         },
         {
             "item_id": 30,
@@ -601,7 +1016,14 @@
                 "sugars": 3.0,
                 "protein": 26.0
             },
-            "ingredients": []
+            "ingredients": [
+                "pork sausage",
+                " potatoes",
+                " cheddar cheese",
+                " eggs",
+                " condensed cream of mushroom soup",
+                " evaporated milk"
+            ]
         },
         {
             "item_id": 31,
@@ -621,7 +1043,9 @@
                 "sugars": 4.0,
                 "protein": 26.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Egg"
+            ]
         },
         {
             "item_id": 32,
@@ -641,7 +1065,14 @@
                 "sugars": 17.0,
                 "protein": 36.0
             },
-            "ingredients": []
+            "ingredients": [
+                "ham",
+                " butter",
+                " flour",
+                " baking powder",
+                " salt",
+                " milk"
+            ]
         },
         {
             "item_id": 33,
@@ -661,7 +1092,14 @@
                 "sugars": 17.0,
                 "protein": 36.0
             },
-            "ingredients": []
+            "ingredients": [
+                "ham",
+                " butter",
+                " flour",
+                " baking powder",
+                " salt",
+                " milk"
+            ]
         },
         {
             "item_id": 34,
@@ -681,7 +1119,13 @@
                 "sugars": 17.0,
                 "protein": 35.0
             },
-            "ingredients": []
+            "ingredients": [
+                "CAGE FREE EGG WHITES",
+                " WHOLE MILK",
+                " NON-GMO CORN STARCH",
+                " SEA SALT",
+                " PEPPER."
+            ]
         },
         {
             "item_id": 35,
@@ -701,7 +1145,9 @@
                 "sugars": 18.0,
                 "protein": 35.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Egg"
+            ]
         },
         {
             "item_id": 36,
@@ -721,7 +1167,16 @@
                 "sugars": 14.0,
                 "protein": 8.0
             },
-            "ingredients": []
+            "ingredients": [
+                "cornmeal",
+                " all-purpose flour",
+                " baking soda",
+                " salt",
+                " buttermilk",
+                " egg",
+                " maple syrup",
+                " vegetable oil"
+            ]
         },
         {
             "item_id": 37,
@@ -741,7 +1196,16 @@
                 "sugars": 14.0,
                 "protein": 15.0
             },
-            "ingredients": []
+            "ingredients": [
+                "cornmeal",
+                " all-purpose flour",
+                " baking soda",
+                " salt",
+                " buttermilk",
+                " egg",
+                " maple syrup",
+                " vegetable oil"
+            ]
         },
         {
             "item_id": 38,
@@ -761,7 +1225,40 @@
                 "sugars": 2.0,
                 "protein": 12.0
             },
-            "ingredients": []
+            "ingredients": [
+                "FILLING: COOKED CHORIZO SAUSAGE (PORK",
+                " SPICES",
+                " ONIONS",
+                " SALT",
+                " GARLIC)",
+                " COOKED EGGS (WHOLE EGGS",
+                " CORN STARCH",
+                " CITRIC ACID)",
+                " ROASTED POTATOES (POTATOES",
+                " CANOLA OIL",
+                " SALT",
+                " PEPPER)",
+                " PINTO BEANS+",
+                " CHEDDAR CHEESE (PASTEURIZED MILK",
+                " CHEESE CULTURES",
+                " SALT",
+                " ENZYMES)",
+                " TOMATOES IN JUICE (TOMATOES",
+                " CALCIUM CHLORIDE",
+                " CITRIC ACID)",
+                " ONIONS",
+                " LIME JUICE",
+                " CORN STARCH",
+                " GARLIC",
+                " SPICES",
+                " JALAPENOS",
+                " SALT. TORTILLA: WHEAT FLOUR",
+                " CANOLA OIL",
+                " PALM OIL+",
+                " BAKING POWDER",
+                " SALT",
+                " GUAR GUM."
+            ]
         },
         {
             "item_id": 39,
@@ -781,7 +1278,14 @@
                 "sugars": 0.0,
                 "protein": 1.0
             },
-            "ingredients": []
+            "ingredients": [
+                "russet potatoes",
+                " unsalted butter",
+                " onion",
+                " Kosher salt",
+                " black pepper",
+                " vegetable oil"
+            ]
         },
         {
             "item_id": 40,
@@ -801,7 +1305,15 @@
                 "sugars": 32.0,
                 "protein": 6.0
             },
-            "ingredients": []
+            "ingredients": [
+                "water",
+                " yeast",
+                " butter",
+                " Sugar",
+                " salt",
+                " bread flour",
+                " eggs"
+            ]
         },
         {
             "item_id": 41,
@@ -821,7 +1333,22 @@
                 "sugars": 32.0,
                 "protein": 5.0
             },
-            "ingredients": []
+            "ingredients": [
+                "ORGANIC TAPIOCA SYRUP",
+                " ORGANIC CANE SUGAR",
+                " ORGANIC TAPIOCA SYRUP SOLIDS",
+                " ORGANIC WHITE GRAPE JUICE CONCENTRATE",
+                " PECTIN",
+                " CITRIC ACID",
+                " ASCORBIC ACID",
+                " COLOR ADDED (ORGANIC BLACK CARROT JUICE CONCENTRATE",
+                " ORGANIC TUMERIC",
+                " ORGANIC ANNATTO)",
+                " NATURAL FLAVORS**",
+                " SODIUM CITRATE",
+                " ORGANIC SUNFLOWER OIL",
+                " CARNAUBA WAX."
+            ]
         },
         {
             "item_id": 42,
@@ -841,7 +1368,22 @@
                 "sugars": 18.0,
                 "protein": 5.0
             },
-            "ingredients": []
+            "ingredients": [
+                "ORGANIC TAPIOCA SYRUP",
+                " ORGANIC CANE SUGAR",
+                " ORGANIC TAPIOCA SYRUP SOLIDS",
+                " ORGANIC WHITE GRAPE JUICE CONCENTRATE",
+                " PECTIN",
+                " CITRIC ACID",
+                " ASCORBIC ACID",
+                " COLOR ADDED (ORGANIC BLACK CARROT JUICE CONCENTRATE",
+                " ORGANIC TUMERIC",
+                " ORGANIC ANNATTO)",
+                " NATURAL FLAVORS**",
+                " SODIUM CITRATE",
+                " ORGANIC SUNFLOWER OIL",
+                " CARNAUBA WAX."
+            ]
         },
         {
             "item_id": 43,
@@ -861,7 +1403,46 @@
                 "sugars": 9.0,
                 "protein": 24.0
             },
-            "ingredients": []
+            "ingredients": [
+                "CRUST (WHEAT FLOUR [BLEACHED WHEAT FLOUR",
+                " NIACIN",
+                " REDUCED IRON",
+                " THIAMINE MONONITRATE",
+                " RIBOFLAVIN",
+                " ENZYME",
+                " FOLIC ACID]",
+                " WATER",
+                " LARD [BHA PROPYL GALLATE WITH CITRIC ACID ADDED",
+                " TO HELP PROTECT FLAVOR",
+                " SOY BEAN OIL",
+                " DOUGH CONDITIONER [WHEY",
+                " L-CYSTEINE",
+                " MONO-HYDROCHLORIDE]",
+                " SALT",
+                " SUGAR",
+                " YEAST)",
+                " LOW MOISTURE PART SKIM MOZZARELLA CHEESE (CULTURED PASTEURIZED PART SKIM MILK",
+                " SALT",
+                " ENZYMES",
+                " ELBOW MACARONI (WATER",
+                " ENRICHED DURUM SEMOLINA (DURUM SEMOLINA WHEAT FLOUR",
+                " NIACIN",
+                " FERROUS SULFATE",
+                " THIAMINE MONONITRATE",
+                " RIBOFLAVIN",
+                " FOLIC ACID))",
+                " SHARP CHEDDAR CHEESE SAUCE (CHEESE WHEY",
+                " WATER",
+                " PALM OIL",
+                " MODIFIED CORN STARCH",
+                " MODIFIED TAPIOCA STARCH",
+                " CHEDDAR CHEESE (PASTEURIZED MILK",
+                " CHEESE CULTURES",
+                " SALT",
+                " ENZYMES",
+                " ANNATTO)",
+                " GARLIC."
+            ]
         },
         {
             "item_id": 44,
@@ -881,7 +1462,68 @@
                 "sugars": 10.0,
                 "protein": 30.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Beef Burger (43%) [Beef",
+                "  Beef Fat",
+                "  Soya Protein",
+                "  Salt",
+                "  Wheat Flour*",
+                "  Dextrose",
+                "  Sugar",
+                "  Stabiliser: E451",
+                " Egg White Powder",
+                "  Yeast Extract",
+                "  Hydrolysed Soya Protein",
+                "  Barley Malt Extract",
+                "  Flavourings]",
+                "  Sesame Seeded Bun [Wheat Flour*",
+                "  Water",
+                "  Rapeseed Oil",
+                "  Yeast",
+                "  Sesame Seeds",
+                "  Sugar",
+                "  Salt",
+                "  Wheat Gluten",
+                "  Emulsifiers: E472e",
+                "  E471",
+                " Preservative: E282",
+                " Antioxidant: E300]",
+                "  Rustlers Sauce [Tomato Puree",
+                "  Spirit Vinegar",
+                "  Onion",
+                "  Sugar",
+                "  Cornflour",
+                "  Rapeseed Oil",
+                "  Mustard Seeds",
+                "  Salt",
+                "  Gherkin",
+                "  Spices",
+                "  Preservative: E202",
+                " Mustard Flour",
+                "  Flavouring",
+                "  Colour: E160c",
+                " Dill Oil]",
+                "  Processed Cheese Slice [Cheese (Milk)",
+                "  Water",
+                "  Butter (Milk)",
+                "  Skimmed Milk Powder",
+                "  Whey Powder (Milk)",
+                "  Emulsifying Salts: E452",
+                "  E331",
+                "  E339",
+                " Flavouring (Milk)",
+                "  Milk Protein",
+                "  Calcium Phosphate",
+                "  Salt",
+                "  Colours: E160a",
+                "  E160c",
+                " Acidity Regulator",
+                " E330]",
+                "  *Wheat Flour With Calcium",
+                "  Iron",
+                "  Niacin & Thiamin",
+                "  Beef Burger contains 85% Beef"
+            ]
         },
         {
             "item_id": 45,
@@ -901,7 +1543,21 @@
                 "sugars": 12.0,
                 "protein": 37.0
             },
-            "ingredients": []
+            "ingredients": [
+                "brown rice",
+                " green lentils",
+                " beets",
+                " salt",
+                " black pepper",
+                " thyme",
+                " fennel",
+                " dry mustard",
+                " onion",
+                " garlic",
+                " almond butter",
+                " breadcrumbs",
+                " Olive oil"
+            ]
         },
         {
             "item_id": 46,
@@ -921,7 +1577,21 @@
                 "sugars": 10.0,
                 "protein": 37.0
             },
-            "ingredients": []
+            "ingredients": [
+                "brown rice",
+                " green lentils",
+                " beets",
+                " salt",
+                " black pepper",
+                " thyme",
+                " fennel",
+                " dry mustard",
+                " onion",
+                " garlic",
+                " almond butter",
+                " breadcrumbs",
+                " Olive oil"
+            ]
         },
         {
             "item_id": 47,
@@ -941,7 +1611,21 @@
                 "sugars": 9.0,
                 "protein": 29.0
             },
-            "ingredients": []
+            "ingredients": [
+                "brown rice",
+                " green lentils",
+                " beets",
+                " salt",
+                " black pepper",
+                " thyme",
+                " fennel",
+                " dry mustard",
+                " onion",
+                " garlic",
+                " almond butter",
+                " breadcrumbs",
+                " Olive oil"
+            ]
         },
         {
             "item_id": 48,
@@ -961,7 +1645,68 @@
                 "sugars": 10.0,
                 "protein": 48.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Beef Burger (43%) [Beef",
+                "  Beef Fat",
+                "  Soya Protein",
+                "  Salt",
+                "  Wheat Flour*",
+                "  Dextrose",
+                "  Sugar",
+                "  Stabiliser: E451",
+                " Egg White Powder",
+                "  Yeast Extract",
+                "  Hydrolysed Soya Protein",
+                "  Barley Malt Extract",
+                "  Flavourings]",
+                "  Sesame Seeded Bun [Wheat Flour*",
+                "  Water",
+                "  Rapeseed Oil",
+                "  Yeast",
+                "  Sesame Seeds",
+                "  Sugar",
+                "  Salt",
+                "  Wheat Gluten",
+                "  Emulsifiers: E472e",
+                "  E471",
+                " Preservative: E282",
+                " Antioxidant: E300]",
+                "  Rustlers Sauce [Tomato Puree",
+                "  Spirit Vinegar",
+                "  Onion",
+                "  Sugar",
+                "  Cornflour",
+                "  Rapeseed Oil",
+                "  Mustard Seeds",
+                "  Salt",
+                "  Gherkin",
+                "  Spices",
+                "  Preservative: E202",
+                " Mustard Flour",
+                "  Flavouring",
+                "  Colour: E160c",
+                " Dill Oil]",
+                "  Processed Cheese Slice [Cheese (Milk)",
+                "  Water",
+                "  Butter (Milk)",
+                "  Skimmed Milk Powder",
+                "  Whey Powder (Milk)",
+                "  Emulsifying Salts: E452",
+                "  E331",
+                "  E339",
+                " Flavouring (Milk)",
+                "  Milk Protein",
+                "  Calcium Phosphate",
+                "  Salt",
+                "  Colours: E160a",
+                "  E160c",
+                " Acidity Regulator",
+                " E330]",
+                "  *Wheat Flour With Calcium",
+                "  Iron",
+                "  Niacin & Thiamin",
+                "  Beef Burger contains 85% Beef"
+            ]
         },
         {
             "item_id": 49,
@@ -981,7 +1726,17 @@
                 "sugars": 6.0,
                 "protein": 12.0
             },
-            "ingredients": []
+            "ingredients": [
+                "egg",
+                " chili sauce",
+                " onion",
+                " prepared horseradish",
+                " Worcestershire sauce",
+                " salt",
+                " pepper",
+                " ground beef",
+                " hamburger buns"
+            ]
         },
         {
             "item_id": 50,
@@ -1001,7 +1756,79 @@
                 "sugars": 7.0,
                 "protein": 15.0
             },
-            "ingredients": []
+            "ingredients": [
+                "CRUST: ENRICHED FLOUR (WHEAT FLOUR",
+                " MALTED BARLEY FLOUR",
+                " NIACIN",
+                " FERROUS SULFATE",
+                " THIAMINE MONONITRATE",
+                " RIBOFLAVIN",
+                " FOLIC ACID)",
+                " WATER",
+                " SOYBEAN OIL",
+                " SUGAR",
+                " YEAST",
+                " SALT",
+                " BAKING POWDER (CORN STARCH",
+                " SODIUM BICARBONATE",
+                " SODIUM ALUMINUM SULFATE",
+                " MONOCALCIUM PHOSPHATE)",
+                " DEGERMINATED YELLOW CORN MEAL",
+                " SOY FLOUR. SAUCE: WATER",
+                " TOMATO PASTE (TOMATOES)",
+                " SEASONING BLEND (MODIFIED CORN STARCH",
+                " SALT",
+                " DEHYDRATED ONION",
+                " DEHYDRATED GARLIC",
+                " SUGAR",
+                " SPICE",
+                " SOYBEAN OIL",
+                " CONTAINS LESS THAN 2% GUAR GUM",
+                " PARMESAN CHEESE [CULTURED MILK",
+                " SALT",
+                " ENZYMES]",
+                " XANTHAN GUM",
+                " PAPRIKA",
+                " CITRIC ACID",
+                " BEET POWDER [COLOR]",
+                " SOY FLOUR)",
+                " SUGAR",
+                " MODIFIED FOOD STARCH. CHEESE BLEND: CHEDDAR CHEESE (PASTEURIZED MILK",
+                " CHEESE CULTURE",
+                " SALT",
+                " ENZYMES",
+                " ANNATTO [COLOR])",
+                " IMITATION CHEDDAR CHEESE (WATER",
+                " RENNET CASEIN [MILK PROTEIN]",
+                " PALM OIL",
+                " WHEY",
+                " MODIFIED FOOD STARCH",
+                " SALT",
+                " SODIUM ALUMINUM PHOSPHATE",
+                " LACTIC ACID",
+                " NATURAL FLAVOR",
+                " SODIUM CITRATE",
+                " SORBIC ACID [PRESERVATIVE]",
+                " TRISODIUM PHOSPHATE",
+                " ARTIFICIAL COLOR",
+                " GUAR GUM",
+                " ARTIFICIAL FLAVOR",
+                " ENRICHMENT BLEND [MAGNESIUM OXIDE",
+                " ZINC OXIDE",
+                " FERRIC ORTHOPHOSPHATE",
+                " VITAMIN A PALMITATE",
+                " RIBOFLAVIN",
+                " PYRIDOXINE HYDROCHLORIDE",
+                " NIACINAMIDE",
+                " THIAMINE MONONITRATE",
+                " VITAMIN B12]). COOKED BEEF TOPPING: HAMBURGER (BEEF",
+                " SEASONINGS [SALT",
+                " SPICES",
+                " FLAVORINGS])",
+                " WATER",
+                " TEXTURED VEGETABLE PROTEIN (SOY PROTEIN CONCENTRATE",
+                " CARAMEL COLOR)."
+            ]
         },
         {
             "item_id": 51,
@@ -1021,7 +1848,44 @@
                 "sugars": 7.0,
                 "protein": 24.0
             },
-            "ingredients": []
+            "ingredients": [
+                "ENRICHED MACARONI [WHEAT FLOUR",
+                " NIACIN",
+                " FERROUS SULFATE (IRON)",
+                " THIAMIN MONONITRATE",
+                " RIBOFLAVIN",
+                " FOLIC ACID]",
+                " CORN STARCH",
+                " ENRICHED WHEAT FLOUR (WHEAT FLOUR",
+                " NIACIN",
+                " REDUCED IRON",
+                " THIAMIN MONONITRATE",
+                " RIBOFLAVIN",
+                " FOLIC ACID)",
+                " SALT",
+                " RICOTTA CHEESE (WHEY",
+                " MILKFAT",
+                " LACTIC ACID",
+                " SALT)",
+                " CHEDDAR CHEESE (PASTEURIZED MILK",
+                " CHEESE CULTURES",
+                " SALT",
+                " ENZYMES)",
+                " SODIUM HEXAMETAPHOSPHATE",
+                " WHEY",
+                " NATURAL FLAVORS",
+                " YEAST EXTRACT",
+                " MALTODEXTRIN",
+                " SOYBEAN OIL",
+                " DISODIUM INOSINATE AND DISODIUM GUANYLATE",
+                " PAPRIKA EXTRACT (COLOR)",
+                " BUTTER (CREAM",
+                " SALT)",
+                " BUTTERMILK",
+                " MONO AND DIGLYCERIDES",
+                " TURMERIC EXTRACT (COLOR)",
+                " DISODIUM PHOSPHATE."
+            ]
         },
         {
             "item_id": 52,
@@ -1041,7 +1905,17 @@
                 "sugars": 14.0,
                 "protein": 39.0
             },
-            "ingredients": []
+            "ingredients": [
+                "ORGANIC WHEAT FLOUR",
+                " ORGANIC EXPELLER PRESSED CANOLA OIL",
+                " ORGANIC SUGAR",
+                " ORGANIC MALT",
+                " SEA SALT",
+                " NATURAL FLAVOR",
+                " AMMONIUM CARBONATE",
+                " SODIUM BICARBONATE",
+                " MONOCALCIUM PHOSPHATE."
+            ]
         },
         {
             "item_id": 53,
@@ -1081,7 +1955,19 @@
                 "sugars": 7.0,
                 "protein": 27.0
             },
-            "ingredients": []
+            "ingredients": [
+                "bacon",
+                " butter",
+                " mushrooms",
+                " flour",
+                " chicken stock",
+                " cr\u00e8me fra\u00eeche",
+                " parsley",
+                " Salt",
+                " black pepper",
+                " cooked chicken",
+                " puff pastry"
+            ]
         },
         {
             "item_id": 55,
@@ -1101,7 +1987,15 @@
                 "sugars": 7.0,
                 "protein": 22.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Cured With",
+                " Water",
+                " Salt",
+                " Sugar",
+                " Sodium Phosphates",
+                " Sodium Erythorbate",
+                " Sodium Nitrite"
+            ]
         },
         {
             "item_id": 56,
@@ -1121,7 +2015,22 @@
                 "sugars": 6.0,
                 "protein": 22.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Jalapenos",
+                " Canola Oil",
+                " Corn Starch",
+                " Buttermilk Solids",
+                " Maltodextrin",
+                " Salt",
+                " Modified Corn Starch",
+                " Whey Solids",
+                " Garlic Powder",
+                " Parsley",
+                " Guar Gum",
+                " Nonfat Milk Solids",
+                " Onion Powder",
+                " Citric Acid"
+            ]
         },
         {
             "item_id": 57,
@@ -1161,7 +2070,23 @@
                 "sugars": 10.0,
                 "protein": 24.0
             },
-            "ingredients": []
+            "ingredients": [
+                "panko",
+                " olive oil",
+                " chicken breast",
+                " Salt",
+                " black pepper",
+                " egg",
+                " water",
+                " all-purpose flour",
+                " English cucumber",
+                " tomatoes",
+                " butter",
+                " toasts",
+                " Lettuce",
+                " garlic",
+                " mayonnaise"
+            ]
         },
         {
             "item_id": 59,
@@ -1181,7 +2106,82 @@
                 "sugars": 8.0,
                 "protein": 28.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Flour Tortilla Wheat Flour Enriched",
+                " Niacin",
+                " Reduced Iron",
+                " Thiamine",
+                " Mononitrate",
+                " Riboflavin",
+                " Folic Acid",
+                " Water",
+                " Shortening",
+                " Palm Oil",
+                " Soy",
+                " Canola",
+                " Cotton Seed Oils",
+                " Mono - And Diglycerides",
+                " Salt",
+                " Baking Powder",
+                " Sodium Acid Pyrophosphate",
+                " Sodium Bicarbonate",
+                " Corn Starch",
+                " Monocalcium Phosphate",
+                " Preservatives",
+                " Calcium Propionate",
+                " Potassium Sorbate",
+                " Sorbic Acid",
+                " Dextrose",
+                " Fumaric Acid",
+                " Mono And Diglycerides",
+                " Gums",
+                " Guar",
+                " Xanthan",
+                " Cellulose",
+                " Enzymes",
+                " Dough Conditioners",
+                " Sodium Metabisulfite",
+                " Or L - Cysteine",
+                " Ascorbic Acid",
+                " Grilled Seasoned Chicken Breast Grilled Seasoned Chicken Breast Meat Strips With Rib Meat",
+                " Chicken Breast With Rib Meat",
+                " Water",
+                " Less Than 2% Rice Starch",
+                " Lemon Juice Concentrate",
+                " Vinegar",
+                " Salt",
+                " Spice",
+                " Monterey Jack Cheese",
+                " Cultured Pasteurized Milk",
+                " Salt",
+                " Enzymes",
+                " Fire Roasted Tomatillos",
+                " With Citric Acid",
+                " Water",
+                " Precooked Rice",
+                " Enriched With Niacin",
+                " Ferric Orthophosphate",
+                " Iron",
+                " Thiamin Mononitrate",
+                " Thiamin",
+                " Folic Acid",
+                " Cooked Black Beans",
+                " Water",
+                " Black Beans",
+                " Contains 2% Or Less Roasted Onion",
+                " Vegetable Oil",
+                " Soybean",
+                " Canola And/or Corn Oil",
+                " Green Bell Peppers",
+                " Modified Corn Starch",
+                " Salt",
+                " Sugar",
+                " Lime Juice Concentrate",
+                " Chili Pepper",
+                " Spices",
+                " Cilantro",
+                " Granulated Garlic"
+            ]
         },
         {
             "item_id": 60,
@@ -1201,7 +2201,16 @@
                 "sugars": 11.0,
                 "protein": 36.0
             },
-            "ingredients": []
+            "ingredients": [
+                "salad dressing",
+                " bread",
+                " lettuce",
+                " cooked chicken",
+                " tomato",
+                " bacon",
+                " Salt",
+                " pepper"
+            ]
         },
         {
             "item_id": 61,
@@ -1221,7 +2230,25 @@
                 "sugars": 9.0,
                 "protein": 40.0
             },
-            "ingredients": []
+            "ingredients": [
+                "light mayonnaise",
+                " basil",
+                " garlic",
+                " lemon juice",
+                " kosher salt",
+                " black pepper",
+                " chicken breasts",
+                " olive oil",
+                " seasoning",
+                " garlic powder",
+                " onion powder",
+                " bacon",
+                " sourdough bread",
+                " avocado",
+                " tomato",
+                " romaine lettuce",
+                " provolone cheese"
+            ]
         },
         {
             "item_id": 62,
@@ -1241,7 +2268,13 @@
                 "sugars": 11.0,
                 "protein": 32.0
             },
-            "ingredients": []
+            "ingredients": [
+                "bacon",
+                " iceberg lettuce",
+                " tomato",
+                " bread",
+                " mayo"
+            ]
         },
         {
             "item_id": 63,
@@ -1261,7 +2294,13 @@
                 "sugars": 9.0,
                 "protein": 36.0
             },
-            "ingredients": []
+            "ingredients": [
+                "bacon",
+                " iceberg lettuce",
+                " tomato",
+                " bread",
+                " mayo"
+            ]
         },
         {
             "item_id": 64,
@@ -1281,7 +2320,23 @@
                 "sugars": 16.0,
                 "protein": 36.0
             },
-            "ingredients": []
+            "ingredients": [
+                "panko",
+                " olive oil",
+                " chicken breast",
+                " Salt",
+                " black pepper",
+                " egg",
+                " water",
+                " all-purpose flour",
+                " English cucumber",
+                " tomatoes",
+                " butter",
+                " toasts",
+                " Lettuce",
+                " garlic",
+                " mayonnaise"
+            ]
         },
         {
             "item_id": 65,
@@ -1301,7 +2356,20 @@
                 "sugars": 14.0,
                 "protein": 40.0
             },
-            "ingredients": []
+            "ingredients": [
+                "chicken",
+                " bread",
+                " Black pepper",
+                " Salt",
+                " Mayonnaise",
+                " Cheese",
+                " Tomato ketchup",
+                " Lettuce",
+                " potatoes",
+                " Wafers",
+                " Cucumber",
+                " Tomatoes"
+            ]
         },
         {
             "item_id": 66,
@@ -1321,7 +2389,24 @@
                 "sugars": 7.0,
                 "protein": 21.0
             },
-            "ingredients": []
+            "ingredients": [
+                "ENRICHED BLEACHED WHEAT FLOUR (WHEAT & MALT BARLEY FLOUR",
+                " NIACIN",
+                " IRON",
+                " THIAMINE MONONITRATE",
+                " RIBOFLAVIN",
+                " FOLIC ACID)",
+                " SALT",
+                " SPICE",
+                " LEAVENING (SODIUM ALUMINUM PHOSPHATE",
+                " SODIUM ACID PYROPHOSPHATE",
+                " SODIUM BICARBONATE",
+                " MONOCALCIUM PHOSPHATE)",
+                " MONOSODIUM GLUTAMATE (FLAVOR ENHANCER)",
+                " GARLIC",
+                " NATURAL FLAVOR",
+                " AND LEMON JUICE CONCENTRATE."
+            ]
         },
         {
             "item_id": 67,
@@ -1361,7 +2446,38 @@
                 "sugars": 6.0,
                 "protein": 22.0
             },
-            "ingredients": []
+            "ingredients": [
+                "MILK",
+                " CREAM",
+                " SEASONING BASE (SALT",
+                " HYDROLYZED CORN PROTEIN",
+                " NATURAL FLAVORS [AUTOLYZED YEAST EXTRACT",
+                " TORULA YEAST",
+                " NATURAL SMOKE FLAVOR",
+                " MODIFIED CORNSTARCH]",
+                " BACON CHIPLETS [SOY FLOUR",
+                " CARAMEL COLOR",
+                " PARTIALLY HYDROGENATED SOYBEAN OIL",
+                " NATURAL FLAVOR]",
+                " ARTIFICIAL CHEESE FLAVOR [WHEY",
+                " SOYBEAN OIL",
+                " CITRIC ACID",
+                " YELLOW #5",
+                " SPICE",
+                " LACTIC ACID",
+                " RED #40",
+                " ARTIFICIAL FLAVOR]",
+                " DEHYDRATED ONION",
+                " MONOSODIUM GLUTAMATE",
+                " SUGAR",
+                " PAPRIKA AND ANNATTO COLOR",
+                " DEHYDRATED GARLIC)",
+                " NONFAT DRY MILK",
+                " SODIUM PHOSPHATE",
+                " GUAR GUM",
+                " CARRAGEENAN",
+                " CALCIUM SULFATE AND CAROB BEAN GUM."
+            ]
         },
         {
             "item_id": 69,
@@ -1381,7 +2497,31 @@
                 "sugars": 6.0,
                 "protein": 20.0
             },
-            "ingredients": []
+            "ingredients": [
+                "CASHEWS",
+                " BUFFALO RANCH SEASONING (MALTODEXTRIN",
+                " BUTTERMILK",
+                " SALT",
+                " HOT SAUCE POWDER (AGED CAYENNE RED PEPPERS",
+                " DISTILLED VINEGAR",
+                " SALT",
+                " GARLIC)",
+                " MALTODEXTRIN)",
+                " VINEGAR POWDER (MALTODEXTRIN",
+                " WHITE DISTILLED VINEGAR",
+                " MODIFIED CORN STARCH)",
+                " ONION AND GARLIC POWDERS",
+                " YEAST EXTRACTS",
+                " SPICE",
+                " CITRIC ACID",
+                " NATURAL FLAVORS",
+                " OLEORESIN PAPRIKA",
+                " PARSLEY",
+                " SPICE EXTRACTIVE",
+                " AND CALCIUM STEARATE ADDED TO PREVENT CAKING)",
+                " OIL (PEANUT",
+                " COTTONSEED AND/OR CANOLA)."
+            ]
         },
         {
             "item_id": 70,
@@ -1401,7 +2541,31 @@
                 "sugars": 5.0,
                 "protein": 14.0
             },
-            "ingredients": []
+            "ingredients": [
+                "CASHEWS",
+                " BUFFALO RANCH SEASONING (MALTODEXTRIN",
+                " BUTTERMILK",
+                " SALT",
+                " HOT SAUCE POWDER (AGED CAYENNE RED PEPPERS",
+                " DISTILLED VINEGAR",
+                " SALT",
+                " GARLIC)",
+                " MALTODEXTRIN)",
+                " VINEGAR POWDER (MALTODEXTRIN",
+                " WHITE DISTILLED VINEGAR",
+                " MODIFIED CORN STARCH)",
+                " ONION AND GARLIC POWDERS",
+                " YEAST EXTRACTS",
+                " SPICE",
+                " CITRIC ACID",
+                " NATURAL FLAVORS",
+                " OLEORESIN PAPRIKA",
+                " PARSLEY",
+                " SPICE EXTRACTIVE",
+                " AND CALCIUM STEARATE ADDED TO PREVENT CAKING)",
+                " OIL (PEANUT",
+                " COTTONSEED AND/OR CANOLA)."
+            ]
         },
         {
             "item_id": 71,
@@ -1501,7 +2665,36 @@
                 "sugars": 12.0,
                 "protein": 27.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Chicken Breast (57%)",
+                "  Water",
+                "  Wheat Flour",
+                "  Vegetable Oils (Sunflower Oil",
+                "  Rapeseed Oil)",
+                "  Modified Potato Starch",
+                "  Modified Rice Starch",
+                "  Yeast Extract",
+                "  Modified Starch",
+                "  Salt",
+                "  Spices (Black Pepper",
+                "  White Pepper",
+                "  Chilli",
+                "  Celery)",
+                "  Acidity Regulators (Sodium Carbonate",
+                "  Trisodium Citrate)",
+                "  Wheat Gluten",
+                "  Raising Agents (Disodium Diphosphate",
+                "  Sodium Bicarbonates)",
+                "  Onion Powder",
+                "  Garlic Powder",
+                "  Spice Extracts (Black Pepper",
+                "  White Pepper",
+                "  Paprika",
+                "  Celery)",
+                "  Stabiliser (Carrageenan)",
+                "  Dextrose",
+                "  Flavouring"
+            ]
         },
         {
             "item_id": 76,
@@ -1521,7 +2714,15 @@
                 "sugars": 10.0,
                 "protein": 31.0
             },
-            "ingredients": []
+            "ingredients": [
+                "lime juice",
+                " olive oil",
+                " chili powder",
+                " sage",
+                " oregano",
+                " cumin",
+                " chicken breasts"
+            ]
         },
         {
             "item_id": 77,
@@ -1541,7 +2742,66 @@
                 "sugars": 14.0,
                 "protein": 23.0
             },
-            "ingredients": []
+            "ingredients": [
+                "EGG ROLL FILLING (CABBAGE",
+                " CHICKEN WHITE MEAT",
+                " RED CABBAGE",
+                " YELLOW CARROTS",
+                " RED BELL PEPPER",
+                " SEASONING (SUGAR",
+                " SOY PROTEIN CONCENTRATE",
+                " CORN STARCH",
+                " YEAST EXTRACT",
+                " POTASSIUM CHLORIDE",
+                " RED CHILI PEPPERS",
+                " SALT",
+                " ONION POWDER",
+                " GARLIC POWDER",
+                " CONTAINS 2% OR LESS OF: SRIRACHA SEASONING [SPICE",
+                " SALT",
+                " MALTODEXTRIN",
+                " MID OLEIC SUNFLOWER OIL",
+                " SILICON DIOXIDE (ANTI-CAKING)",
+                " DISTILLED VINEGAR",
+                " AGED RED PEPPERS",
+                " ACETIC ACID",
+                " NATURAL FLAVOR",
+                " TOMATO CONCENTRATE",
+                " BROWN SUGAR",
+                " TOMATO POWDER",
+                " EXTRACTIVE OF PAPRIKA (COLOR)",
+                " NATURAL SMOKE FLAVOR])",
+                " JALAPENO PEPPER",
+                " GREEN ONION",
+                " GARLIC",
+                " SALT)",
+                " WRAPPER (WHEAT FLOUR",
+                " WATER",
+                " PALM OIL",
+                " SALT",
+                " SOY LECITHIN",
+                " PAPRIKA",
+                " RED CHILI PEPPERS). FRIED IN VEGETABLE OIL",
+                " SWEET CHILI SAUCE (SUGAR",
+                " WATER DISTILLED WHITE VINEGAR",
+                " RED CHILI SAUCE [CHILI PEPPER",
+                " DISTILLED VINEGAR",
+                " GARLIC",
+                " SALT]",
+                " SOY SAUCE [WATER",
+                " SOYBEANS",
+                " WHEAT",
+                " SALT",
+                " ALCOHOL]",
+                " CORN STARCH",
+                " CONTAINS 2% OR LESS OF: GINGER",
+                " DEHYDRATED GARLIC",
+                " GARLIC POWDER",
+                " SALT",
+                " EXTRACTIVE OF PAPRIKA",
+                " ONION POWDER",
+                " XANTHAN GUM)."
+            ]
         },
         {
             "item_id": 78,
@@ -1561,7 +2821,52 @@
                 "sugars": 12.0,
                 "protein": 27.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sauce",
+                " Tomato Puree",
+                " Water",
+                " Tomato Paste",
+                " Tomatoes",
+                " Canola Oil",
+                " Onions",
+                " Modified Corn Starch",
+                " Apple Cider Vinegar",
+                " Contains 2% or Less of",
+                " Salt",
+                " Flavoring",
+                " Garlic",
+                " Chili Powder",
+                " Chili Pepper",
+                " Spices",
+                " Onion Powder",
+                " Garlic Powder",
+                " Cooked Rice",
+                " Water",
+                " White Rice",
+                " Cooked Chicken",
+                " Chicken Breast",
+                " Water",
+                " Olive Oil",
+                " Isolated Soy Protein Product",
+                " Isolated Soy Protein",
+                " Modified Potato Starch",
+                " Corn Starch",
+                " Carrageenan",
+                " Soy Lecithin",
+                " Dextrose",
+                " Potassium Chloride",
+                " Salt",
+                " Sodium Phosphate",
+                " Flavoring",
+                " Cooked Black Beans",
+                " Mozzarella Cheese",
+                " Pasteurized Milk",
+                " Cultures",
+                " Salt",
+                " Enzymes",
+                " Green Bell Peppers",
+                " Red Bell Peppers"
+            ]
         },
         {
             "item_id": 79,
@@ -1581,7 +2886,17 @@
                 "sugars": 0.0,
                 "protein": 9.0
             },
-            "ingredients": []
+            "ingredients": [
+                "whole buttermilk",
+                " eggs",
+                " saltine crackers",
+                " all-purpose flour",
+                " salt",
+                " boneless skinless chicken breasts",
+                " Vegetable oil",
+                " whole milk",
+                " black pepper"
+            ]
         },
         {
             "item_id": 80,
@@ -1601,7 +2916,17 @@
                 "sugars": 0.0,
                 "protein": 13.0
             },
-            "ingredients": []
+            "ingredients": [
+                "whole buttermilk",
+                " eggs",
+                " saltine crackers",
+                " all-purpose flour",
+                " salt",
+                " boneless skinless chicken breasts",
+                " Vegetable oil",
+                " whole milk",
+                " black pepper"
+            ]
         },
         {
             "item_id": 81,
@@ -1621,7 +2946,17 @@
                 "sugars": 0.0,
                 "protein": 22.0
             },
-            "ingredients": []
+            "ingredients": [
+                "whole buttermilk",
+                " eggs",
+                " saltine crackers",
+                " all-purpose flour",
+                " salt",
+                " boneless skinless chicken breasts",
+                " Vegetable oil",
+                " whole milk",
+                " black pepper"
+            ]
         },
         {
             "item_id": 82,
@@ -1641,7 +2976,17 @@
                 "sugars": 0.0,
                 "protein": 44.0
             },
-            "ingredients": []
+            "ingredients": [
+                "whole buttermilk",
+                " eggs",
+                " saltine crackers",
+                " all-purpose flour",
+                " salt",
+                " boneless skinless chicken breasts",
+                " Vegetable oil",
+                " whole milk",
+                " black pepper"
+            ]
         },
         {
             "item_id": 83,
@@ -1661,7 +3006,17 @@
                 "sugars": 1.0,
                 "protein": 87.0
             },
-            "ingredients": []
+            "ingredients": [
+                "whole buttermilk",
+                " eggs",
+                " saltine crackers",
+                " all-purpose flour",
+                " salt",
+                " boneless skinless chicken breasts",
+                " Vegetable oil",
+                " whole milk",
+                " black pepper"
+            ]
         },
         {
             "item_id": 84,
@@ -1681,7 +3036,38 @@
                 "sugars": 5.0,
                 "protein": 15.0
             },
-            "ingredients": []
+            "ingredients": [
+                "WILD POLLOCK FILET",
+                " GLUTEN FREE BREADING (MODIFIED POTATO STARCH",
+                " TAPIOCA STARCH",
+                " WHITE CORN FLOUR",
+                " SUGAR",
+                " SALT",
+                " CONTAINS TWO PERCENT OR LESS OF: YEAST",
+                " XANTHAN GUM",
+                " ONION POWDER",
+                " GARLIC POWDER",
+                " MONOGLYCERIDES",
+                " MODIFIED CELLULOSE GUM",
+                " SPICES",
+                " NATURAL FLAVOR",
+                " YEAST EXTRACT ASCORBIC ACID)",
+                " GLUTEN FREE BATTER [WATER",
+                " MODIFIED CORN STARCH",
+                " RICE FLOUR",
+                " ONION POWDER",
+                " GARLIC POWDER",
+                " SALT",
+                " TAPIOCA STARCH",
+                " DEXTRIN",
+                " LEAVENING (SODIUM ACID PYROPHOSPHATE",
+                " SODIUM BICARBONATE)",
+                " SPICE",
+                " DRIED TORULA YEAST",
+                " NATURAL FLAVOR",
+                " XANTHAN GUM",
+                " ANNATTO EXTRACT]. BREADING SET IN NON-GMO EXPELLER PRESSED CANOLA OIL."
+            ]
         },
         {
             "item_id": 85,
@@ -1721,7 +3107,30 @@
                 "sugars": 5.0,
                 "protein": 25.0
             },
-            "ingredients": []
+            "ingredients": [
+                "WATER",
+                " SOYBEAN OIL",
+                " VINEGAR",
+                " SUGAR",
+                " EGG YOLKS",
+                " SALT",
+                " BACON (BACON [CURED WITH WATER",
+                " SALT",
+                " SUGAR",
+                " SODIUM PHOSPHATES",
+                " SODIUM ASCORBATE",
+                " SODIUM NITRITE]",
+                " SMOKE FLAVOR)",
+                " CONTAINS LESS THAN 2% OF: FOOD STARCH-MODIFIED",
+                " WHEY",
+                " DRIED BUTTERMILK",
+                " PHOSPHORIC ACID",
+                " XANTHAN GUM",
+                " DRIED GARLIC",
+                " SORBIC ACID AND CALCIUM DISODIUM EDTA AS PRESERVATIVES",
+                " SPICES",
+                " NATURAL AND ARTIFICIAL FLAVOR."
+            ]
         },
         {
             "item_id": 87,
@@ -1741,7 +3150,30 @@
                 "sugars": 4.0,
                 "protein": 29.0
             },
-            "ingredients": []
+            "ingredients": [
+                "WATER",
+                " SOYBEAN OIL",
+                " VINEGAR",
+                " SUGAR",
+                " EGG YOLKS",
+                " SALT",
+                " BACON (BACON [CURED WITH WATER",
+                " SALT",
+                " SUGAR",
+                " SODIUM PHOSPHATES",
+                " SODIUM ASCORBATE",
+                " SODIUM NITRITE]",
+                " SMOKE FLAVOR)",
+                " CONTAINS LESS THAN 2% OF: FOOD STARCH-MODIFIED",
+                " WHEY",
+                " DRIED BUTTERMILK",
+                " PHOSPHORIC ACID",
+                " XANTHAN GUM",
+                " DRIED GARLIC",
+                " SORBIC ACID AND CALCIUM DISODIUM EDTA AS PRESERVATIVES",
+                " SPICES",
+                " NATURAL AND ARTIFICIAL FLAVOR."
+            ]
         },
         {
             "item_id": 88,
@@ -1761,7 +3193,65 @@
                 "sugars": 6.0,
                 "protein": 6.0
             },
-            "ingredients": []
+            "ingredients": [
+                "VEGETABLES: ICEBERG LETTUCE",
+                " GREEN LEAF LETTUCE",
+                " CARROTS",
+                " RED CABBAGE",
+                " RADISHES. DRESSING: SOUR CREAM (CULTURED MILK",
+                " CREAM",
+                " NONFAT MILK POWDER",
+                " GELATIN)",
+                " SOYBEAN OIL AND/OR CANOLA OIL",
+                " TOMATOES",
+                " WATER",
+                " SUGAR",
+                " BUTTERMILK (CULTURED PASTEURIZED PART-SKIM MILK",
+                " NONFAT MILK POWDER",
+                " SALT)",
+                " WHITE WINE VINEGAR",
+                " SALT",
+                " NATURAL FLAVORS",
+                " DEHYDRATED RED BELL PEPPER",
+                " SPICES (CONTAINS MUSTARD)",
+                " EGG YOLK",
+                " ONION",
+                " JALAPENO",
+                " DEHYDRATED GARLIC",
+                " CHIPOTLE PEPPER SAUCE (CHIPOTLE PEPPER PUREE [WATER",
+                " CHIPOTLE PEPPERS]",
+                " WATER",
+                " DISTILLED VINEGAR",
+                " SUGAR",
+                " SALT",
+                " ONION POWDER)",
+                " LEMON JUICE CONCENTRATE",
+                " XANTHAN GUM",
+                " LACTIC ACID",
+                " CITRIC ACID",
+                " CILANTRO. TORTILLA STRIPS: WHOLE GRAIN CORN",
+                " VEGETABLE OIL (SAFFLOWER OIL AND/OR SUNFLOWER OIL)",
+                " SEASONING: DEHYDRATED CHEDDAR CHEESE POWDER (CHEDDAR CHEESE [MILK",
+                " SALT",
+                " CULTURES",
+                " ENZYMES])",
+                " WHEY",
+                " BUTTERMILK POWDER",
+                " SALT",
+                " MALTODEXTRIN",
+                " AUTOLYZED YEAST EXTRACT",
+                " NATURAL FLAVORS",
+                " DEHYDRATED ONION",
+                " CITRIC ACID",
+                " LACTIC ACID",
+                " EXTRACTIVE OF PAPRIKA",
+                " TRACE OF LIME. CHEESE: CHEDDAR CHEESE (PASTEURIZED MILK",
+                " CHEESE CULTURE",
+                " SALT",
+                " ENZYMES)",
+                " POWDERED CELLULOSE (TO PREVENT CAKING)",
+                " NATAMYCIN (A NATURAL MOLD INHIBITOR)."
+            ]
         },
         {
             "item_id": 89,
@@ -1781,7 +3271,65 @@
                 "sugars": 12.0,
                 "protein": 23.0
             },
-            "ingredients": []
+            "ingredients": [
+                "VEGETABLES: ICEBERG LETTUCE",
+                " GREEN LEAF LETTUCE",
+                " CARROTS",
+                " RED CABBAGE",
+                " RADISHES. DRESSING: SOUR CREAM (CULTURED MILK",
+                " CREAM",
+                " NONFAT MILK POWDER",
+                " GELATIN)",
+                " SOYBEAN OIL AND/OR CANOLA OIL",
+                " TOMATOES",
+                " WATER",
+                " SUGAR",
+                " BUTTERMILK (CULTURED PASTEURIZED PART-SKIM MILK",
+                " NONFAT MILK POWDER",
+                " SALT)",
+                " WHITE WINE VINEGAR",
+                " SALT",
+                " NATURAL FLAVORS",
+                " DEHYDRATED RED BELL PEPPER",
+                " SPICES (CONTAINS MUSTARD)",
+                " EGG YOLK",
+                " ONION",
+                " JALAPENO",
+                " DEHYDRATED GARLIC",
+                " CHIPOTLE PEPPER SAUCE (CHIPOTLE PEPPER PUREE [WATER",
+                " CHIPOTLE PEPPERS]",
+                " WATER",
+                " DISTILLED VINEGAR",
+                " SUGAR",
+                " SALT",
+                " ONION POWDER)",
+                " LEMON JUICE CONCENTRATE",
+                " XANTHAN GUM",
+                " LACTIC ACID",
+                " CITRIC ACID",
+                " CILANTRO. TORTILLA STRIPS: WHOLE GRAIN CORN",
+                " VEGETABLE OIL (SAFFLOWER OIL AND/OR SUNFLOWER OIL)",
+                " SEASONING: DEHYDRATED CHEDDAR CHEESE POWDER (CHEDDAR CHEESE [MILK",
+                " SALT",
+                " CULTURES",
+                " ENZYMES])",
+                " WHEY",
+                " BUTTERMILK POWDER",
+                " SALT",
+                " MALTODEXTRIN",
+                " AUTOLYZED YEAST EXTRACT",
+                " NATURAL FLAVORS",
+                " DEHYDRATED ONION",
+                " CITRIC ACID",
+                " LACTIC ACID",
+                " EXTRACTIVE OF PAPRIKA",
+                " TRACE OF LIME. CHEESE: CHEDDAR CHEESE (PASTEURIZED MILK",
+                " CHEESE CULTURE",
+                " SALT",
+                " ENZYMES)",
+                " POWDERED CELLULOSE (TO PREVENT CAKING)",
+                " NATAMYCIN (A NATURAL MOLD INHIBITOR)."
+            ]
         },
         {
             "item_id": 90,
@@ -1801,7 +3349,54 @@
                 "sugars": 10.0,
                 "protein": 27.0
             },
-            "ingredients": []
+            "ingredients": [
+                "COOKED PENNE (WHITE PENNE PASTA [SEMOLINA (WHEAT)",
+                " DURUM WHEAT FLOUR",
+                " NIACIN",
+                " IRON (FERROUS SULFATE)",
+                " THIAMINE MONONITRATE",
+                " RIBOFLAVIN",
+                " FOLIC ACID]",
+                " WATER)",
+                " GRILLED CHICKEN BREAST (BONELESS SKINLESS CHICKEN BREAST FILLET WITH RIB MEAT",
+                " SOY PROTEIN [ISOLATED SOY PROTEIN",
+                " SOY LECITHIN]",
+                " SALT)",
+                " CAESAR DRESSING (SOYBEAN OIL",
+                " WATER",
+                " EGG YOLK",
+                " LEMON JUICE CONCENTRATE",
+                " SALT",
+                " WHITE WINE AND DISTILLED VINEGARS",
+                " SPICES [INCLUDING MUSTARD SEED]",
+                " PARMESAN CHEESE [PART-SKIM MILK",
+                " CHEESE CULTURE",
+                " SALT",
+                " ENZYMES]",
+                " GARLIC*",
+                " SODIUM BENZOATE AND POTASSIUM SORBATE ADDED AS PRESERVATIVES",
+                " ONION*",
+                " EXTRA VIRGIN OLIVE OIL",
+                " XANTHAN GUM",
+                " NATURAL FLAVORS",
+                " PROPYLENE GLYCOL ALGINATE",
+                " MOLASSES",
+                " CORN SYRUP",
+                " CARAMEL COLOR",
+                " SUGAR",
+                " TAMARIND",
+                " CALCIUM DISODIUM EDTA ADDED TO PROTECT FLAVOR",
+                " ANCHOVIES. *DEHYDRATED)",
+                " PARMESAN CHEESE (PASTEURIZED PART SKIM MILK",
+                " CHEESE CULTURE",
+                " SALT",
+                " ENZYMES AND <2% POWDERED CELLULOSE ADDED TO PREVENT CAKING)",
+                " RED BELL PEPPER",
+                " GREEN ONION",
+                " PARSLEY",
+                " SALT",
+                " BLACK PEPPER."
+            ]
         },
         {
             "item_id": 91,
@@ -1821,7 +3416,55 @@
                 "sugars": 8.0,
                 "protein": 14.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Wheat Flour Tortilla (44%) (Fortified Wheat Flour (Wheat Flour",
+                "  Calcium Carbonate",
+                "  Iron",
+                "  Niacin (B3)",
+                "  Thiamin (BI)",
+                "  Water",
+                "  Vegetable Oil (Palm Oil",
+                "  Rapeseed Oil) Humectant: Glycerol",
+                "  Raising Agents (Disodium Diphosphate",
+                "  Sodium Bicarbonate",
+                "  Malic Acid) Acidity Regulator: Citric Acid",
+                "  Stabiliser (Guar Gum",
+                "  Sodium Carboxy Methyl Cellulose)",
+                "  Preservatives (Potassium Sorbate",
+                "  Calcium Propionate)",
+                "  Emulsifiers (Mono-and Di-Glycerides of Fatty Acids)",
+                "  Dextrose",
+                "  Flavouring",
+                "  Salt)",
+                "  Cooked Chicken Slices (20%) (Chicken Breast (80%)",
+                "  Water",
+                "  Acidity Regulator (Potassium Lactate)",
+                "  Potato Starch",
+                "  Sugar",
+                "  Carageenan",
+                "  Stabilisers (Sodium Triphosphate",
+                "  Disodium Diphosphate",
+                "  Sodium Polyphosphate)",
+                "  Salt",
+                "  Preservative (Sodium Nitrite))",
+                "  String Cheese Stick (20%) (Pasteurised Milk",
+                "  Salt",
+                "  Acidity Regulator (Citric Acid)",
+                "  Lactic Acid Bacteria)",
+                "  BBQ Sauce (15%) (Water",
+                "  Sugar",
+                "  Spirit Vinegar",
+                "  Tomato Paste",
+                "  Thickener (Modified Maize Starch)",
+                "  Salt",
+                "  Smoked Water",
+                "  Onion Powder",
+                "  Garlic Powder",
+                "  Smoke Flavouring",
+                "  Caramelised Sugar",
+                "  Preservative (Potassium Sorbate)",
+                "  White Pepper)"
+            ]
         },
         {
             "item_id": 92,
@@ -1841,7 +3484,55 @@
                 "sugars": 7.0,
                 "protein": 16.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Wheat Flour Tortilla (44%) (Fortified Wheat Flour (Wheat Flour",
+                "  Calcium Carbonate",
+                "  Iron",
+                "  Niacin (B3)",
+                "  Thiamin (BI)",
+                "  Water",
+                "  Vegetable Oil (Palm Oil",
+                "  Rapeseed Oil) Humectant: Glycerol",
+                "  Raising Agents (Disodium Diphosphate",
+                "  Sodium Bicarbonate",
+                "  Malic Acid) Acidity Regulator: Citric Acid",
+                "  Stabiliser (Guar Gum",
+                "  Sodium Carboxy Methyl Cellulose)",
+                "  Preservatives (Potassium Sorbate",
+                "  Calcium Propionate)",
+                "  Emulsifiers (Mono-and Di-Glycerides of Fatty Acids)",
+                "  Dextrose",
+                "  Flavouring",
+                "  Salt)",
+                "  Cooked Chicken Slices (20%) (Chicken Breast (80%)",
+                "  Water",
+                "  Acidity Regulator (Potassium Lactate)",
+                "  Potato Starch",
+                "  Sugar",
+                "  Carageenan",
+                "  Stabilisers (Sodium Triphosphate",
+                "  Disodium Diphosphate",
+                "  Sodium Polyphosphate)",
+                "  Salt",
+                "  Preservative (Sodium Nitrite))",
+                "  String Cheese Stick (20%) (Pasteurised Milk",
+                "  Salt",
+                "  Acidity Regulator (Citric Acid)",
+                "  Lactic Acid Bacteria)",
+                "  BBQ Sauce (15%) (Water",
+                "  Sugar",
+                "  Spirit Vinegar",
+                "  Tomato Paste",
+                "  Thickener (Modified Maize Starch)",
+                "  Salt",
+                "  Smoked Water",
+                "  Onion Powder",
+                "  Garlic Powder",
+                "  Smoke Flavouring",
+                "  Caramelised Sugar",
+                "  Preservative (Potassium Sorbate)",
+                "  White Pepper)"
+            ]
         },
         {
             "item_id": 93,
@@ -1861,7 +3552,20 @@
                 "sugars": 3.0,
                 "protein": 14.0
             },
-            "ingredients": []
+            "ingredients": [
+                "almonds",
+                " pecans",
+                " cashew",
+                " pistachios",
+                " rice chex",
+                " pretzels",
+                " butter",
+                " honey",
+                " mustard",
+                " ground mustard",
+                " onion powder",
+                " garlic powder"
+            ]
         },
         {
             "item_id": 94,
@@ -1881,7 +3585,20 @@
                 "sugars": 2.0,
                 "protein": 16.0
             },
-            "ingredients": []
+            "ingredients": [
+                "almonds",
+                " pecans",
+                " cashew",
+                " pistachios",
+                " rice chex",
+                " pretzels",
+                " butter",
+                " honey",
+                " mustard",
+                " ground mustard",
+                " onion powder",
+                " garlic powder"
+            ]
         },
         {
             "item_id": 95,
@@ -1901,7 +3618,17 @@
                 "sugars": 3.0,
                 "protein": 15.0
             },
-            "ingredients": []
+            "ingredients": [
+                "mayonnaise",
+                " cilantro",
+                " scallions",
+                " celery ribs",
+                " sour cream, light",
+                " hot sauce",
+                " chicken",
+                " cheddar cheese",
+                " flour tortillas"
+            ]
         },
         {
             "item_id": 96,
@@ -1921,7 +3648,136 @@
                 "sugars": 2.0,
                 "protein": 16.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Fat Free Chocolate Pudding - Artificially Flavored",
+                " Skim Milk",
+                " Water",
+                " Sugar",
+                " Modified Food Starch",
+                " Cocoa Processed With Alkali",
+                " Cornstarch",
+                " Contains Less Than 1% Of Salt",
+                " Sodium Stearoyl Lactylate",
+                " For Smooth Texture",
+                " Sodium Alginate",
+                " Calcium Phosphate",
+                " Natural And Artificial Flavor",
+                " Artificial Color",
+                " Vitamin A Palmitate",
+                " Vitamin D",
+                " Grilled Chicken Breast With Rib Heat",
+                " Chicken Breast With Rib Meat",
+                " Water",
+                " Contains Less Than 2% Of Potassium Lactate",
+                " Chicken Flavor",
+                " Contains Chicken Broth",
+                " Salt",
+                " Wheat Starch",
+                " Flavor",
+                " Thiamin Hydrochloride",
+                " Sodium Lactate",
+                " Potassium Chloride",
+                " Salt",
+                " Dextrose",
+                " Sodium Phosphates",
+                " Sodium Diacetate",
+                " Natural And Artificial Flavor",
+                " Wheat Tortilla",
+                " Enriched Bleached Wheat Flour",
+                " Wheat Flour",
+                " Niacin",
+                " Reduced Iron",
+                " Thiamine Mononitrate",
+                " Riboflavin",
+                " Folic Acid",
+                " Water",
+                " Vegetable Shortening",
+                " Soybean Oil",
+                " Hydrogenated Soybean Oil",
+                " Salt",
+                " Leavening",
+                " Sodium Bicarbonate",
+                " Sodium Aluminum Sulfate",
+                " Corn Starch",
+                " Monocalcium Phosphate And/or Sodium Acid Pyrophosphate",
+                " Calcium Sulfate",
+                " Distilled Monoglycerides",
+                " Wheat Starch",
+                " Alpha Amylase",
+                " Tricalcium Phosphate",
+                " Bht And Citric Acid",
+                " Antioxidants",
+                " Cellulose Gum",
+                " Dough Conditioners",
+                " Fumaric Acid",
+                " Sodium Metabisulfite",
+                " Microcrystalline Cellulose",
+                " Dicalcium Phosphate",
+                " Calcium Propionate And Sorbic Acid",
+                " To Preserve Freshness",
+                " Caesar Dressing",
+                " Water",
+                " Soybean Oil",
+                " Vinegar",
+                " Corn Syrup",
+                " Parmesan And Romano Made From Cow\\'s Milk Cheese",
+                " Part - Skim Milk",
+                " Cheese Culture",
+                " Salt",
+                " Enzymes",
+                " Salt",
+                " Sugar",
+                " Egg Yolks",
+                " Contains Less Than 2% Of Garlic",
+                " Modified Food Starch",
+                " Xanthan Gum",
+                " Lemon Juice Concentrate",
+                " Lactic Acid",
+                " Phosphoric Acid",
+                " Anchovies",
+                " Hydrolyzed Soy Protein",
+                " Dried Corn Syrup",
+                " Spice",
+                " With Potassium Sorbate And Calcium Disodium Edta As Preservatives",
+                " Polysorbate 60",
+                " Defatted Soy Flour",
+                " Dried Garlic",
+                " Partially Hydrogenated Cottonseed And/or Soybean Oil",
+                " Wheat",
+                " Natural Flavor",
+                " Tamarind",
+                " Soybeans",
+                " Caramel Color",
+                " Maltodextrin",
+                " Parmesan Cheese - Pasteurized",
+                " Part - Skim Milk",
+                " Cheese Culture",
+                " Salt",
+                " Enzymes",
+                " Natamycin",
+                " Preservative",
+                " Fat Free Chocolate Pudding - Artificially Flavored",
+                " Contains",
+                " Milk",
+                " Grilled Chicken Breast With Rib Meat",
+                " Contains",
+                " Wheat",
+                " Wheat Tortilla",
+                " Contains",
+                " Wheat",
+                " Soy",
+                " Caesar Dressing",
+                " Contains",
+                " Milk",
+                " Egg",
+                " Seafood",
+                " Soy",
+                " Cottonseed",
+                " Wheat",
+                " Parmesan Cheese - Pasteurized",
+                " Contains",
+                " Milk"
+            ]
         },
         {
             "item_id": 97,
@@ -1941,7 +3797,21 @@
                 "sugars": 0.0,
                 "protein": 2.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Potatoes",
+                " Soybean Oil or Canola and Palm Oil",
+                " Modified Potato Starch",
+                " Rice Flour",
+                " Potato Dextrin",
+                " Salt",
+                " Leavening",
+                " Disodium Dihydrogen Pyrophosphate",
+                " Sodium Bicarbonate",
+                " Dextrose",
+                " Xanthan Gum",
+                " Sodium Acid Pyrophosphate added to preserve natural color",
+                " *Prepared in fryer used for product containing wheat"
+            ]
         },
         {
             "item_id": 98,
@@ -1961,7 +3831,22 @@
                 "sugars": 0.0,
                 "protein": 4.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Potatoes",
+                " Vegetable Oil",
+                " Canola Oil",
+                " Corn Oil",
+                " Soybean Oil",
+                " Hydrogenated Soybean Oil",
+                " Natural Beef Flavor",
+                " Wheat and Milk Derivatives",
+                " *",
+                " Dextrose",
+                " Sodium Acid Pyrophosphate",
+                " Maintain Color",
+                " Salt",
+                " *Natural beef flavor contains hydrolyzed wheat and hydrolyzed milk as starting ingredients"
+            ]
         },
         {
             "item_id": 99,
@@ -1981,7 +3866,21 @@
                 "sugars": 0.0,
                 "protein": 6.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Potatoes",
+                " Soybean Oil or Canola and Palm Oil",
+                " Modified Potato Starch",
+                " Rice Flour",
+                " Potato Dextrin",
+                " Salt",
+                " Leavening",
+                " Disodium Dihydrogen Pyrophosphate",
+                " Sodium Bicarbonate",
+                " Dextrose",
+                " Xanthan Gum",
+                " Sodium Acid Pyrophosphate added to preserve natural color",
+                " *Prepared in fryer used for product containing wheat"
+            ]
         },
         {
             "item_id": 100,
@@ -2001,7 +3900,22 @@
                 "sugars": 0.0,
                 "protein": 1.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Potatoes",
+                " Vegetable Oil",
+                " Canola Oil",
+                " Corn Oil",
+                " Soybean Oil",
+                " Hydrogenated Soybean Oil",
+                " Natural Beef Flavor",
+                " Wheat and Milk Derivatives",
+                " *",
+                " Dextrose",
+                " Sodium Acid Pyrophosphate",
+                " Maintain Color",
+                " Salt",
+                " *Natural beef flavor contains hydrolyzed wheat and hydrolyzed milk as starting ingredients"
+            ]
         },
         {
             "item_id": 101,
@@ -2021,7 +3935,14 @@
                 "sugars": 2.0,
                 "protein": 1.0
             },
-            "ingredients": []
+            "ingredients": [
+                "cabbage",
+                " lettuce",
+                " carrots",
+                " cucumber",
+                " tomatoes",
+                " fresh coriander"
+            ]
         },
         {
             "item_id": 102,
@@ -2041,7 +3962,20 @@
                 "sugars": 3.0,
                 "protein": 0.0
             },
-            "ingredients": []
+            "ingredients": [
+                "All-purpose Flour",
+                " Salt",
+                " Butter",
+                " Egg Yolks",
+                " Lemon Juice",
+                " Milk",
+                " Apples",
+                " Sugar",
+                " Flour",
+                " Cinnamon",
+                " Powdered Sugar",
+                " Vanilla"
+            ]
         },
         {
             "item_id": 103,
@@ -2061,7 +3995,40 @@
                 "sugars": 23.0,
                 "protein": 4.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Fruit Center",
+                " Fruit Puree",
+                " White Grape",
+                " Pear",
+                " And Strawberry",
+                " Sugar",
+                " Corn Syrup",
+                " Modified Corn Starch",
+                " Pectin",
+                " Tri - Calcium Phosphate",
+                " Citric Acid",
+                " Sodium Citrate",
+                " Natural And Artificial Strawberry Flavor",
+                " Red 40 Lake",
+                " Yogurt Coating",
+                " Sugar",
+                " Palm Kernel Oil",
+                " Whey Powder",
+                " Nonfat Milk Powder",
+                " Yogurt Powder",
+                " Cultured Whey And Nonfat Milk",
+                " Vitamin A Palmitate",
+                " Ascorbic Acid",
+                " Vitamin C",
+                " Vitamin D3",
+                " Titanium Dioxide",
+                " Soy Lecithin",
+                " Vanilla",
+                " Coconut Oil",
+                " Carnauba Wax",
+                " And Confectioner's Glaze",
+                " Lac - Resin"
+            ]
         },
         {
             "item_id": 104,
@@ -2081,7 +4048,19 @@
                 "sugars": 13.0,
                 "protein": 2.0
             },
-            "ingredients": []
+            "ingredients": [
+                "all-purpose flour",
+                " cane sugar",
+                " salt",
+                " butter",
+                " cream cheese",
+                " water",
+                " apple",
+                " sugar",
+                " flour",
+                " cinnamon",
+                " nutmeg"
+            ]
         },
         {
             "item_id": 105,
@@ -2101,7 +4080,18 @@
                 "sugars": 15.0,
                 "protein": 2.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Dark Chocolate",
+                " Flour",
+                " Baking Soda",
+                " Salt",
+                " Butter",
+                " Brown Sugar",
+                " Sugar",
+                " Vanilla Extract",
+                " Eggs",
+                " Chocolate Chips"
+            ]
         },
         {
             "item_id": 106,
@@ -2121,7 +4111,18 @@
                 "sugars": 13.0,
                 "protein": 2.0
             },
-            "ingredients": []
+            "ingredients": [
+                "butter",
+                " brown sugar",
+                " eggs",
+                " vanilla",
+                " all-purpose flour",
+                " baking soda",
+                " ground cinnamon",
+                " salt",
+                " Oats",
+                " raisins"
+            ]
         },
         {
             "item_id": 107,
@@ -2141,7 +4142,16 @@
                 "sugars": 6.0,
                 "protein": 1.0
             },
-            "ingredients": []
+            "ingredients": [
+                "egg whites",
+                " superfine sugar",
+                " whole milk",
+                " vanilla extract",
+                " salt",
+                " all purpose flour",
+                " unsalted butter",
+                " egg"
+            ]
         },
         {
             "item_id": 108,
@@ -2161,7 +4171,14 @@
                 "sugars": 48.0,
                 "protein": 8.0
             },
-            "ingredients": []
+            "ingredients": [
+                "INGREDIENTS: SUGAR",
+                " COCOA PROCESSED WITH ALKALI",
+                " LESS THAN 2% OF SOY LECITHIN",
+                " NATURAL FLAVOR",
+                " CARRAGEENAN",
+                " SALT."
+            ]
         },
         {
             "item_id": 109,
@@ -2181,7 +4198,15 @@
                 "sugars": 43.0,
                 "protein": 7.0
             },
-            "ingredients": []
+            "ingredients": [
+                "chocolate",
+                " walnuts",
+                " vanilla ice-cream",
+                " bananas",
+                " butter",
+                " cream",
+                " light brown sugar"
+            ]
         },
         {
             "item_id": 110,
@@ -2201,12 +4226,19 @@
                 "sugars": 45.0,
                 "protein": 6.0
             },
-            "ingredients": []
+            "ingredients": [
+                "strawberry ice-cream",
+                " strawberries",
+                " ice",
+                " ice-cream",
+                " cream",
+                " wafers"
+            ]
         },
         {
             "item_id": 111,
             "category": "Beverages",
-            "item_name": "Coca-Cola Classic (Medium)",
+            "item_name": "Coca-Cola Classic",
             "nutrition_facts": {
                 "serving_size": 595.4,
                 "calories": 200.0,
@@ -2221,12 +4253,16 @@
                 "sugars": 55.0,
                 "protein": 0.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Ice",
+                "Water",
+                "Sugar"
+            ]
         },
         {
             "item_id": 112,
             "category": "Beverages",
-            "item_name": "Diet Coke (Medium)",
+            "item_name": "Diet Coke",
             "nutrition_facts": {
                 "serving_size": 595.4,
                 "calories": 0.0,
@@ -2241,12 +4277,16 @@
                 "sugars": 0.0,
                 "protein": 0.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Ice",
+                "Water",
+                "Sugar"
+            ]
         },
         {
             "item_id": 113,
             "category": "Beverages",
-            "item_name": "Dr Pepper (Medium)",
+            "item_name": "Dr Pepper",
             "nutrition_facts": {
                 "serving_size": 595.4,
                 "calories": 190.0,
@@ -2261,12 +4301,16 @@
                 "sugars": 51.0,
                 "protein": 0.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Ice",
+                "Water",
+                "Sugar"
+            ]
         },
         {
             "item_id": 114,
             "category": "Beverages",
-            "item_name": "Diet Dr Pepper (Medium)",
+            "item_name": "Diet Dr Pepper",
             "nutrition_facts": {
                 "serving_size": 595.4,
                 "calories": 0.0,
@@ -2281,12 +4325,16 @@
                 "sugars": 0.0,
                 "protein": 3.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Ice",
+                "Water",
+                "Sugar"
+            ]
         },
         {
             "item_id": 115,
             "category": "Beverages",
-            "item_name": "Sprite (Medium)",
+            "item_name": "Sprite",
             "nutrition_facts": {
                 "serving_size": 595.4,
                 "calories": 200.0,
@@ -2301,12 +4349,16 @@
                 "sugars": 54.0,
                 "protein": 0.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Ice",
+                "Water",
+                "Sugar"
+            ]
         },
         {
             "item_id": 116,
             "category": "Beverages",
-            "item_name": "Minute Maid Orange Juice (Medium)",
+            "item_name": "Minute Maid Orange Juice",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 190.0,
@@ -2321,12 +4373,16 @@
                 "sugars": 39.0,
                 "protein": 3.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Ice",
+                "Water",
+                "Sugar"
+            ]
         },
         {
             "item_id": 117,
             "category": "Coffee & Tea",
-            "item_name": "Iced Tea (Medium)",
+            "item_name": "Iced Tea",
             "nutrition_facts": {
                 "serving_size": 595.4,
                 "calories": 0.0,
@@ -2341,12 +4397,16 @@
                 "sugars": 0.0,
                 "protein": 0.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 118,
             "category": "Coffee & Tea",
-            "item_name": "Sweet Tea (Medium)",
+            "item_name": "Sweet Tea",
             "nutrition_facts": {
                 "serving_size": 595.4,
                 "calories": 180.0,
@@ -2361,12 +4421,16 @@
                 "sugars": 45.0,
                 "protein": 1.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 119,
             "category": "Coffee & Tea",
-            "item_name": "Coffee (Medium)",
+            "item_name": "Coffee",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 0.0,
@@ -2381,12 +4445,16 @@
                 "sugars": 0.0,
                 "protein": 0.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 120,
             "category": "Coffee & Tea",
-            "item_name": "Latte (Medium)",
+            "item_name": "Latte",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 210.0,
@@ -2401,12 +4469,16 @@
                 "sugars": 15.0,
                 "protein": 11.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 121,
             "category": "Coffee & Tea",
-            "item_name": "Caramel Latte (Medium)",
+            "item_name": "Caramel Latte",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 340.0,
@@ -2421,12 +4493,16 @@
                 "sugars": 48.0,
                 "protein": 11.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 122,
             "category": "Coffee & Tea",
-            "item_name": "Hazelnut Latte (Medium)",
+            "item_name": "Hazelnut Latte",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 330.0,
@@ -2441,12 +4517,16 @@
                 "sugars": 47.0,
                 "protein": 11.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 123,
             "category": "Coffee & Tea",
-            "item_name": "French Vanilla Latte (Medium)",
+            "item_name": "French Vanilla Latte",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 330.0,
@@ -2461,12 +4541,16 @@
                 "sugars": 45.0,
                 "protein": 11.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 124,
             "category": "Coffee & Tea",
-            "item_name": "Latte with Sugar Free French Vanilla Syrup (Medium)",
+            "item_name": "Latte with Sugar Free French Vanilla Syrup",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 260.0,
@@ -2481,12 +4565,16 @@
                 "sugars": 15.0,
                 "protein": 12.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 125,
             "category": "Coffee & Tea",
-            "item_name": "Nonfat Latte (Medium)",
+            "item_name": "Nonfat Latte",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 130.0,
@@ -2501,12 +4589,16 @@
                 "sugars": 16.0,
                 "protein": 12.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 126,
             "category": "Coffee & Tea",
-            "item_name": "Nonfat Caramel Latte (Medium)",
+            "item_name": "Nonfat Caramel Latte",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 250.0,
@@ -2521,12 +4613,16 @@
                 "sugars": 48.0,
                 "protein": 12.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 127,
             "category": "Coffee & Tea",
-            "item_name": "Nonfat Hazelnut Latte (Medium)",
+            "item_name": "Nonfat Hazelnut Latte",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 250.0,
@@ -2541,12 +4637,16 @@
                 "sugars": 48.0,
                 "protein": 12.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 128,
             "category": "Coffee & Tea",
-            "item_name": "Nonfat French Vanilla Latte (Medium)",
+            "item_name": "Nonfat French Vanilla Latte",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 240.0,
@@ -2561,12 +4661,16 @@
                 "sugars": 46.0,
                 "protein": 12.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 129,
             "category": "Coffee & Tea",
-            "item_name": "Nonfat Latte with Sugar Free French Vanilla Syrup (Medium)",
+            "item_name": "Nonfat Latte with Sugar Free French Vanilla Syrup",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 170.0,
@@ -2581,12 +4685,16 @@
                 "sugars": 16.0,
                 "protein": 12.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 130,
             "category": "Coffee & Tea",
-            "item_name": "Mocha (Medium)",
+            "item_name": "Mocha",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 410.0,
@@ -2601,12 +4709,16 @@
                 "sugars": 53.0,
                 "protein": 13.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 131,
             "category": "Coffee & Tea",
-            "item_name": "Mocha with Nonfat Milk (Medium)",
+            "item_name": "Mocha with Nonfat Milk",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 330.0,
@@ -2621,12 +4733,16 @@
                 "sugars": 53.0,
                 "protein": 13.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 132,
             "category": "Coffee & Tea",
-            "item_name": "Caramel Mocha (Medium)",
+            "item_name": "Caramel Mocha",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 390.0,
@@ -2641,12 +4757,16 @@
                 "sugars": 50.0,
                 "protein": 12.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 133,
             "category": "Coffee & Tea",
-            "item_name": "Nonfat Caramel Mocha (Medium)",
+            "item_name": "Nonfat Caramel Mocha",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 310.0,
@@ -2661,12 +4781,16 @@
                 "sugars": 51.0,
                 "protein": 13.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 134,
             "category": "Coffee & Tea",
-            "item_name": "Hot Chocolate (Medium)",
+            "item_name": "Hot Chocolate",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 440.0,
@@ -2681,12 +4805,16 @@
                 "sugars": 56.0,
                 "protein": 14.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 135,
             "category": "Coffee & Tea",
-            "item_name": "Hot Chocolate with Nonfat Milk (Medium)",
+            "item_name": "Hot Chocolate with Nonfat Milk",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 340.0,
@@ -2701,12 +4829,16 @@
                 "sugars": 57.0,
                 "protein": 14.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 136,
             "category": "Coffee & Tea",
-            "item_name": "Regular Iced Coffee (Medium)",
+            "item_name": "Regular Iced Coffee",
             "nutrition_facts": {
                 "serving_size": 623.7,
                 "calories": 190.0,
@@ -2721,12 +4853,16 @@
                 "sugars": 30.0,
                 "protein": 1.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 137,
             "category": "Coffee & Tea",
-            "item_name": "Caramel Iced Coffee (Medium)",
+            "item_name": "Caramel Iced Coffee",
             "nutrition_facts": {
                 "serving_size": 623.7,
                 "calories": 180.0,
@@ -2741,12 +4877,16 @@
                 "sugars": 28.0,
                 "protein": 1.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 138,
             "category": "Coffee & Tea",
-            "item_name": "Hazelnut Iced Coffee (Medium)",
+            "item_name": "Hazelnut Iced Coffee",
             "nutrition_facts": {
                 "serving_size": 623.7,
                 "calories": 180.0,
@@ -2761,12 +4901,16 @@
                 "sugars": 28.0,
                 "protein": 1.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 139,
             "category": "Coffee & Tea",
-            "item_name": "French Vanilla Iced Coffee (Medium)",
+            "item_name": "French Vanilla Iced Coffee",
             "nutrition_facts": {
                 "serving_size": 623.7,
                 "calories": 170.0,
@@ -2781,12 +4925,16 @@
                 "sugars": 26.0,
                 "protein": 1.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 140,
             "category": "Coffee & Tea",
-            "item_name": "Iced Coffee with Sugar Free French Vanilla Syrup (Medium)",
+            "item_name": "Iced Coffee with Sugar Free French Vanilla Syrup",
             "nutrition_facts": {
                 "serving_size": 623.7,
                 "calories": 120.0,
@@ -2801,12 +4949,16 @@
                 "sugars": 2.0,
                 "protein": 1.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 141,
             "category": "Coffee & Tea",
-            "item_name": "Iced Mocha (Medium)",
+            "item_name": "Iced Mocha",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 350.0,
@@ -2821,12 +4973,16 @@
                 "sugars": 43.0,
                 "protein": 9.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 142,
             "category": "Coffee & Tea",
-            "item_name": "Iced Mocha with Nonfat Milk (Medium)",
+            "item_name": "Iced Mocha with Nonfat Milk",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 290.0,
@@ -2841,12 +4997,16 @@
                 "sugars": 43.0,
                 "protein": 10.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 143,
             "category": "Coffee & Tea",
-            "item_name": "Iced Caramel Mocha (Medium)",
+            "item_name": "Iced Caramel Mocha",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 340.0,
@@ -2861,12 +5021,16 @@
                 "sugars": 41.0,
                 "protein": 9.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 144,
             "category": "Coffee & Tea",
-            "item_name": "Iced Nonfat Caramel Mocha (Medium)",
+            "item_name": "Iced Nonfat Caramel Mocha",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 270.0,
@@ -2881,12 +5045,16 @@
                 "sugars": 41.0,
                 "protein": 10.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 145,
             "category": "Coffee & Tea",
-            "item_name": "Frapp\u00c3\u00a9 Mocha (Medium)",
+            "item_name": "Frapp\u00c3\u00a9 Mocha",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 550.0,
@@ -2901,12 +5069,16 @@
                 "sugars": 71.0,
                 "protein": 9.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 146,
             "category": "Coffee & Tea",
-            "item_name": "Frapp\u00c3\u00a9 Caramel (Medium)",
+            "item_name": "Frapp\u00c3\u00a9 Caramel",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 550.0,
@@ -2921,12 +5093,16 @@
                 "sugars": 71.0,
                 "protein": 9.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 147,
             "category": "Coffee & Tea",
-            "item_name": "Frapp\u00c3\u00a9 Chocolate Chip (Medium)",
+            "item_name": "Frapp\u00c3\u00a9 Chocolate Chip",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 630.0,
@@ -2941,12 +5117,16 @@
                 "sugars": 81.0,
                 "protein": 9.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Sugar",
+                "Cream",
+                "Caffeine"
+            ]
         },
         {
             "item_id": 148,
             "category": "Smoothies & Shakes",
-            "item_name": "Blueberry Pomegranate Smoothie (Medium)",
+            "item_name": "Blueberry Pomegranate Smoothie",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 260.0,
@@ -2961,12 +5141,16 @@
                 "sugars": 54.0,
                 "protein": 3.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Fruit",
+                "Milk",
+                "Sugar"
+            ]
         },
         {
             "item_id": 149,
             "category": "Smoothies & Shakes",
-            "item_name": "Strawberry Banana Smoothie (Medium)",
+            "item_name": "Strawberry Banana Smoothie",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 250.0,
@@ -2981,12 +5165,16 @@
                 "sugars": 54.0,
                 "protein": 4.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Fruit",
+                "Milk",
+                "Sugar"
+            ]
         },
         {
             "item_id": 150,
             "category": "Smoothies & Shakes",
-            "item_name": "Mango Pineapple Smoothie (Medium)",
+            "item_name": "Mango Pineapple Smoothie",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 260.0,
@@ -3001,12 +5189,16 @@
                 "sugars": 56.0,
                 "protein": 3.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Fruit",
+                "Milk",
+                "Sugar"
+            ]
         },
         {
             "item_id": 151,
             "category": "Smoothies & Shakes",
-            "item_name": "Vanilla Shake (Medium)",
+            "item_name": "Vanilla Shake",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 660.0,
@@ -3021,12 +5213,16 @@
                 "sugars": 81.0,
                 "protein": 14.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Fruit",
+                "Milk",
+                "Sugar"
+            ]
         },
         {
             "item_id": 152,
             "category": "Smoothies & Shakes",
-            "item_name": "Strawberry Shake (Medium)",
+            "item_name": "Strawberry Shake",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 690.0,
@@ -3041,12 +5237,16 @@
                 "sugars": 100.0,
                 "protein": 15.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Fruit",
+                "Milk",
+                "Sugar"
+            ]
         },
         {
             "item_id": 153,
             "category": "Smoothies & Shakes",
-            "item_name": "Chocolate Shake (Medium)",
+            "item_name": "Chocolate Shake",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 700.0,
@@ -3061,12 +5261,16 @@
                 "sugars": 97.0,
                 "protein": 15.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Fruit",
+                "Milk",
+                "Sugar"
+            ]
         },
         {
             "item_id": 154,
             "category": "Smoothies & Shakes",
-            "item_name": "Shamrock Shake (Medium)",
+            "item_name": "Shamrock Shake",
             "nutrition_facts": {
                 "serving_size": 453.6,
                 "calories": 660.0,
@@ -3081,12 +5285,16 @@
                 "sugars": 93.0,
                 "protein": 14.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Fruit",
+                "Milk",
+                "Sugar"
+            ]
         },
         {
             "item_id": 155,
             "category": "Smoothies & Shakes",
-            "item_name": "McFlurry with M&M\u00e2\u20ac\u2122s Candies (Medium)",
+            "item_name": "McFlurry with M&M\u00e2\u20ac\u2122s Candies",
             "nutrition_facts": {
                 "serving_size": 459.3,
                 "calories": 930.0,
@@ -3101,12 +5309,16 @@
                 "sugars": 128.0,
                 "protein": 20.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Fruit",
+                "Milk",
+                "Sugar"
+            ]
         },
         {
             "item_id": 156,
             "category": "Smoothies & Shakes",
-            "item_name": "McFlurry with Oreo Cookies (Medium)",
+            "item_name": "McFlurry with Oreo Cookies",
             "nutrition_facts": {
                 "serving_size": 379.9,
                 "calories": 690.0,
@@ -3121,12 +5333,16 @@
                 "sugars": 85.0,
                 "protein": 15.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Fruit",
+                "Milk",
+                "Sugar"
+            ]
         },
         {
             "item_id": 157,
             "category": "Smoothies & Shakes",
-            "item_name": "McFlurry with Reese's Peanut Butter Cups (Medium)",
+            "item_name": "McFlurry with Reese's Peanut Butter Cups",
             "nutrition_facts": {
                 "serving_size": 402.6,
                 "calories": 810.0,
@@ -3141,7 +5357,11 @@
                 "sugars": 103.0,
                 "protein": 21.0
             },
-            "ingredients": []
+            "ingredients": [
+                "Fruit",
+                "Milk",
+                "Sugar"
+            ]
         }
     ]
 }

@@ -4,12 +4,12 @@
     "email" : "sotodaniel531@gmail.com",
     "preferences" : {
         "calories" : 2,
-        "total-fat": 4,
-        "saturated-fat": 6,
+        "total_fat": 4,
+        "saturated_fat": 6,
         "sodium": 4,
         "carbohydrates": 6,
         "sugars" : 2,
         "protein" : 7
     },
-    "filters" : ["trans_fat", "cholesterol", "nuts", "spiciness", "beef", "pork", "chicken", "milk", "egg"]
+    "filters" : ["trans_fat", "cholesterol", "nuts", "spicy", "vegan", "dairy-free"]
 }
