@@ -3,7 +3,7 @@ import csv
 import re
 
 def create_restaurant(restaurant_obj):
-    with open("menu.csv", newline='') as csvfile:
+    with open("NOSQL/menu.csv", newline='') as csvfile:
         menu_item_id = 1
         reader = csv.DictReader(csvfile)
         
@@ -47,7 +47,7 @@ def create_restaurant(restaurant_obj):
                 menu_item_id += 1
 
 
-    with open("restaurants.json", "w") as f:
+    with open("NOSQL/restaurants.json", "w") as f:
         json.dump(restaurant_obj, f, indent=4)
 
 
