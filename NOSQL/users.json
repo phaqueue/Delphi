@@ -11,5 +11,5 @@
         "sugars" : 2,
         "protein" : 7
     },
-    "filters" : ["trans_fat", "cholesterol", "nuts", "spicy", "vegan", "dairy-free"]
+    "filters" : ["trans_fat", "cholesterol", "nuts", "spiciness", "beef", "pork", "chicken", "milk", "egg"]
 }
