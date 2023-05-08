@@ -1,6 +1,7 @@
 {
     "user_id" : 1,  
-    "name" : {"first_name": "Daniel", "last_name" : "Soto"},
+    "first_name": "Daniel",
+    "last_name": "Soto",
     "email" : "sotodaniel531@gmail.com",
     "preferences" : {
         "calories" : 2,
