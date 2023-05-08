@@ -17,6 +17,13 @@ drink_ingredients = {
 requests_per_minute = 5
 delay_time = 60 / requests_per_minute
 
+def filter_printable_strings(strings):
+    filtered = []
+    for s in strings:
+        if all(ord(c) < 128 and c.isprintable() for c in s):
+            filtered.append(s.lstrip())
+    return filtered
+
 def get_ingredients(item):
     app_id = 'a396278c'
     app_key = 'ca5fb53010beec95f9f51d02515a8a47'
@@ -28,7 +35,7 @@ def get_ingredients(item):
                 if "foodContentsLabel" in result['food'] and result['food']['foodContentsLabel'] not in ["", "We are working on getting the ingredients for this item"]:
                     if type(result['food']['foodContentsLabel']) == str:
                         ingredients = result['food']['foodContentsLabel'].split(";")
-                        return ingredients
+                        return filter_printable_strings(ingredients)
         return []         
     else:
         return []
