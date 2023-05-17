@@ -1,5 +1,5 @@
 {
-    "restaurant_id": 1,
+    "restaurantId": 1,
     "restaurant_name": "McDonald's",
     "address": "15459 Culver Dr, Irvine, CA 92606",
     "menu_items": [
@@ -7,7 +7,7 @@
             "item_id": 1,
             "category": "Breakfast",
             "item_name": "Egg McMuffin",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 136.1,
                 "calories": 300.0,
                 "calories_from_fat": 120.0,
@@ -33,7 +33,7 @@
             "item_id": 2,
             "category": "Breakfast",
             "item_name": "Egg White Delight",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 136.1,
                 "calories": 250.0,
                 "calories_from_fat": 70.0,
@@ -120,7 +120,7 @@
             "item_id": 3,
             "category": "Breakfast",
             "item_name": "Sausage McMuffin",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 110.6,
                 "calories": 370.0,
                 "calories_from_fat": 200.0,
@@ -148,7 +148,7 @@
             "item_id": 4,
             "category": "Breakfast",
             "item_name": "Sausage McMuffin with Egg",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 161.6,
                 "calories": 450.0,
                 "calories_from_fat": 250.0,
@@ -174,7 +174,7 @@
             "item_id": 5,
             "category": "Breakfast",
             "item_name": "Sausage McMuffin with Egg Whites",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 161.6,
                 "calories": 400.0,
                 "calories_from_fat": 210.0,
@@ -261,7 +261,7 @@
             "item_id": 6,
             "category": "Breakfast",
             "item_name": "Steak & Egg McMuffin",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 184.3,
                 "calories": 430.0,
                 "calories_from_fat": 210.0,
@@ -281,7 +281,7 @@
             "item_id": 7,
             "category": "Breakfast",
             "item_name": "Bacon, Egg & Cheese Biscuit (Regular Biscuit)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 150.3,
                 "calories": 460.0,
                 "calories_from_fat": 230.0,
@@ -307,7 +307,7 @@
             "item_id": 8,
             "category": "Breakfast",
             "item_name": "Bacon, Egg & Cheese Biscuit (Large Biscuit)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 164.4,
                 "calories": 520.0,
                 "calories_from_fat": 270.0,
@@ -333,7 +333,7 @@
             "item_id": 9,
             "category": "Breakfast",
             "item_name": "Bacon, Egg & Cheese Biscuit with Egg Whites (Regular Biscuit)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 153.1,
                 "calories": 410.0,
                 "calories_from_fat": 180.0,
@@ -359,7 +359,7 @@
             "item_id": 10,
             "category": "Breakfast",
             "item_name": "Bacon, Egg & Cheese Biscuit with Egg Whites (Large Biscuit)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 167.3,
                 "calories": 470.0,
                 "calories_from_fat": 220.0,
@@ -385,7 +385,7 @@
             "item_id": 11,
             "category": "Breakfast",
             "item_name": "Sausage Biscuit (Regular Biscuit)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 116.2,
                 "calories": 430.0,
                 "calories_from_fat": 240.0,
@@ -416,7 +416,7 @@
             "item_id": 12,
             "category": "Breakfast",
             "item_name": "Sausage Biscuit (Large Biscuit)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 130.4,
                 "calories": 480.0,
                 "calories_from_fat": 280.0,
@@ -447,7 +447,7 @@
             "item_id": 13,
             "category": "Breakfast",
             "item_name": "Sausage Biscuit with Egg (Regular Biscuit)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 161.6,
                 "calories": 510.0,
                 "calories_from_fat": 290.0,
@@ -478,7 +478,7 @@
             "item_id": 14,
             "category": "Breakfast",
             "item_name": "Sausage Biscuit with Egg (Large Biscuit)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 175.8,
                 "calories": 570.0,
                 "calories_from_fat": 330.0,
@@ -509,7 +509,7 @@
             "item_id": 15,
             "category": "Breakfast",
             "item_name": "Sausage Biscuit with Egg Whites (Regular Biscuit)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 167.3,
                 "calories": 460.0,
                 "calories_from_fat": 250.0,
@@ -540,7 +540,7 @@
             "item_id": 16,
             "category": "Breakfast",
             "item_name": "Sausage Biscuit with Egg Whites (Large Biscuit)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 181.4,
                 "calories": 520.0,
                 "calories_from_fat": 280.0,
@@ -562,7 +562,7 @@
             "item_id": 17,
             "category": "Breakfast",
             "item_name": "Southern Style Chicken Biscuit (Regular Biscuit)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 141.8,
                 "calories": 410.0,
                 "calories_from_fat": 180.0,
@@ -601,7 +601,7 @@
             "item_id": 18,
             "category": "Breakfast",
             "item_name": "Southern Style Chicken Biscuit (Large Biscuit)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 155.9,
                 "calories": 470.0,
                 "calories_from_fat": 220.0,
@@ -640,7 +640,7 @@
             "item_id": 19,
             "category": "Breakfast",
             "item_name": "Steak & Egg Biscuit (Regular Biscuit)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 201.3,
                 "calories": 540.0,
                 "calories_from_fat": 290.0,
@@ -660,7 +660,7 @@
             "item_id": 20,
             "category": "Breakfast",
             "item_name": "Bacon, Egg & Cheese McGriddles",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 172.9,
                 "calories": 460.0,
                 "calories_from_fat": 190.0,
@@ -686,7 +686,7 @@
             "item_id": 21,
             "category": "Breakfast",
             "item_name": "Bacon, Egg & Cheese McGriddles with Egg Whites",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 178.6,
                 "calories": 400.0,
                 "calories_from_fat": 140.0,
@@ -712,7 +712,7 @@
             "item_id": 22,
             "category": "Breakfast",
             "item_name": "Sausage McGriddles",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 141.8,
                 "calories": 420.0,
                 "calories_from_fat": 200.0,
@@ -745,7 +745,7 @@
             "item_id": 23,
             "category": "Breakfast",
             "item_name": "Sausage, Egg & Cheese McGriddles",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 201.3,
                 "calories": 550.0,
                 "calories_from_fat": 280.0,
@@ -774,7 +774,7 @@
             "item_id": 24,
             "category": "Breakfast",
             "item_name": "Sausage, Egg & Cheese McGriddles with Egg Whites",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 204.1,
                 "calories": 500.0,
                 "calories_from_fat": 230.0,
@@ -803,7 +803,7 @@
             "item_id": 25,
             "category": "Breakfast",
             "item_name": "Bacon, Egg & Cheese Bagel",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 195.6,
                 "calories": 620.0,
                 "calories_from_fat": 280.0,
@@ -829,7 +829,7 @@
             "item_id": 26,
             "category": "Breakfast",
             "item_name": "Bacon, Egg & Cheese Bagel with Egg Whites",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 201.3,
                 "calories": 570.0,
                 "calories_from_fat": 230.0,
@@ -855,7 +855,7 @@
             "item_id": 27,
             "category": "Breakfast",
             "item_name": "Steak, Egg & Cheese Bagel",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 241.0,
                 "calories": 670.0,
                 "calories_from_fat": 310.0,
@@ -934,7 +934,7 @@
             "item_id": 28,
             "category": "Breakfast",
             "item_name": "Big Breakfast (Regular Biscuit)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 269.3,
                 "calories": 740.0,
                 "calories_from_fat": 430.0,
@@ -961,7 +961,7 @@
             "item_id": 29,
             "category": "Breakfast",
             "item_name": "Big Breakfast (Large Biscuit)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 283.5,
                 "calories": 800.0,
                 "calories_from_fat": 470.0,
@@ -988,7 +988,7 @@
             "item_id": 30,
             "category": "Breakfast",
             "item_name": "Big Breakfast with Egg Whites (Regular Biscuit)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 272.2,
                 "calories": 640.0,
                 "calories_from_fat": 330.0,
@@ -1015,7 +1015,7 @@
             "item_id": 31,
             "category": "Breakfast",
             "item_name": "Big Breakfast with Egg Whites (Large Biscuit)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 286.3,
                 "calories": 690.0,
                 "calories_from_fat": 370.0,
@@ -1037,7 +1037,7 @@
             "item_id": 32,
             "category": "Breakfast",
             "item_name": "Big Breakfast with Hotcakes (Regular Biscuit)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 419.6,
                 "calories": 1090.0,
                 "calories_from_fat": 510.0,
@@ -1064,7 +1064,7 @@
             "item_id": 33,
             "category": "Breakfast",
             "item_name": "Big Breakfast with Hotcakes (Large Biscuit)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 433.8,
                 "calories": 1150.0,
                 "calories_from_fat": 540.0,
@@ -1091,7 +1091,7 @@
             "item_id": 34,
             "category": "Breakfast",
             "item_name": "Big Breakfast with Hotcakes and Egg Whites (Regular Biscuit)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 422.4,
                 "calories": 990.0,
                 "calories_from_fat": 410.0,
@@ -1117,7 +1117,7 @@
             "item_id": 35,
             "category": "Breakfast",
             "item_name": "Big Breakfast with Hotcakes and Egg Whites (Large Biscuit)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 436.6,
                 "calories": 1050.0,
                 "calories_from_fat": 450.0,
@@ -1139,7 +1139,7 @@
             "item_id": 36,
             "category": "Breakfast",
             "item_name": "Hotcakes",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 150.3,
                 "calories": 350.0,
                 "calories_from_fat": 80.0,
@@ -1168,7 +1168,7 @@
             "item_id": 37,
             "category": "Breakfast",
             "item_name": "Hotcakes and Sausage",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 192.8,
                 "calories": 520.0,
                 "calories_from_fat": 210.0,
@@ -1197,7 +1197,7 @@
             "item_id": 38,
             "category": "Breakfast",
             "item_name": "Sausage Burrito",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 110.6,
                 "calories": 300.0,
                 "calories_from_fat": 150.0,
@@ -1250,7 +1250,7 @@
             "item_id": 39,
             "category": "Breakfast",
             "item_name": "Hash Brown",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 56.7,
                 "calories": 150.0,
                 "calories_from_fat": 80.0,
@@ -1277,7 +1277,7 @@
             "item_id": 40,
             "category": "Breakfast",
             "item_name": "Cinnamon Melts",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 113.4,
                 "calories": 460.0,
                 "calories_from_fat": 170.0,
@@ -1305,7 +1305,7 @@
             "item_id": 41,
             "category": "Breakfast",
             "item_name": "Fruit & Maple Oatmeal",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 272.2,
                 "calories": 290.0,
                 "calories_from_fat": 35.0,
@@ -1340,7 +1340,7 @@
             "item_id": 42,
             "category": "Breakfast",
             "item_name": "Fruit & Maple Oatmeal without Brown Sugar",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 272.2,
                 "calories": 260.0,
                 "calories_from_fat": 40.0,
@@ -1375,7 +1375,7 @@
             "item_id": 43,
             "category": "Beef & Pork",
             "item_name": "Big Mac",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 209.8,
                 "calories": 530.0,
                 "calories_from_fat": 240.0,
@@ -1434,7 +1434,7 @@
             "item_id": 44,
             "category": "Beef & Pork",
             "item_name": "Quarter Pounder with Cheese",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 201.3,
                 "calories": 520.0,
                 "calories_from_fat": 240.0,
@@ -1515,7 +1515,7 @@
             "item_id": 45,
             "category": "Beef & Pork",
             "item_name": "Quarter Pounder with Bacon & Cheese",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 226.8,
                 "calories": 600.0,
                 "calories_from_fat": 260.0,
@@ -1549,7 +1549,7 @@
             "item_id": 46,
             "category": "Beef & Pork",
             "item_name": "Quarter Pounder with Bacon Habanero Ranch",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 235.3,
                 "calories": 610.0,
                 "calories_from_fat": 280.0,
@@ -1583,7 +1583,7 @@
             "item_id": 47,
             "category": "Beef & Pork",
             "item_name": "Quarter Pounder Deluxe",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 243.8,
                 "calories": 540.0,
                 "calories_from_fat": 250.0,
@@ -1617,7 +1617,7 @@
             "item_id": 48,
             "category": "Beef & Pork",
             "item_name": "Double Quarter Pounder with Cheese",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 283.5,
                 "calories": 750.0,
                 "calories_from_fat": 380.0,
@@ -1698,7 +1698,7 @@
             "item_id": 49,
             "category": "Beef & Pork",
             "item_name": "Hamburger",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 99.2,
                 "calories": 240.0,
                 "calories_from_fat": 70.0,
@@ -1728,7 +1728,7 @@
             "item_id": 50,
             "category": "Beef & Pork",
             "item_name": "Cheeseburger",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 113.4,
                 "calories": 290.0,
                 "calories_from_fat": 100.0,
@@ -1820,7 +1820,7 @@
             "item_id": 51,
             "category": "Beef & Pork",
             "item_name": "Double Cheeseburger",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 161.6,
                 "calories": 430.0,
                 "calories_from_fat": 190.0,
@@ -1877,7 +1877,7 @@
             "item_id": 52,
             "category": "Beef & Pork",
             "item_name": "Bacon Clubhouse Burger",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 269.3,
                 "calories": 720.0,
                 "calories_from_fat": 360.0,
@@ -1907,7 +1907,7 @@
             "item_id": 53,
             "category": "Beef & Pork",
             "item_name": "McDouble",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 147.4,
                 "calories": 380.0,
                 "calories_from_fat": 150.0,
@@ -1927,7 +1927,7 @@
             "item_id": 54,
             "category": "Beef & Pork",
             "item_name": "Bacon McDouble",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 161.6,
                 "calories": 440.0,
                 "calories_from_fat": 200.0,
@@ -1958,7 +1958,7 @@
             "item_id": 55,
             "category": "Beef & Pork",
             "item_name": "Daily Double",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 189.9,
                 "calories": 430.0,
                 "calories_from_fat": 200.0,
@@ -1986,7 +1986,7 @@
             "item_id": 56,
             "category": "Beef & Pork",
             "item_name": "Jalape\u5e3do Double",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 158.8,
                 "calories": 430.0,
                 "calories_from_fat": 210.0,
@@ -2034,7 +2034,7 @@
             "item_id": 57,
             "category": "Beef & Pork",
             "item_name": "McRib",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 207.0,
                 "calories": 500.0,
                 "calories_from_fat": 240.0,
@@ -2054,7 +2054,7 @@
             "item_id": 58,
             "category": "Chicken & Fish",
             "item_name": "Premium Crispy Chicken Classic Sandwich",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 212.6,
                 "calories": 510.0,
                 "calories_from_fat": 200.0,
@@ -2090,7 +2090,7 @@
             "item_id": 59,
             "category": "Chicken & Fish",
             "item_name": "Premium Grilled Chicken Classic Sandwich",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 198.5,
                 "calories": 350.0,
                 "calories_from_fat": 80.0,
@@ -2185,7 +2185,7 @@
             "item_id": 60,
             "category": "Chicken & Fish",
             "item_name": "Premium Crispy Chicken Club Sandwich",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 249.5,
                 "calories": 670.0,
                 "calories_from_fat": 300.0,
@@ -2214,7 +2214,7 @@
             "item_id": 61,
             "category": "Chicken & Fish",
             "item_name": "Premium Grilled Chicken Club Sandwich",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 235.3,
                 "calories": 510.0,
                 "calories_from_fat": 180.0,
@@ -2252,7 +2252,7 @@
             "item_id": 62,
             "category": "Chicken & Fish",
             "item_name": "Premium Crispy Chicken Ranch BLT Sandwich",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 229.6,
                 "calories": 610.0,
                 "calories_from_fat": 250.0,
@@ -2278,7 +2278,7 @@
             "item_id": 63,
             "category": "Chicken & Fish",
             "item_name": "Premium Grilled Chicken Ranch BLT Sandwich",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 215.5,
                 "calories": 450.0,
                 "calories_from_fat": 130.0,
@@ -2304,7 +2304,7 @@
             "item_id": 64,
             "category": "Chicken & Fish",
             "item_name": "Bacon Clubhouse Crispy Chicken Sandwich",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 283.5,
                 "calories": 750.0,
                 "calories_from_fat": 340.0,
@@ -2340,7 +2340,7 @@
             "item_id": 65,
             "category": "Chicken & Fish",
             "item_name": "Bacon Clubhouse Grilled Chicken Sandwich",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 269.3,
                 "calories": 590.0,
                 "calories_from_fat": 230.0,
@@ -2373,7 +2373,7 @@
             "item_id": 66,
             "category": "Chicken & Fish",
             "item_name": "Southern Style Crispy Chicken Sandwich",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 158.8,
                 "calories": 430.0,
                 "calories_from_fat": 170.0,
@@ -2410,7 +2410,7 @@
             "item_id": 67,
             "category": "Chicken & Fish",
             "item_name": "McChicken",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 144.6,
                 "calories": 360.0,
                 "calories_from_fat": 140.0,
@@ -2430,7 +2430,7 @@
             "item_id": 68,
             "category": "Chicken & Fish",
             "item_name": "Bacon Cheddar McChicken",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 170.1,
                 "calories": 480.0,
                 "calories_from_fat": 220.0,
@@ -2481,7 +2481,7 @@
             "item_id": 69,
             "category": "Chicken & Fish",
             "item_name": "Bacon Buffalo Ranch McChicken",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 161.6,
                 "calories": 430.0,
                 "calories_from_fat": 190.0,
@@ -2525,7 +2525,7 @@
             "item_id": 70,
             "category": "Chicken & Fish",
             "item_name": "Buffalo Ranch McChicken",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 147.4,
                 "calories": 360.0,
                 "calories_from_fat": 150.0,
@@ -2569,7 +2569,7 @@
             "item_id": 71,
             "category": "Chicken & Fish",
             "item_name": "Premium McWrap Chicken & Bacon (Crispy Chicken)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 314.7,
                 "calories": 630.0,
                 "calories_from_fat": 280.0,
@@ -2589,7 +2589,7 @@
             "item_id": 72,
             "category": "Chicken & Fish",
             "item_name": "Premium McWrap Chicken & Bacon (Grilled Chicken)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 303.3,
                 "calories": 480.0,
                 "calories_from_fat": 170.0,
@@ -2609,7 +2609,7 @@
             "item_id": 73,
             "category": "Chicken & Fish",
             "item_name": "Premium McWrap Chicken & Ranch (Crispy Chicken)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 309.0,
                 "calories": 610.0,
                 "calories_from_fat": 280.0,
@@ -2629,7 +2629,7 @@
             "item_id": 74,
             "category": "Chicken & Fish",
             "item_name": "Premium McWrap Chicken & Ranch (Grilled Chicken)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 297.7,
                 "calories": 450.0,
                 "calories_from_fat": 160.0,
@@ -2649,7 +2649,7 @@
             "item_id": 75,
             "category": "Chicken & Fish",
             "item_name": "Premium McWrap Southwest Chicken (Crispy Chicken)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 314.7,
                 "calories": 670.0,
                 "calories_from_fat": 300.0,
@@ -2698,7 +2698,7 @@
             "item_id": 76,
             "category": "Chicken & Fish",
             "item_name": "Premium McWrap Southwest Chicken (Grilled Chicken)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 317.5,
                 "calories": 520.0,
                 "calories_from_fat": 180.0,
@@ -2726,7 +2726,7 @@
             "item_id": 77,
             "category": "Chicken & Fish",
             "item_name": "Premium McWrap Chicken Sweet Chili (Crispy Chicken)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 303.3,
                 "calories": 540.0,
                 "calories_from_fat": 200.0,
@@ -2805,7 +2805,7 @@
             "item_id": 78,
             "category": "Chicken & Fish",
             "item_name": "Premium McWrap Chicken Sweet Chili (Grilled Chicken)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 292.0,
                 "calories": 380.0,
                 "calories_from_fat": 90.0,
@@ -2870,7 +2870,7 @@
             "item_id": 79,
             "category": "Chicken & Fish",
             "item_name": "Chicken McNuggets (4 piece)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 65.2,
                 "calories": 190.0,
                 "calories_from_fat": 110.0,
@@ -2900,7 +2900,7 @@
             "item_id": 80,
             "category": "Chicken & Fish",
             "item_name": "Chicken McNuggets (6 piece)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 96.4,
                 "calories": 280.0,
                 "calories_from_fat": 160.0,
@@ -2930,7 +2930,7 @@
             "item_id": 81,
             "category": "Chicken & Fish",
             "item_name": "Chicken McNuggets (10 piece)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 161.6,
                 "calories": 470.0,
                 "calories_from_fat": 270.0,
@@ -2960,7 +2960,7 @@
             "item_id": 82,
             "category": "Chicken & Fish",
             "item_name": "Chicken McNuggets (20 piece)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 323.2,
                 "calories": 940.0,
                 "calories_from_fat": 530.0,
@@ -2990,7 +2990,7 @@
             "item_id": 83,
             "category": "Chicken & Fish",
             "item_name": "Chicken McNuggets (40 piece)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 646.4,
                 "calories": 1880.0,
                 "calories_from_fat": 1060.0,
@@ -3020,7 +3020,7 @@
             "item_id": 84,
             "category": "Chicken & Fish",
             "item_name": "Filet-O-Fish",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 141.8,
                 "calories": 390.0,
                 "calories_from_fat": 170.0,
@@ -3071,7 +3071,7 @@
             "item_id": 85,
             "category": "Salads",
             "item_name": "Premium Bacon Ranch Salad (without Chicken)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 224.0,
                 "calories": 140.0,
                 "calories_from_fat": 70.0,
@@ -3091,7 +3091,7 @@
             "item_id": 86,
             "category": "Salads",
             "item_name": "Premium Bacon Ranch Salad with Crispy Chicken",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 255.2,
                 "calories": 380.0,
                 "calories_from_fat": 190.0,
@@ -3134,7 +3134,7 @@
             "item_id": 87,
             "category": "Salads",
             "item_name": "Premium Bacon Ranch Salad with Grilled Chicken",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 241.0,
                 "calories": 220.0,
                 "calories_from_fat": 80.0,
@@ -3177,7 +3177,7 @@
             "item_id": 88,
             "category": "Salads",
             "item_name": "Premium Southwest Salad (without Chicken)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 229.6,
                 "calories": 140.0,
                 "calories_from_fat": 40.0,
@@ -3255,7 +3255,7 @@
             "item_id": 89,
             "category": "Salads",
             "item_name": "Premium Southwest Salad with Crispy Chicken",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 348.7,
                 "calories": 450.0,
                 "calories_from_fat": 190.0,
@@ -3333,7 +3333,7 @@
             "item_id": 90,
             "category": "Salads",
             "item_name": "Premium Southwest Salad with Grilled Chicken",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 334.5,
                 "calories": 290.0,
                 "calories_from_fat": 80.0,
@@ -3400,7 +3400,7 @@
             "item_id": 91,
             "category": "Snacks & Sides",
             "item_name": "Chipotle BBQ Snack Wrap (Crispy Chicken)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 130.4,
                 "calories": 340.0,
                 "calories_from_fat": 130.0,
@@ -3468,7 +3468,7 @@
             "item_id": 92,
             "category": "Snacks & Sides",
             "item_name": "Chipotle BBQ Snack Wrap (Grilled Chicken)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 121.9,
                 "calories": 260.0,
                 "calories_from_fat": 70.0,
@@ -3536,7 +3536,7 @@
             "item_id": 93,
             "category": "Snacks & Sides",
             "item_name": "Honey Mustard Snack Wrap (Crispy Chicken)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 121.9,
                 "calories": 330.0,
                 "calories_from_fat": 130.0,
@@ -3569,7 +3569,7 @@
             "item_id": 94,
             "category": "Snacks & Sides",
             "item_name": "Honey Mustard Snack Wrap (Grilled Chicken)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 116.2,
                 "calories": 250.0,
                 "calories_from_fat": 70.0,
@@ -3602,7 +3602,7 @@
             "item_id": 95,
             "category": "Snacks & Sides",
             "item_name": "Ranch Snack Wrap (Crispy Chicken)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 127.6,
                 "calories": 360.0,
                 "calories_from_fat": 180.0,
@@ -3632,7 +3632,7 @@
             "item_id": 96,
             "category": "Snacks & Sides",
             "item_name": "Ranch Snack Wrap (Grilled Chicken)",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 121.9,
                 "calories": 280.0,
                 "calories_from_fat": 120.0,
@@ -3781,7 +3781,7 @@
             "item_id": 97,
             "category": "Snacks & Sides",
             "item_name": "Small French Fries",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 73.7,
                 "calories": 230.0,
                 "calories_from_fat": 100.0,
@@ -3815,7 +3815,7 @@
             "item_id": 98,
             "category": "Snacks & Sides",
             "item_name": "Medium French Fries",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 110.6,
                 "calories": 340.0,
                 "calories_from_fat": 140.0,
@@ -3850,7 +3850,7 @@
             "item_id": 99,
             "category": "Snacks & Sides",
             "item_name": "Large French Fries",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 167.3,
                 "calories": 510.0,
                 "calories_from_fat": 220.0,
@@ -3884,7 +3884,7 @@
             "item_id": 100,
             "category": "Snacks & Sides",
             "item_name": "Kids French Fries",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 36.9,
                 "calories": 110.0,
                 "calories_from_fat": 50.0,
@@ -3919,7 +3919,7 @@
             "item_id": 101,
             "category": "Snacks & Sides",
             "item_name": "Side Salad",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 87.9,
                 "calories": 20.0,
                 "calories_from_fat": 0.0,
@@ -3946,7 +3946,7 @@
             "item_id": 102,
             "category": "Snacks & Sides",
             "item_name": "Apple Slices",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 34.0,
                 "calories": 15.0,
                 "calories_from_fat": 0.0,
@@ -3979,7 +3979,7 @@
             "item_id": 103,
             "category": "Snacks & Sides",
             "item_name": "Fruit 'n Yogurt Parfait",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 147.4,
                 "calories": 150.0,
                 "calories_from_fat": 20.0,
@@ -4032,7 +4032,7 @@
             "item_id": 104,
             "category": "Desserts",
             "item_name": "Baked Apple Pie",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 76.5,
                 "calories": 250.0,
                 "calories_from_fat": 110.0,
@@ -4064,7 +4064,7 @@
             "item_id": 105,
             "category": "Desserts",
             "item_name": "Chocolate Chip Cookie",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 33.0,
                 "calories": 160.0,
                 "calories_from_fat": 70.0,
@@ -4095,7 +4095,7 @@
             "item_id": 106,
             "category": "Desserts",
             "item_name": "Oatmeal Raisin Cookie",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 33.0,
                 "calories": 150.0,
                 "calories_from_fat": 50.0,
@@ -4126,7 +4126,7 @@
             "item_id": 107,
             "category": "Desserts",
             "item_name": "Kids Ice Cream Cone",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 28.4,
                 "calories": 45.0,
                 "calories_from_fat": 10.0,
@@ -4155,7 +4155,7 @@
             "item_id": 108,
             "category": "Desserts",
             "item_name": "Hot Fudge Sundae",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 178.6,
                 "calories": 330.0,
                 "calories_from_fat": 80.0,
@@ -4182,7 +4182,7 @@
             "item_id": 109,
             "category": "Desserts",
             "item_name": "Hot Caramel Sundae",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 181.4,
                 "calories": 340.0,
                 "calories_from_fat": 70.0,
@@ -4210,7 +4210,7 @@
             "item_id": 110,
             "category": "Desserts",
             "item_name": "Strawberry Sundae",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 178.6,
                 "calories": 280.0,
                 "calories_from_fat": 60.0,
@@ -4237,7 +4237,7 @@
             "item_id": 111,
             "category": "Beverages",
             "item_name": "Coca-Cola Classic",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 595.4,
                 "calories": 200.0,
                 "calories_from_fat": 0.0,
@@ -4261,7 +4261,7 @@
             "item_id": 112,
             "category": "Beverages",
             "item_name": "Diet Coke",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 595.4,
                 "calories": 0.0,
                 "calories_from_fat": 0.0,
@@ -4285,7 +4285,7 @@
             "item_id": 113,
             "category": "Beverages",
             "item_name": "Dr Pepper",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 595.4,
                 "calories": 190.0,
                 "calories_from_fat": 0.0,
@@ -4309,7 +4309,7 @@
             "item_id": 114,
             "category": "Beverages",
             "item_name": "Diet Dr Pepper",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 595.4,
                 "calories": 0.0,
                 "calories_from_fat": 0.0,
@@ -4333,7 +4333,7 @@
             "item_id": 115,
             "category": "Beverages",
             "item_name": "Sprite",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 595.4,
                 "calories": 200.0,
                 "calories_from_fat": 0.0,
@@ -4357,7 +4357,7 @@
             "item_id": 116,
             "category": "Beverages",
             "item_name": "Minute Maid Orange Juice",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 190.0,
                 "calories_from_fat": 0.0,
@@ -4381,7 +4381,7 @@
             "item_id": 117,
             "category": "Coffee & Tea",
             "item_name": "Iced Tea",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 595.4,
                 "calories": 0.0,
                 "calories_from_fat": 0.0,
@@ -4405,7 +4405,7 @@
             "item_id": 118,
             "category": "Coffee & Tea",
             "item_name": "Sweet Tea",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 595.4,
                 "calories": 180.0,
                 "calories_from_fat": 0.0,
@@ -4429,7 +4429,7 @@
             "item_id": 119,
             "category": "Coffee & Tea",
             "item_name": "Coffee",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 0.0,
                 "calories_from_fat": 0.0,
@@ -4453,7 +4453,7 @@
             "item_id": 120,
             "category": "Coffee & Tea",
             "item_name": "Latte",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 210.0,
                 "calories_from_fat": 90.0,
@@ -4477,7 +4477,7 @@
             "item_id": 121,
             "category": "Coffee & Tea",
             "item_name": "Caramel Latte",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 340.0,
                 "calories_from_fat": 90.0,
@@ -4501,7 +4501,7 @@
             "item_id": 122,
             "category": "Coffee & Tea",
             "item_name": "Hazelnut Latte",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 330.0,
                 "calories_from_fat": 90.0,
@@ -4525,7 +4525,7 @@
             "item_id": 123,
             "category": "Coffee & Tea",
             "item_name": "French Vanilla Latte",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 330.0,
                 "calories_from_fat": 90.0,
@@ -4549,7 +4549,7 @@
             "item_id": 124,
             "category": "Coffee & Tea",
             "item_name": "Latte with Sugar Free French Vanilla Syrup",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 260.0,
                 "calories_from_fat": 90.0,
@@ -4573,7 +4573,7 @@
             "item_id": 125,
             "category": "Coffee & Tea",
             "item_name": "Nonfat Latte",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 130.0,
                 "calories_from_fat": 0.0,
@@ -4597,7 +4597,7 @@
             "item_id": 126,
             "category": "Coffee & Tea",
             "item_name": "Nonfat Caramel Latte",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 250.0,
                 "calories_from_fat": 0.0,
@@ -4621,7 +4621,7 @@
             "item_id": 127,
             "category": "Coffee & Tea",
             "item_name": "Nonfat Hazelnut Latte",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 250.0,
                 "calories_from_fat": 0.0,
@@ -4645,7 +4645,7 @@
             "item_id": 128,
             "category": "Coffee & Tea",
             "item_name": "Nonfat French Vanilla Latte",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 240.0,
                 "calories_from_fat": 0.0,
@@ -4669,7 +4669,7 @@
             "item_id": 129,
             "category": "Coffee & Tea",
             "item_name": "Nonfat Latte with Sugar Free French Vanilla Syrup",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 170.0,
                 "calories_from_fat": 0.0,
@@ -4693,7 +4693,7 @@
             "item_id": 130,
             "category": "Coffee & Tea",
             "item_name": "Mocha",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 410.0,
                 "calories_from_fat": 120.0,
@@ -4717,7 +4717,7 @@
             "item_id": 131,
             "category": "Coffee & Tea",
             "item_name": "Mocha with Nonfat Milk",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 330.0,
                 "calories_from_fat": 30.0,
@@ -4741,7 +4741,7 @@
             "item_id": 132,
             "category": "Coffee & Tea",
             "item_name": "Caramel Mocha",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 390.0,
                 "calories_from_fat": 120.0,
@@ -4765,7 +4765,7 @@
             "item_id": 133,
             "category": "Coffee & Tea",
             "item_name": "Nonfat Caramel Mocha",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 310.0,
                 "calories_from_fat": 30.0,
@@ -4789,7 +4789,7 @@
             "item_id": 134,
             "category": "Coffee & Tea",
             "item_name": "Hot Chocolate",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 440.0,
                 "calories_from_fat": 140.0,
@@ -4813,7 +4813,7 @@
             "item_id": 135,
             "category": "Coffee & Tea",
             "item_name": "Hot Chocolate with Nonfat Milk",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 340.0,
                 "calories_from_fat": 30.0,
@@ -4837,7 +4837,7 @@
             "item_id": 136,
             "category": "Coffee & Tea",
             "item_name": "Regular Iced Coffee",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 623.7,
                 "calories": 190.0,
                 "calories_from_fat": 60.0,
@@ -4861,7 +4861,7 @@
             "item_id": 137,
             "category": "Coffee & Tea",
             "item_name": "Caramel Iced Coffee",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 623.7,
                 "calories": 180.0,
                 "calories_from_fat": 60.0,
@@ -4885,7 +4885,7 @@
             "item_id": 138,
             "category": "Coffee & Tea",
             "item_name": "Hazelnut Iced Coffee",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 623.7,
                 "calories": 180.0,
                 "calories_from_fat": 60.0,
@@ -4909,7 +4909,7 @@
             "item_id": 139,
             "category": "Coffee & Tea",
             "item_name": "French Vanilla Iced Coffee",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 623.7,
                 "calories": 170.0,
                 "calories_from_fat": 60.0,
@@ -4933,7 +4933,7 @@
             "item_id": 140,
             "category": "Coffee & Tea",
             "item_name": "Iced Coffee with Sugar Free French Vanilla Syrup",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 623.7,
                 "calories": 120.0,
                 "calories_from_fat": 60.0,
@@ -4957,7 +4957,7 @@
             "item_id": 141,
             "category": "Coffee & Tea",
             "item_name": "Iced Mocha",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 350.0,
                 "calories_from_fat": 110.0,
@@ -4981,7 +4981,7 @@
             "item_id": 142,
             "category": "Coffee & Tea",
             "item_name": "Iced Mocha with Nonfat Milk",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 290.0,
                 "calories_from_fat": 45.0,
@@ -5005,7 +5005,7 @@
             "item_id": 143,
             "category": "Coffee & Tea",
             "item_name": "Iced Caramel Mocha",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 340.0,
                 "calories_from_fat": 110.0,
@@ -5029,7 +5029,7 @@
             "item_id": 144,
             "category": "Coffee & Tea",
             "item_name": "Iced Nonfat Caramel Mocha",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 270.0,
                 "calories_from_fat": 45.0,
@@ -5053,7 +5053,7 @@
             "item_id": 145,
             "category": "Coffee & Tea",
             "item_name": "Frapp\u8305 Mocha",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 550.0,
                 "calories_from_fat": 200.0,
@@ -5077,7 +5077,7 @@
             "item_id": 146,
             "category": "Coffee & Tea",
             "item_name": "Frapp\u8305 Caramel",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 550.0,
                 "calories_from_fat": 200.0,
@@ -5101,7 +5101,7 @@
             "item_id": 147,
             "category": "Coffee & Tea",
             "item_name": "Frapp\u8305 Chocolate Chip",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 630.0,
                 "calories_from_fat": 240.0,
@@ -5125,7 +5125,7 @@
             "item_id": 148,
             "category": "Smoothies & Shakes",
             "item_name": "Blueberry Pomegranate Smoothie",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 260.0,
                 "calories_from_fat": 5.0,
@@ -5149,7 +5149,7 @@
             "item_id": 149,
             "category": "Smoothies & Shakes",
             "item_name": "Strawberry Banana Smoothie",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 250.0,
                 "calories_from_fat": 5.0,
@@ -5173,7 +5173,7 @@
             "item_id": 150,
             "category": "Smoothies & Shakes",
             "item_name": "Mango Pineapple Smoothie",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 260.0,
                 "calories_from_fat": 10.0,
@@ -5197,7 +5197,7 @@
             "item_id": 151,
             "category": "Smoothies & Shakes",
             "item_name": "Vanilla Shake",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 660.0,
                 "calories_from_fat": 170.0,
@@ -5221,7 +5221,7 @@
             "item_id": 152,
             "category": "Smoothies & Shakes",
             "item_name": "Strawberry Shake",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 690.0,
                 "calories_from_fat": 180.0,
@@ -5245,7 +5245,7 @@
             "item_id": 153,
             "category": "Smoothies & Shakes",
             "item_name": "Chocolate Shake",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 700.0,
                 "calories_from_fat": 180.0,
@@ -5269,7 +5269,7 @@
             "item_id": 154,
             "category": "Smoothies & Shakes",
             "item_name": "Shamrock Shake",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 453.6,
                 "calories": 660.0,
                 "calories_from_fat": 170.0,
@@ -5293,7 +5293,7 @@
             "item_id": 155,
             "category": "Smoothies & Shakes",
             "item_name": "McFlurry with M&M\u9225\u6a9a Candies",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 459.3,
                 "calories": 930.0,
                 "calories_from_fat": 290.0,
@@ -5317,7 +5317,7 @@
             "item_id": 156,
             "category": "Smoothies & Shakes",
             "item_name": "McFlurry with Oreo Cookies",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 379.9,
                 "calories": 690.0,
                 "calories_from_fat": 200.0,
@@ -5341,7 +5341,7 @@
             "item_id": 157,
             "category": "Smoothies & Shakes",
             "item_name": "McFlurry with Reese's Peanut Butter Cups",
-            "nutrition_facts": {
+            "nutritionFacts": {
                 "serving_size": 402.6,
                 "calories": 810.0,
                 "calories_from_fat": 290.0,

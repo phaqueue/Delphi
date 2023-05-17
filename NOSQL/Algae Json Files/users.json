@@ -1,8 +1,8 @@
 {
-    "userId" : 1,  
     "first_name": "Daniel",
     "last_name": "Soto",
     "email" : "sotodaniel531@gmail.com",
+    "password": "password",
     "preferences" : {
         "calories" : 2,
         "total_fat": 4,
