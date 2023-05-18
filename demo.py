@@ -2,7 +2,6 @@ import json
 from math import sqrt
 import requests
 import uuid
-import sys
 
 nutritionFactList = ["calories", "total_fat", "saturated_fat", "sodium", "carbohydrates",
                "dietary_fiber", "sugars", "protein"]
@@ -148,13 +147,18 @@ class RecommendationSystem:
 
 if __name__ == "__main__":
     rec = RecommendationSystem()
-    args = sys.argv
-    rec.setRestaurantId(int(args[1]))
-    rec.setUserId(args[2])
+    rec.setRestaurantId(int(input("please input restaurantId: ")))
+    rec.setUserId(input("please input userId: "))
     rec.getUserAndRestaurantFromAPI()
-    items = rec.recommend(10)
+    print("your current preference: \n", rec.pref)
+    num = int(input("please input the number of recommendations you want: "))
+    items = rec.recommend(num)
     for item in items:
-        result = "item_id: " + str(item['item_id']) + " item_name: " + str(item['item_name'])
-        print(str(result))
-
+        print("item_id: ", item['item_id'], " item_name: ", item['item_name'])
+    ordered = list(map(int, input("Enter the item you want to order: ").split()))
+    rec.generateOrder(ordered)
+    rec.update()
+    rec.sendOrder()
+    rec.updatePreference()
+    print("your updated preference: \n", rec.pref)
 
