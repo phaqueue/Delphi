@@ -31,6 +31,12 @@ class RecommendationSystem:
         self.restaurantId = None
         self.orderId = None
 
+    def checking(self, ingredients, filter):
+        for item in ingredients:
+            if filter.lower() in item.lower():
+                return True
+        return False
+    
     def setUserId(self, userId):
         self.userId = userId
 
@@ -76,8 +82,8 @@ class RecommendationSystem:
     def removeIneligibles(self):
         for nutritionFact, value in self.pref.items():
             self.items = [item for item in self.items if (nutritionFact in item['nutritionFacts'])]
-        for ingredient in self.filters:
-            self.items = [item for item in self.items if not (ingredient in item['ingredients'])]
+        for filter in self.filters:
+            self.items = [item for item in self.items if not (self.checking(item['ingredients'], filter) or filter.lower() in item['category'].lower())]
 
     # output: top K items based on the user's preferences.
     def recommend(self, K):
