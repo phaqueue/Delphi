@@ -1,0 +1,20 @@
+{
+    "_id": {
+        "$oid": "645d0501b7b17f58718a8347"
+    },
+    "user_id": 72986,
+    "bluetooth_id": null,
+    "name": {
+        "first_name": "Michelle",
+        "last_name": "Jones"
+    },
+    "email": "Michelle.Jones757@gmail.com",
+    "preferences": {
+        "calories": 10,
+        "protein": 2,
+        "fat": 9,
+        "carbohydrates": 1,
+        "sugars": 4
+    },
+    "filters": []
+}

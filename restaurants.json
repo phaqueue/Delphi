@@ -1,0 +1,3147 @@
+{
+    "restaurant_id": 1,
+    "restaurant_name": "McDonald's",
+    "address": "15459 Culver Dr, Irvine, CA 92606",
+    "menu_items": [
+        {
+            "item_id": 1,
+            "category": "Breakfast",
+            "item_name": "Egg McMuffin",
+            "nutrition_facts": {
+                "serving_size": 136.1,
+                "calories": 300.0,
+                "calories_from_fat": 120.0,
+                "total_fat": 13.0,
+                "saturated_fat": 5.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.26,
+                "sodium": 0.75,
+                "carbohydrates": 31.0,
+                "dietary_fiber": 4.0,
+                "sugars": 3.0,
+                "protein": 17.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 2,
+            "category": "Breakfast",
+            "item_name": "Egg White Delight",
+            "nutrition_facts": {
+                "serving_size": 136.1,
+                "calories": 250.0,
+                "calories_from_fat": 70.0,
+                "total_fat": 8.0,
+                "saturated_fat": 3.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.025,
+                "sodium": 0.77,
+                "carbohydrates": 30.0,
+                "dietary_fiber": 4.0,
+                "sugars": 3.0,
+                "protein": 18.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 3,
+            "category": "Breakfast",
+            "item_name": "Sausage McMuffin",
+            "nutrition_facts": {
+                "serving_size": 110.6,
+                "calories": 370.0,
+                "calories_from_fat": 200.0,
+                "total_fat": 23.0,
+                "saturated_fat": 8.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.045,
+                "sodium": 0.78,
+                "carbohydrates": 29.0,
+                "dietary_fiber": 4.0,
+                "sugars": 2.0,
+                "protein": 14.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 4,
+            "category": "Breakfast",
+            "item_name": "Sausage McMuffin with Egg",
+            "nutrition_facts": {
+                "serving_size": 161.6,
+                "calories": 450.0,
+                "calories_from_fat": 250.0,
+                "total_fat": 28.0,
+                "saturated_fat": 10.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.285,
+                "sodium": 0.86,
+                "carbohydrates": 30.0,
+                "dietary_fiber": 4.0,
+                "sugars": 2.0,
+                "protein": 21.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 5,
+            "category": "Breakfast",
+            "item_name": "Sausage McMuffin with Egg Whites",
+            "nutrition_facts": {
+                "serving_size": 161.6,
+                "calories": 400.0,
+                "calories_from_fat": 210.0,
+                "total_fat": 23.0,
+                "saturated_fat": 8.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.05,
+                "sodium": 0.88,
+                "carbohydrates": 30.0,
+                "dietary_fiber": 4.0,
+                "sugars": 2.0,
+                "protein": 21.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 6,
+            "category": "Breakfast",
+            "item_name": "Steak & Egg McMuffin",
+            "nutrition_facts": {
+                "serving_size": 184.3,
+                "calories": 430.0,
+                "calories_from_fat": 210.0,
+                "total_fat": 23.0,
+                "saturated_fat": 9.0,
+                "trans_fat": 1.0,
+                "cholesterol": 0.3,
+                "sodium": 0.96,
+                "carbohydrates": 31.0,
+                "dietary_fiber": 4.0,
+                "sugars": 3.0,
+                "protein": 26.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 7,
+            "category": "Breakfast",
+            "item_name": "Bacon, Egg & Cheese Biscuit (Regular Biscuit)",
+            "nutrition_facts": {
+                "serving_size": 150.3,
+                "calories": 460.0,
+                "calories_from_fat": 230.0,
+                "total_fat": 26.0,
+                "saturated_fat": 13.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.25,
+                "sodium": 1.3,
+                "carbohydrates": 38.0,
+                "dietary_fiber": 2.0,
+                "sugars": 3.0,
+                "protein": 19.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 8,
+            "category": "Breakfast",
+            "item_name": "Bacon, Egg & Cheese Biscuit (Large Biscuit)",
+            "nutrition_facts": {
+                "serving_size": 164.4,
+                "calories": 520.0,
+                "calories_from_fat": 270.0,
+                "total_fat": 30.0,
+                "saturated_fat": 14.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.25,
+                "sodium": 1.41,
+                "carbohydrates": 43.0,
+                "dietary_fiber": 3.0,
+                "sugars": 4.0,
+                "protein": 19.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 9,
+            "category": "Breakfast",
+            "item_name": "Bacon, Egg & Cheese Biscuit with Egg Whites (Regular Biscuit)",
+            "nutrition_facts": {
+                "serving_size": 153.1,
+                "calories": 410.0,
+                "calories_from_fat": 180.0,
+                "total_fat": 20.0,
+                "saturated_fat": 11.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.035,
+                "sodium": 1.3,
+                "carbohydrates": 36.0,
+                "dietary_fiber": 2.0,
+                "sugars": 3.0,
+                "protein": 20.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 10,
+            "category": "Breakfast",
+            "item_name": "Bacon, Egg & Cheese Biscuit with Egg Whites (Large Biscuit)",
+            "nutrition_facts": {
+                "serving_size": 167.3,
+                "calories": 470.0,
+                "calories_from_fat": 220.0,
+                "total_fat": 25.0,
+                "saturated_fat": 12.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.035,
+                "sodium": 1.42,
+                "carbohydrates": 42.0,
+                "dietary_fiber": 3.0,
+                "sugars": 4.0,
+                "protein": 20.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 11,
+            "category": "Breakfast",
+            "item_name": "Sausage Biscuit (Regular Biscuit)",
+            "nutrition_facts": {
+                "serving_size": 116.2,
+                "calories": 430.0,
+                "calories_from_fat": 240.0,
+                "total_fat": 27.0,
+                "saturated_fat": 12.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.03,
+                "sodium": 1.08,
+                "carbohydrates": 34.0,
+                "dietary_fiber": 2.0,
+                "sugars": 2.0,
+                "protein": 11.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 12,
+            "category": "Breakfast",
+            "item_name": "Sausage Biscuit (Large Biscuit)",
+            "nutrition_facts": {
+                "serving_size": 130.4,
+                "calories": 480.0,
+                "calories_from_fat": 280.0,
+                "total_fat": 31.0,
+                "saturated_fat": 13.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.03,
+                "sodium": 1.19,
+                "carbohydrates": 39.0,
+                "dietary_fiber": 3.0,
+                "sugars": 3.0,
+                "protein": 11.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 13,
+            "category": "Breakfast",
+            "item_name": "Sausage Biscuit with Egg (Regular Biscuit)",
+            "nutrition_facts": {
+                "serving_size": 161.6,
+                "calories": 510.0,
+                "calories_from_fat": 290.0,
+                "total_fat": 33.0,
+                "saturated_fat": 14.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.25,
+                "sodium": 1.17,
+                "carbohydrates": 36.0,
+                "dietary_fiber": 2.0,
+                "sugars": 2.0,
+                "protein": 18.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 14,
+            "category": "Breakfast",
+            "item_name": "Sausage Biscuit with Egg (Large Biscuit)",
+            "nutrition_facts": {
+                "serving_size": 175.8,
+                "calories": 570.0,
+                "calories_from_fat": 330.0,
+                "total_fat": 37.0,
+                "saturated_fat": 15.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.25,
+                "sodium": 1.28,
+                "carbohydrates": 42.0,
+                "dietary_fiber": 3.0,
+                "sugars": 3.0,
+                "protein": 18.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 15,
+            "category": "Breakfast",
+            "item_name": "Sausage Biscuit with Egg Whites (Regular Biscuit)",
+            "nutrition_facts": {
+                "serving_size": 167.3,
+                "calories": 460.0,
+                "calories_from_fat": 250.0,
+                "total_fat": 27.0,
+                "saturated_fat": 12.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.035,
+                "sodium": 1.18,
+                "carbohydrates": 34.0,
+                "dietary_fiber": 2.0,
+                "sugars": 3.0,
+                "protein": 18.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 16,
+            "category": "Breakfast",
+            "item_name": "Sausage Biscuit with Egg Whites (Large Biscuit)",
+            "nutrition_facts": {
+                "serving_size": 181.4,
+                "calories": 520.0,
+                "calories_from_fat": 280.0,
+                "total_fat": 32.0,
+                "saturated_fat": 13.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.035,
+                "sodium": 1.29,
+                "carbohydrates": 40.0,
+                "dietary_fiber": 3.0,
+                "sugars": 3.0,
+                "protein": 18.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 17,
+            "category": "Breakfast",
+            "item_name": "Southern Style Chicken Biscuit (Regular Biscuit)",
+            "nutrition_facts": {
+                "serving_size": 141.8,
+                "calories": 410.0,
+                "calories_from_fat": 180.0,
+                "total_fat": 20.0,
+                "saturated_fat": 8.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.03,
+                "sodium": 1.18,
+                "carbohydrates": 41.0,
+                "dietary_fiber": 2.0,
+                "sugars": 3.0,
+                "protein": 17.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 18,
+            "category": "Breakfast",
+            "item_name": "Southern Style Chicken Biscuit (Large Biscuit)",
+            "nutrition_facts": {
+                "serving_size": 155.9,
+                "calories": 470.0,
+                "calories_from_fat": 220.0,
+                "total_fat": 24.0,
+                "saturated_fat": 9.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.03,
+                "sodium": 1.29,
+                "carbohydrates": 46.0,
+                "dietary_fiber": 3.0,
+                "sugars": 4.0,
+                "protein": 17.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 19,
+            "category": "Breakfast",
+            "item_name": "Steak & Egg Biscuit (Regular Biscuit)",
+            "nutrition_facts": {
+                "serving_size": 201.3,
+                "calories": 540.0,
+                "calories_from_fat": 290.0,
+                "total_fat": 32.0,
+                "saturated_fat": 16.0,
+                "trans_fat": 1.0,
+                "cholesterol": 0.28,
+                "sodium": 1.47,
+                "carbohydrates": 38.0,
+                "dietary_fiber": 2.0,
+                "sugars": 3.0,
+                "protein": 25.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 20,
+            "category": "Breakfast",
+            "item_name": "Bacon, Egg & Cheese McGriddles",
+            "nutrition_facts": {
+                "serving_size": 172.9,
+                "calories": 460.0,
+                "calories_from_fat": 190.0,
+                "total_fat": 21.0,
+                "saturated_fat": 9.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.25,
+                "sodium": 1.25,
+                "carbohydrates": 48.0,
+                "dietary_fiber": 2.0,
+                "sugars": 15.0,
+                "protein": 19.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 21,
+            "category": "Breakfast",
+            "item_name": "Bacon, Egg & Cheese McGriddles with Egg Whites",
+            "nutrition_facts": {
+                "serving_size": 178.6,
+                "calories": 400.0,
+                "calories_from_fat": 140.0,
+                "total_fat": 15.0,
+                "saturated_fat": 7.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.035,
+                "sodium": 1.25,
+                "carbohydrates": 47.0,
+                "dietary_fiber": 2.0,
+                "sugars": 16.0,
+                "protein": 20.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 22,
+            "category": "Breakfast",
+            "item_name": "Sausage McGriddles",
+            "nutrition_facts": {
+                "serving_size": 141.8,
+                "calories": 420.0,
+                "calories_from_fat": 200.0,
+                "total_fat": 22.0,
+                "saturated_fat": 8.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.035,
+                "sodium": 1.03,
+                "carbohydrates": 44.0,
+                "dietary_fiber": 2.0,
+                "sugars": 15.0,
+                "protein": 11.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 23,
+            "category": "Breakfast",
+            "item_name": "Sausage, Egg & Cheese McGriddles",
+            "nutrition_facts": {
+                "serving_size": 201.3,
+                "calories": 550.0,
+                "calories_from_fat": 280.0,
+                "total_fat": 31.0,
+                "saturated_fat": 12.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.265,
+                "sodium": 1.32,
+                "carbohydrates": 48.0,
+                "dietary_fiber": 2.0,
+                "sugars": 15.0,
+                "protein": 20.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 24,
+            "category": "Breakfast",
+            "item_name": "Sausage, Egg & Cheese McGriddles with Egg Whites",
+            "nutrition_facts": {
+                "serving_size": 204.1,
+                "calories": 500.0,
+                "calories_from_fat": 230.0,
+                "total_fat": 26.0,
+                "saturated_fat": 10.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.05,
+                "sodium": 1.32,
+                "carbohydrates": 46.0,
+                "dietary_fiber": 2.0,
+                "sugars": 15.0,
+                "protein": 21.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 25,
+            "category": "Breakfast",
+            "item_name": "Bacon, Egg & Cheese Bagel",
+            "nutrition_facts": {
+                "serving_size": 195.6,
+                "calories": 620.0,
+                "calories_from_fat": 280.0,
+                "total_fat": 31.0,
+                "saturated_fat": 11.0,
+                "trans_fat": 0.5,
+                "cholesterol": 0.275,
+                "sodium": 1.48,
+                "carbohydrates": 57.0,
+                "dietary_fiber": 3.0,
+                "sugars": 7.0,
+                "protein": 30.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 26,
+            "category": "Breakfast",
+            "item_name": "Bacon, Egg & Cheese Bagel with Egg Whites",
+            "nutrition_facts": {
+                "serving_size": 201.3,
+                "calories": 570.0,
+                "calories_from_fat": 230.0,
+                "total_fat": 25.0,
+                "saturated_fat": 9.0,
+                "trans_fat": 0.5,
+                "cholesterol": 0.06,
+                "sodium": 1.48,
+                "carbohydrates": 55.0,
+                "dietary_fiber": 3.0,
+                "sugars": 8.0,
+                "protein": 30.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 27,
+            "category": "Breakfast",
+            "item_name": "Steak, Egg & Cheese Bagel",
+            "nutrition_facts": {
+                "serving_size": 241.0,
+                "calories": 670.0,
+                "calories_from_fat": 310.0,
+                "total_fat": 35.0,
+                "saturated_fat": 13.0,
+                "trans_fat": 1.5,
+                "cholesterol": 0.295,
+                "sodium": 1.51,
+                "carbohydrates": 56.0,
+                "dietary_fiber": 3.0,
+                "sugars": 7.0,
+                "protein": 33.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 28,
+            "category": "Breakfast",
+            "item_name": "Big Breakfast (Regular Biscuit)",
+            "nutrition_facts": {
+                "serving_size": 269.3,
+                "calories": 740.0,
+                "calories_from_fat": 430.0,
+                "total_fat": 48.0,
+                "saturated_fat": 17.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.555,
+                "sodium": 1.56,
+                "carbohydrates": 51.0,
+                "dietary_fiber": 3.0,
+                "sugars": 3.0,
+                "protein": 28.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 29,
+            "category": "Breakfast",
+            "item_name": "Big Breakfast (Large Biscuit)",
+            "nutrition_facts": {
+                "serving_size": 283.5,
+                "calories": 800.0,
+                "calories_from_fat": 470.0,
+                "total_fat": 52.0,
+                "saturated_fat": 18.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.555,
+                "sodium": 1.68,
+                "carbohydrates": 56.0,
+                "dietary_fiber": 4.0,
+                "sugars": 3.0,
+                "protein": 28.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 30,
+            "category": "Breakfast",
+            "item_name": "Big Breakfast with Egg Whites (Regular Biscuit)",
+            "nutrition_facts": {
+                "serving_size": 272.2,
+                "calories": 640.0,
+                "calories_from_fat": 330.0,
+                "total_fat": 37.0,
+                "saturated_fat": 14.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.035,
+                "sodium": 1.59,
+                "carbohydrates": 50.0,
+                "dietary_fiber": 3.0,
+                "sugars": 3.0,
+                "protein": 26.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 31,
+            "category": "Breakfast",
+            "item_name": "Big Breakfast with Egg Whites (Large Biscuit)",
+            "nutrition_facts": {
+                "serving_size": 286.3,
+                "calories": 690.0,
+                "calories_from_fat": 370.0,
+                "total_fat": 41.0,
+                "saturated_fat": 14.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.035,
+                "sodium": 1.7,
+                "carbohydrates": 55.0,
+                "dietary_fiber": 4.0,
+                "sugars": 4.0,
+                "protein": 26.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 32,
+            "category": "Breakfast",
+            "item_name": "Big Breakfast with Hotcakes (Regular Biscuit)",
+            "nutrition_facts": {
+                "serving_size": 419.6,
+                "calories": 1090.0,
+                "calories_from_fat": 510.0,
+                "total_fat": 56.0,
+                "saturated_fat": 19.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.575,
+                "sodium": 2.15,
+                "carbohydrates": 111.0,
+                "dietary_fiber": 6.0,
+                "sugars": 17.0,
+                "protein": 36.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 33,
+            "category": "Breakfast",
+            "item_name": "Big Breakfast with Hotcakes (Large Biscuit)",
+            "nutrition_facts": {
+                "serving_size": 433.8,
+                "calories": 1150.0,
+                "calories_from_fat": 540.0,
+                "total_fat": 60.0,
+                "saturated_fat": 20.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.575,
+                "sodium": 2.26,
+                "carbohydrates": 116.0,
+                "dietary_fiber": 7.0,
+                "sugars": 17.0,
+                "protein": 36.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 34,
+            "category": "Breakfast",
+            "item_name": "Big Breakfast with Hotcakes and Egg Whites (Regular Biscuit)",
+            "nutrition_facts": {
+                "serving_size": 422.4,
+                "calories": 990.0,
+                "calories_from_fat": 410.0,
+                "total_fat": 46.0,
+                "saturated_fat": 16.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.055,
+                "sodium": 2.17,
+                "carbohydrates": 110.0,
+                "dietary_fiber": 6.0,
+                "sugars": 17.0,
+                "protein": 35.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 35,
+            "category": "Breakfast",
+            "item_name": "Big Breakfast with Hotcakes and Egg Whites (Large Biscuit)",
+            "nutrition_facts": {
+                "serving_size": 436.6,
+                "calories": 1050.0,
+                "calories_from_fat": 450.0,
+                "total_fat": 50.0,
+                "saturated_fat": 16.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.055,
+                "sodium": 2.29,
+                "carbohydrates": 115.0,
+                "dietary_fiber": 7.0,
+                "sugars": 18.0,
+                "protein": 35.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 36,
+            "category": "Breakfast",
+            "item_name": "Hotcakes",
+            "nutrition_facts": {
+                "serving_size": 150.3,
+                "calories": 350.0,
+                "calories_from_fat": 80.0,
+                "total_fat": 9.0,
+                "saturated_fat": 2.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.02,
+                "sodium": 0.59,
+                "carbohydrates": 60.0,
+                "dietary_fiber": 3.0,
+                "sugars": 14.0,
+                "protein": 8.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 37,
+            "category": "Breakfast",
+            "item_name": "Hotcakes and Sausage",
+            "nutrition_facts": {
+                "serving_size": 192.8,
+                "calories": 520.0,
+                "calories_from_fat": 210.0,
+                "total_fat": 24.0,
+                "saturated_fat": 7.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.05,
+                "sodium": 0.93,
+                "carbohydrates": 61.0,
+                "dietary_fiber": 3.0,
+                "sugars": 14.0,
+                "protein": 15.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 38,
+            "category": "Breakfast",
+            "item_name": "Sausage Burrito",
+            "nutrition_facts": {
+                "serving_size": 110.6,
+                "calories": 300.0,
+                "calories_from_fat": 150.0,
+                "total_fat": 16.0,
+                "saturated_fat": 7.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.115,
+                "sodium": 0.79,
+                "carbohydrates": 26.0,
+                "dietary_fiber": 1.0,
+                "sugars": 2.0,
+                "protein": 12.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 39,
+            "category": "Breakfast",
+            "item_name": "Hash Brown",
+            "nutrition_facts": {
+                "serving_size": 56.7,
+                "calories": 150.0,
+                "calories_from_fat": 80.0,
+                "total_fat": 9.0,
+                "saturated_fat": 1.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.0,
+                "sodium": 0.31,
+                "carbohydrates": 15.0,
+                "dietary_fiber": 2.0,
+                "sugars": 0.0,
+                "protein": 1.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 40,
+            "category": "Breakfast",
+            "item_name": "Cinnamon Melts",
+            "nutrition_facts": {
+                "serving_size": 113.4,
+                "calories": 460.0,
+                "calories_from_fat": 170.0,
+                "total_fat": 19.0,
+                "saturated_fat": 9.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.015,
+                "sodium": 0.37,
+                "carbohydrates": 66.0,
+                "dietary_fiber": 3.0,
+                "sugars": 32.0,
+                "protein": 6.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 41,
+            "category": "Breakfast",
+            "item_name": "Fruit & Maple Oatmeal",
+            "nutrition_facts": {
+                "serving_size": 272.2,
+                "calories": 290.0,
+                "calories_from_fat": 35.0,
+                "total_fat": 4.0,
+                "saturated_fat": 1.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.005,
+                "sodium": 0.16,
+                "carbohydrates": 58.0,
+                "dietary_fiber": 5.0,
+                "sugars": 32.0,
+                "protein": 5.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 42,
+            "category": "Breakfast",
+            "item_name": "Fruit & Maple Oatmeal without Brown Sugar",
+            "nutrition_facts": {
+                "serving_size": 272.2,
+                "calories": 260.0,
+                "calories_from_fat": 40.0,
+                "total_fat": 4.0,
+                "saturated_fat": 1.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.005,
+                "sodium": 0.115,
+                "carbohydrates": 49.0,
+                "dietary_fiber": 5.0,
+                "sugars": 18.0,
+                "protein": 5.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 43,
+            "category": "Beef & Pork",
+            "item_name": "Big Mac",
+            "nutrition_facts": {
+                "serving_size": 209.8,
+                "calories": 530.0,
+                "calories_from_fat": 240.0,
+                "total_fat": 27.0,
+                "saturated_fat": 10.0,
+                "trans_fat": 1.0,
+                "cholesterol": 0.085,
+                "sodium": 0.96,
+                "carbohydrates": 47.0,
+                "dietary_fiber": 3.0,
+                "sugars": 9.0,
+                "protein": 24.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 44,
+            "category": "Beef & Pork",
+            "item_name": "Quarter Pounder with Cheese",
+            "nutrition_facts": {
+                "serving_size": 201.3,
+                "calories": 520.0,
+                "calories_from_fat": 240.0,
+                "total_fat": 26.0,
+                "saturated_fat": 12.0,
+                "trans_fat": 1.5,
+                "cholesterol": 0.095,
+                "sodium": 1.1,
+                "carbohydrates": 41.0,
+                "dietary_fiber": 3.0,
+                "sugars": 10.0,
+                "protein": 30.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 45,
+            "category": "Beef & Pork",
+            "item_name": "Quarter Pounder with Bacon & Cheese",
+            "nutrition_facts": {
+                "serving_size": 226.8,
+                "calories": 600.0,
+                "calories_from_fat": 260.0,
+                "total_fat": 29.0,
+                "saturated_fat": 13.0,
+                "trans_fat": 1.5,
+                "cholesterol": 0.105,
+                "sodium": 1.44,
+                "carbohydrates": 48.0,
+                "dietary_fiber": 3.0,
+                "sugars": 12.0,
+                "protein": 37.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 46,
+            "category": "Beef & Pork",
+            "item_name": "Quarter Pounder with Bacon Habanero Ranch",
+            "nutrition_facts": {
+                "serving_size": 235.3,
+                "calories": 610.0,
+                "calories_from_fat": 280.0,
+                "total_fat": 31.0,
+                "saturated_fat": 13.0,
+                "trans_fat": 1.5,
+                "cholesterol": 0.105,
+                "sodium": 1.18,
+                "carbohydrates": 46.0,
+                "dietary_fiber": 3.0,
+                "sugars": 10.0,
+                "protein": 37.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 47,
+            "category": "Beef & Pork",
+            "item_name": "Quarter Pounder Deluxe",
+            "nutrition_facts": {
+                "serving_size": 243.8,
+                "calories": 540.0,
+                "calories_from_fat": 250.0,
+                "total_fat": 27.0,
+                "saturated_fat": 11.0,
+                "trans_fat": 1.5,
+                "cholesterol": 0.085,
+                "sodium": 0.96,
+                "carbohydrates": 45.0,
+                "dietary_fiber": 3.0,
+                "sugars": 9.0,
+                "protein": 29.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 48,
+            "category": "Beef & Pork",
+            "item_name": "Double Quarter Pounder with Cheese",
+            "nutrition_facts": {
+                "serving_size": 283.5,
+                "calories": 750.0,
+                "calories_from_fat": 380.0,
+                "total_fat": 43.0,
+                "saturated_fat": 19.0,
+                "trans_fat": 2.5,
+                "cholesterol": 0.16,
+                "sodium": 1.28,
+                "carbohydrates": 42.0,
+                "dietary_fiber": 3.0,
+                "sugars": 10.0,
+                "protein": 48.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 49,
+            "category": "Beef & Pork",
+            "item_name": "Hamburger",
+            "nutrition_facts": {
+                "serving_size": 99.2,
+                "calories": 240.0,
+                "calories_from_fat": 70.0,
+                "total_fat": 8.0,
+                "saturated_fat": 3.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.03,
+                "sodium": 0.48,
+                "carbohydrates": 32.0,
+                "dietary_fiber": 1.0,
+                "sugars": 6.0,
+                "protein": 12.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 50,
+            "category": "Beef & Pork",
+            "item_name": "Cheeseburger",
+            "nutrition_facts": {
+                "serving_size": 113.4,
+                "calories": 290.0,
+                "calories_from_fat": 100.0,
+                "total_fat": 11.0,
+                "saturated_fat": 5.0,
+                "trans_fat": 0.5,
+                "cholesterol": 0.045,
+                "sodium": 0.68,
+                "carbohydrates": 33.0,
+                "dietary_fiber": 2.0,
+                "sugars": 7.0,
+                "protein": 15.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 51,
+            "category": "Beef & Pork",
+            "item_name": "Double Cheeseburger",
+            "nutrition_facts": {
+                "serving_size": 161.6,
+                "calories": 430.0,
+                "calories_from_fat": 190.0,
+                "total_fat": 21.0,
+                "saturated_fat": 10.0,
+                "trans_fat": 1.0,
+                "cholesterol": 0.09,
+                "sodium": 1.04,
+                "carbohydrates": 35.0,
+                "dietary_fiber": 2.0,
+                "sugars": 7.0,
+                "protein": 24.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 52,
+            "category": "Beef & Pork",
+            "item_name": "Bacon Clubhouse Burger",
+            "nutrition_facts": {
+                "serving_size": 269.3,
+                "calories": 720.0,
+                "calories_from_fat": 360.0,
+                "total_fat": 40.0,
+                "saturated_fat": 15.0,
+                "trans_fat": 1.5,
+                "cholesterol": 0.115,
+                "sodium": 1.47,
+                "carbohydrates": 51.0,
+                "dietary_fiber": 4.0,
+                "sugars": 14.0,
+                "protein": 39.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 53,
+            "category": "Beef & Pork",
+            "item_name": "McDouble",
+            "nutrition_facts": {
+                "serving_size": 147.4,
+                "calories": 380.0,
+                "calories_from_fat": 150.0,
+                "total_fat": 17.0,
+                "saturated_fat": 8.0,
+                "trans_fat": 1.0,
+                "cholesterol": 0.075,
+                "sodium": 0.84,
+                "carbohydrates": 34.0,
+                "dietary_fiber": 2.0,
+                "sugars": 7.0,
+                "protein": 22.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 54,
+            "category": "Beef & Pork",
+            "item_name": "Bacon McDouble",
+            "nutrition_facts": {
+                "serving_size": 161.6,
+                "calories": 440.0,
+                "calories_from_fat": 200.0,
+                "total_fat": 22.0,
+                "saturated_fat": 10.0,
+                "trans_fat": 1.0,
+                "cholesterol": 0.09,
+                "sodium": 1.11,
+                "carbohydrates": 35.0,
+                "dietary_fiber": 2.0,
+                "sugars": 7.0,
+                "protein": 27.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 55,
+            "category": "Beef & Pork",
+            "item_name": "Daily Double",
+            "nutrition_facts": {
+                "serving_size": 189.9,
+                "calories": 430.0,
+                "calories_from_fat": 200.0,
+                "total_fat": 22.0,
+                "saturated_fat": 9.0,
+                "trans_fat": 1.0,
+                "cholesterol": 0.08,
+                "sodium": 0.76,
+                "carbohydrates": 34.0,
+                "dietary_fiber": 2.0,
+                "sugars": 7.0,
+                "protein": 22.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 56,
+            "category": "Beef & Pork",
+            "item_name": "Jalape\u00c3\u00b1o Double",
+            "nutrition_facts": {
+                "serving_size": 158.8,
+                "calories": 430.0,
+                "calories_from_fat": 210.0,
+                "total_fat": 23.0,
+                "saturated_fat": 9.0,
+                "trans_fat": 1.0,
+                "cholesterol": 0.08,
+                "sodium": 1.03,
+                "carbohydrates": 35.0,
+                "dietary_fiber": 2.0,
+                "sugars": 6.0,
+                "protein": 22.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 57,
+            "category": "Beef & Pork",
+            "item_name": "McRib",
+            "nutrition_facts": {
+                "serving_size": 207.0,
+                "calories": 500.0,
+                "calories_from_fat": 240.0,
+                "total_fat": 26.0,
+                "saturated_fat": 10.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.07,
+                "sodium": 0.98,
+                "carbohydrates": 44.0,
+                "dietary_fiber": 3.0,
+                "sugars": 11.0,
+                "protein": 22.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 58,
+            "category": "Chicken & Fish",
+            "item_name": "Premium Crispy Chicken Classic Sandwich",
+            "nutrition_facts": {
+                "serving_size": 212.6,
+                "calories": 510.0,
+                "calories_from_fat": 200.0,
+                "total_fat": 22.0,
+                "saturated_fat": 3.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.045,
+                "sodium": 0.99,
+                "carbohydrates": 55.0,
+                "dietary_fiber": 3.0,
+                "sugars": 10.0,
+                "protein": 24.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 59,
+            "category": "Chicken & Fish",
+            "item_name": "Premium Grilled Chicken Classic Sandwich",
+            "nutrition_facts": {
+                "serving_size": 198.5,
+                "calories": 350.0,
+                "calories_from_fat": 80.0,
+                "total_fat": 9.0,
+                "saturated_fat": 2.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.065,
+                "sodium": 0.82,
+                "carbohydrates": 42.0,
+                "dietary_fiber": 3.0,
+                "sugars": 8.0,
+                "protein": 28.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 60,
+            "category": "Chicken & Fish",
+            "item_name": "Premium Crispy Chicken Club Sandwich",
+            "nutrition_facts": {
+                "serving_size": 249.5,
+                "calories": 670.0,
+                "calories_from_fat": 300.0,
+                "total_fat": 33.0,
+                "saturated_fat": 9.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.085,
+                "sodium": 1.41,
+                "carbohydrates": 58.0,
+                "dietary_fiber": 3.0,
+                "sugars": 11.0,
+                "protein": 36.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 61,
+            "category": "Chicken & Fish",
+            "item_name": "Premium Grilled Chicken Club Sandwich",
+            "nutrition_facts": {
+                "serving_size": 235.3,
+                "calories": 510.0,
+                "calories_from_fat": 180.0,
+                "total_fat": 20.0,
+                "saturated_fat": 7.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.105,
+                "sodium": 1.25,
+                "carbohydrates": 44.0,
+                "dietary_fiber": 3.0,
+                "sugars": 9.0,
+                "protein": 40.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 62,
+            "category": "Chicken & Fish",
+            "item_name": "Premium Crispy Chicken Ranch BLT Sandwich",
+            "nutrition_facts": {
+                "serving_size": 229.6,
+                "calories": 610.0,
+                "calories_from_fat": 250.0,
+                "total_fat": 28.0,
+                "saturated_fat": 6.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.07,
+                "sodium": 1.4,
+                "carbohydrates": 57.0,
+                "dietary_fiber": 3.0,
+                "sugars": 11.0,
+                "protein": 32.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 63,
+            "category": "Chicken & Fish",
+            "item_name": "Premium Grilled Chicken Ranch BLT Sandwich",
+            "nutrition_facts": {
+                "serving_size": 215.5,
+                "calories": 450.0,
+                "calories_from_fat": 130.0,
+                "total_fat": 15.0,
+                "saturated_fat": 4.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.09,
+                "sodium": 1.23,
+                "carbohydrates": 43.0,
+                "dietary_fiber": 3.0,
+                "sugars": 9.0,
+                "protein": 36.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 64,
+            "category": "Chicken & Fish",
+            "item_name": "Bacon Clubhouse Crispy Chicken Sandwich",
+            "nutrition_facts": {
+                "serving_size": 283.5,
+                "calories": 750.0,
+                "calories_from_fat": 340.0,
+                "total_fat": 38.0,
+                "saturated_fat": 10.0,
+                "trans_fat": 0.5,
+                "cholesterol": 0.09,
+                "sodium": 1.72,
+                "carbohydrates": 65.0,
+                "dietary_fiber": 4.0,
+                "sugars": 16.0,
+                "protein": 36.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 65,
+            "category": "Chicken & Fish",
+            "item_name": "Bacon Clubhouse Grilled Chicken Sandwich",
+            "nutrition_facts": {
+                "serving_size": 269.3,
+                "calories": 590.0,
+                "calories_from_fat": 230.0,
+                "total_fat": 25.0,
+                "saturated_fat": 8.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.11,
+                "sodium": 1.56,
+                "carbohydrates": 51.0,
+                "dietary_fiber": 4.0,
+                "sugars": 14.0,
+                "protein": 40.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 66,
+            "category": "Chicken & Fish",
+            "item_name": "Southern Style Crispy Chicken Sandwich",
+            "nutrition_facts": {
+                "serving_size": 158.8,
+                "calories": 430.0,
+                "calories_from_fat": 170.0,
+                "total_fat": 19.0,
+                "saturated_fat": 3.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.045,
+                "sodium": 0.91,
+                "carbohydrates": 43.0,
+                "dietary_fiber": 2.0,
+                "sugars": 7.0,
+                "protein": 21.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 67,
+            "category": "Chicken & Fish",
+            "item_name": "McChicken",
+            "nutrition_facts": {
+                "serving_size": 144.6,
+                "calories": 360.0,
+                "calories_from_fat": 140.0,
+                "total_fat": 16.0,
+                "saturated_fat": 3.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.035,
+                "sodium": 0.8,
+                "carbohydrates": 40.0,
+                "dietary_fiber": 2.0,
+                "sugars": 5.0,
+                "protein": 14.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 68,
+            "category": "Chicken & Fish",
+            "item_name": "Bacon Cheddar McChicken",
+            "nutrition_facts": {
+                "serving_size": 170.1,
+                "calories": 480.0,
+                "calories_from_fat": 220.0,
+                "total_fat": 24.0,
+                "saturated_fat": 7.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.065,
+                "sodium": 1.26,
+                "carbohydrates": 43.0,
+                "dietary_fiber": 2.0,
+                "sugars": 6.0,
+                "protein": 22.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 69,
+            "category": "Chicken & Fish",
+            "item_name": "Bacon Buffalo Ranch McChicken",
+            "nutrition_facts": {
+                "serving_size": 161.6,
+                "calories": 430.0,
+                "calories_from_fat": 190.0,
+                "total_fat": 21.0,
+                "saturated_fat": 5.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.05,
+                "sodium": 1.26,
+                "carbohydrates": 41.0,
+                "dietary_fiber": 2.0,
+                "sugars": 6.0,
+                "protein": 20.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 70,
+            "category": "Chicken & Fish",
+            "item_name": "Buffalo Ranch McChicken",
+            "nutrition_facts": {
+                "serving_size": 147.4,
+                "calories": 360.0,
+                "calories_from_fat": 150.0,
+                "total_fat": 16.0,
+                "saturated_fat": 3.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.035,
+                "sodium": 0.99,
+                "carbohydrates": 40.0,
+                "dietary_fiber": 2.0,
+                "sugars": 5.0,
+                "protein": 14.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 71,
+            "category": "Chicken & Fish",
+            "item_name": "Premium McWrap Chicken & Bacon (Crispy Chicken)",
+            "nutrition_facts": {
+                "serving_size": 314.7,
+                "calories": 630.0,
+                "calories_from_fat": 280.0,
+                "total_fat": 32.0,
+                "saturated_fat": 9.0,
+                "trans_fat": 0.5,
+                "cholesterol": 0.08,
+                "sodium": 1.54,
+                "carbohydrates": 56.0,
+                "dietary_fiber": 3.0,
+                "sugars": 7.0,
+                "protein": 32.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 72,
+            "category": "Chicken & Fish",
+            "item_name": "Premium McWrap Chicken & Bacon (Grilled Chicken)",
+            "nutrition_facts": {
+                "serving_size": 303.3,
+                "calories": 480.0,
+                "calories_from_fat": 170.0,
+                "total_fat": 19.0,
+                "saturated_fat": 7.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.095,
+                "sodium": 1.37,
+                "carbohydrates": 42.0,
+                "dietary_fiber": 3.0,
+                "sugars": 6.0,
+                "protein": 36.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 73,
+            "category": "Chicken & Fish",
+            "item_name": "Premium McWrap Chicken & Ranch (Crispy Chicken)",
+            "nutrition_facts": {
+                "serving_size": 309.0,
+                "calories": 610.0,
+                "calories_from_fat": 280.0,
+                "total_fat": 31.0,
+                "saturated_fat": 8.0,
+                "trans_fat": 0.5,
+                "cholesterol": 0.065,
+                "sodium": 1.34,
+                "carbohydrates": 56.0,
+                "dietary_fiber": 3.0,
+                "sugars": 8.0,
+                "protein": 27.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 74,
+            "category": "Chicken & Fish",
+            "item_name": "Premium McWrap Chicken & Ranch (Grilled Chicken)",
+            "nutrition_facts": {
+                "serving_size": 297.7,
+                "calories": 450.0,
+                "calories_from_fat": 160.0,
+                "total_fat": 18.0,
+                "saturated_fat": 6.0,
+                "trans_fat": 0.5,
+                "cholesterol": 0.08,
+                "sodium": 1.17,
+                "carbohydrates": 42.0,
+                "dietary_fiber": 3.0,
+                "sugars": 6.0,
+                "protein": 30.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 75,
+            "category": "Chicken & Fish",
+            "item_name": "Premium McWrap Southwest Chicken (Crispy Chicken)",
+            "nutrition_facts": {
+                "serving_size": 314.7,
+                "calories": 670.0,
+                "calories_from_fat": 300.0,
+                "total_fat": 33.0,
+                "saturated_fat": 8.0,
+                "trans_fat": 0.5,
+                "cholesterol": 0.06,
+                "sodium": 1.48,
+                "carbohydrates": 68.0,
+                "dietary_fiber": 5.0,
+                "sugars": 12.0,
+                "protein": 27.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 76,
+            "category": "Chicken & Fish",
+            "item_name": "Premium McWrap Southwest Chicken (Grilled Chicken)",
+            "nutrition_facts": {
+                "serving_size": 317.5,
+                "calories": 520.0,
+                "calories_from_fat": 180.0,
+                "total_fat": 20.0,
+                "saturated_fat": 6.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.08,
+                "sodium": 1.32,
+                "carbohydrates": 55.0,
+                "dietary_fiber": 5.0,
+                "sugars": 10.0,
+                "protein": 31.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 77,
+            "category": "Chicken & Fish",
+            "item_name": "Premium McWrap Chicken Sweet Chili (Crispy Chicken)",
+            "nutrition_facts": {
+                "serving_size": 303.3,
+                "calories": 540.0,
+                "calories_from_fat": 200.0,
+                "total_fat": 23.0,
+                "saturated_fat": 4.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.05,
+                "sodium": 1.26,
+                "carbohydrates": 61.0,
+                "dietary_fiber": 3.0,
+                "sugars": 14.0,
+                "protein": 23.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 78,
+            "category": "Chicken & Fish",
+            "item_name": "Premium McWrap Chicken Sweet Chili (Grilled Chicken)",
+            "nutrition_facts": {
+                "serving_size": 292.0,
+                "calories": 380.0,
+                "calories_from_fat": 90.0,
+                "total_fat": 10.0,
+                "saturated_fat": 3.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.065,
+                "sodium": 1.09,
+                "carbohydrates": 47.0,
+                "dietary_fiber": 3.0,
+                "sugars": 12.0,
+                "protein": 27.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 79,
+            "category": "Chicken & Fish",
+            "item_name": "Chicken McNuggets (4 piece)",
+            "nutrition_facts": {
+                "serving_size": 65.2,
+                "calories": 190.0,
+                "calories_from_fat": 110.0,
+                "total_fat": 12.0,
+                "saturated_fat": 2.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.025,
+                "sodium": 0.36,
+                "carbohydrates": 12.0,
+                "dietary_fiber": 1.0,
+                "sugars": 0.0,
+                "protein": 9.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 80,
+            "category": "Chicken & Fish",
+            "item_name": "Chicken McNuggets (6 piece)",
+            "nutrition_facts": {
+                "serving_size": 96.4,
+                "calories": 280.0,
+                "calories_from_fat": 160.0,
+                "total_fat": 18.0,
+                "saturated_fat": 3.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.04,
+                "sodium": 0.54,
+                "carbohydrates": 18.0,
+                "dietary_fiber": 1.0,
+                "sugars": 0.0,
+                "protein": 13.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 81,
+            "category": "Chicken & Fish",
+            "item_name": "Chicken McNuggets (10 piece)",
+            "nutrition_facts": {
+                "serving_size": 161.6,
+                "calories": 470.0,
+                "calories_from_fat": 270.0,
+                "total_fat": 30.0,
+                "saturated_fat": 5.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.065,
+                "sodium": 0.9,
+                "carbohydrates": 30.0,
+                "dietary_fiber": 2.0,
+                "sugars": 0.0,
+                "protein": 22.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 82,
+            "category": "Chicken & Fish",
+            "item_name": "Chicken McNuggets (20 piece)",
+            "nutrition_facts": {
+                "serving_size": 323.2,
+                "calories": 940.0,
+                "calories_from_fat": 530.0,
+                "total_fat": 59.0,
+                "saturated_fat": 10.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.135,
+                "sodium": 1.8,
+                "carbohydrates": 59.0,
+                "dietary_fiber": 3.0,
+                "sugars": 0.0,
+                "protein": 44.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 83,
+            "category": "Chicken & Fish",
+            "item_name": "Chicken McNuggets (40 piece)",
+            "nutrition_facts": {
+                "serving_size": 646.4,
+                "calories": 1880.0,
+                "calories_from_fat": 1060.0,
+                "total_fat": 118.0,
+                "saturated_fat": 20.0,
+                "trans_fat": 1.0,
+                "cholesterol": 0.265,
+                "sodium": 3.6,
+                "carbohydrates": 118.0,
+                "dietary_fiber": 6.0,
+                "sugars": 1.0,
+                "protein": 87.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 84,
+            "category": "Chicken & Fish",
+            "item_name": "Filet-O-Fish",
+            "nutrition_facts": {
+                "serving_size": 141.8,
+                "calories": 390.0,
+                "calories_from_fat": 170.0,
+                "total_fat": 19.0,
+                "saturated_fat": 4.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.04,
+                "sodium": 0.59,
+                "carbohydrates": 39.0,
+                "dietary_fiber": 2.0,
+                "sugars": 5.0,
+                "protein": 15.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 85,
+            "category": "Salads",
+            "item_name": "Premium Bacon Ranch Salad (without Chicken)",
+            "nutrition_facts": {
+                "serving_size": 224.0,
+                "calories": 140.0,
+                "calories_from_fat": 70.0,
+                "total_fat": 7.0,
+                "saturated_fat": 3.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.025,
+                "sodium": 0.3,
+                "carbohydrates": 10.0,
+                "dietary_fiber": 3.0,
+                "sugars": 4.0,
+                "protein": 9.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 86,
+            "category": "Salads",
+            "item_name": "Premium Bacon Ranch Salad with Crispy Chicken",
+            "nutrition_facts": {
+                "serving_size": 255.2,
+                "calories": 380.0,
+                "calories_from_fat": 190.0,
+                "total_fat": 21.0,
+                "saturated_fat": 6.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.07,
+                "sodium": 0.86,
+                "carbohydrates": 22.0,
+                "dietary_fiber": 2.0,
+                "sugars": 5.0,
+                "protein": 25.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 87,
+            "category": "Salads",
+            "item_name": "Premium Bacon Ranch Salad with Grilled Chicken",
+            "nutrition_facts": {
+                "serving_size": 241.0,
+                "calories": 220.0,
+                "calories_from_fat": 80.0,
+                "total_fat": 8.0,
+                "saturated_fat": 4.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.085,
+                "sodium": 0.69,
+                "carbohydrates": 8.0,
+                "dietary_fiber": 2.0,
+                "sugars": 4.0,
+                "protein": 29.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 88,
+            "category": "Salads",
+            "item_name": "Premium Southwest Salad (without Chicken)",
+            "nutrition_facts": {
+                "serving_size": 229.6,
+                "calories": 140.0,
+                "calories_from_fat": 40.0,
+                "total_fat": 4.5,
+                "saturated_fat": 2.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.01,
+                "sodium": 0.15,
+                "carbohydrates": 20.0,
+                "dietary_fiber": 6.0,
+                "sugars": 6.0,
+                "protein": 6.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 89,
+            "category": "Salads",
+            "item_name": "Premium Southwest Salad with Crispy Chicken",
+            "nutrition_facts": {
+                "serving_size": 348.7,
+                "calories": 450.0,
+                "calories_from_fat": 190.0,
+                "total_fat": 22.0,
+                "saturated_fat": 4.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.05,
+                "sodium": 0.85,
+                "carbohydrates": 42.0,
+                "dietary_fiber": 7.0,
+                "sugars": 12.0,
+                "protein": 23.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 90,
+            "category": "Salads",
+            "item_name": "Premium Southwest Salad with Grilled Chicken",
+            "nutrition_facts": {
+                "serving_size": 334.5,
+                "calories": 290.0,
+                "calories_from_fat": 80.0,
+                "total_fat": 8.0,
+                "saturated_fat": 2.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.07,
+                "sodium": 0.68,
+                "carbohydrates": 28.0,
+                "dietary_fiber": 7.0,
+                "sugars": 10.0,
+                "protein": 27.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 91,
+            "category": "Snacks & Sides",
+            "item_name": "Chipotle BBQ Snack Wrap (Crispy Chicken)",
+            "nutrition_facts": {
+                "serving_size": 130.4,
+                "calories": 340.0,
+                "calories_from_fat": 130.0,
+                "total_fat": 15.0,
+                "saturated_fat": 4.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.03,
+                "sodium": 0.78,
+                "carbohydrates": 37.0,
+                "dietary_fiber": 1.0,
+                "sugars": 8.0,
+                "protein": 14.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 92,
+            "category": "Snacks & Sides",
+            "item_name": "Chipotle BBQ Snack Wrap (Grilled Chicken)",
+            "nutrition_facts": {
+                "serving_size": 121.9,
+                "calories": 260.0,
+                "calories_from_fat": 70.0,
+                "total_fat": 8.0,
+                "saturated_fat": 3.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.04,
+                "sodium": 0.7,
+                "carbohydrates": 30.0,
+                "dietary_fiber": 1.0,
+                "sugars": 7.0,
+                "protein": 16.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 93,
+            "category": "Snacks & Sides",
+            "item_name": "Honey Mustard Snack Wrap (Crispy Chicken)",
+            "nutrition_facts": {
+                "serving_size": 121.9,
+                "calories": 330.0,
+                "calories_from_fat": 130.0,
+                "total_fat": 15.0,
+                "saturated_fat": 4.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.035,
+                "sodium": 0.73,
+                "carbohydrates": 34.0,
+                "dietary_fiber": 1.0,
+                "sugars": 3.0,
+                "protein": 14.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 94,
+            "category": "Snacks & Sides",
+            "item_name": "Honey Mustard Snack Wrap (Grilled Chicken)",
+            "nutrition_facts": {
+                "serving_size": 116.2,
+                "calories": 250.0,
+                "calories_from_fat": 70.0,
+                "total_fat": 8.0,
+                "saturated_fat": 3.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.045,
+                "sodium": 0.65,
+                "carbohydrates": 27.0,
+                "dietary_fiber": 1.0,
+                "sugars": 2.0,
+                "protein": 16.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 95,
+            "category": "Snacks & Sides",
+            "item_name": "Ranch Snack Wrap (Crispy Chicken)",
+            "nutrition_facts": {
+                "serving_size": 127.6,
+                "calories": 360.0,
+                "calories_from_fat": 180.0,
+                "total_fat": 20.0,
+                "saturated_fat": 5.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.04,
+                "sodium": 0.81,
+                "carbohydrates": 32.0,
+                "dietary_fiber": 1.0,
+                "sugars": 3.0,
+                "protein": 15.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 96,
+            "category": "Snacks & Sides",
+            "item_name": "Ranch Snack Wrap (Grilled Chicken)",
+            "nutrition_facts": {
+                "serving_size": 121.9,
+                "calories": 280.0,
+                "calories_from_fat": 120.0,
+                "total_fat": 13.0,
+                "saturated_fat": 4.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.045,
+                "sodium": 0.72,
+                "carbohydrates": 25.0,
+                "dietary_fiber": 1.0,
+                "sugars": 2.0,
+                "protein": 16.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 97,
+            "category": "Snacks & Sides",
+            "item_name": "Small French Fries",
+            "nutrition_facts": {
+                "serving_size": 73.7,
+                "calories": 230.0,
+                "calories_from_fat": 100.0,
+                "total_fat": 11.0,
+                "saturated_fat": 1.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.0,
+                "sodium": 0.13,
+                "carbohydrates": 30.0,
+                "dietary_fiber": 2.0,
+                "sugars": 0.0,
+                "protein": 2.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 98,
+            "category": "Snacks & Sides",
+            "item_name": "Medium French Fries",
+            "nutrition_facts": {
+                "serving_size": 110.6,
+                "calories": 340.0,
+                "calories_from_fat": 140.0,
+                "total_fat": 16.0,
+                "saturated_fat": 2.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.0,
+                "sodium": 0.19,
+                "carbohydrates": 44.0,
+                "dietary_fiber": 4.0,
+                "sugars": 0.0,
+                "protein": 4.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 99,
+            "category": "Snacks & Sides",
+            "item_name": "Large French Fries",
+            "nutrition_facts": {
+                "serving_size": 167.3,
+                "calories": 510.0,
+                "calories_from_fat": 220.0,
+                "total_fat": 24.0,
+                "saturated_fat": 3.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.0,
+                "sodium": 0.29,
+                "carbohydrates": 67.0,
+                "dietary_fiber": 5.0,
+                "sugars": 0.0,
+                "protein": 6.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 100,
+            "category": "Snacks & Sides",
+            "item_name": "Kids French Fries",
+            "nutrition_facts": {
+                "serving_size": 36.9,
+                "calories": 110.0,
+                "calories_from_fat": 50.0,
+                "total_fat": 5.0,
+                "saturated_fat": 1.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.0,
+                "sodium": 0.065,
+                "carbohydrates": 15.0,
+                "dietary_fiber": 1.0,
+                "sugars": 0.0,
+                "protein": 1.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 101,
+            "category": "Snacks & Sides",
+            "item_name": "Side Salad",
+            "nutrition_facts": {
+                "serving_size": 87.9,
+                "calories": 20.0,
+                "calories_from_fat": 0.0,
+                "total_fat": 0.0,
+                "saturated_fat": 0.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.0,
+                "sodium": 0.01,
+                "carbohydrates": 4.0,
+                "dietary_fiber": 1.0,
+                "sugars": 2.0,
+                "protein": 1.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 102,
+            "category": "Snacks & Sides",
+            "item_name": "Apple Slices",
+            "nutrition_facts": {
+                "serving_size": 34.0,
+                "calories": 15.0,
+                "calories_from_fat": 0.0,
+                "total_fat": 0.0,
+                "saturated_fat": 0.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.0,
+                "sodium": 0.0,
+                "carbohydrates": 4.0,
+                "dietary_fiber": 0.0,
+                "sugars": 3.0,
+                "protein": 0.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 103,
+            "category": "Snacks & Sides",
+            "item_name": "Fruit 'n Yogurt Parfait",
+            "nutrition_facts": {
+                "serving_size": 147.4,
+                "calories": 150.0,
+                "calories_from_fat": 20.0,
+                "total_fat": 2.0,
+                "saturated_fat": 1.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.005,
+                "sodium": 0.07,
+                "carbohydrates": 30.0,
+                "dietary_fiber": 1.0,
+                "sugars": 23.0,
+                "protein": 4.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 104,
+            "category": "Desserts",
+            "item_name": "Baked Apple Pie",
+            "nutrition_facts": {
+                "serving_size": 76.5,
+                "calories": 250.0,
+                "calories_from_fat": 110.0,
+                "total_fat": 13.0,
+                "saturated_fat": 7.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.0,
+                "sodium": 0.17,
+                "carbohydrates": 32.0,
+                "dietary_fiber": 4.0,
+                "sugars": 13.0,
+                "protein": 2.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 105,
+            "category": "Desserts",
+            "item_name": "Chocolate Chip Cookie",
+            "nutrition_facts": {
+                "serving_size": 33.0,
+                "calories": 160.0,
+                "calories_from_fat": 70.0,
+                "total_fat": 8.0,
+                "saturated_fat": 3.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.01,
+                "sodium": 0.09,
+                "carbohydrates": 21.0,
+                "dietary_fiber": 1.0,
+                "sugars": 15.0,
+                "protein": 2.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 106,
+            "category": "Desserts",
+            "item_name": "Oatmeal Raisin Cookie",
+            "nutrition_facts": {
+                "serving_size": 33.0,
+                "calories": 150.0,
+                "calories_from_fat": 50.0,
+                "total_fat": 6.0,
+                "saturated_fat": 2.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.01,
+                "sodium": 0.135,
+                "carbohydrates": 22.0,
+                "dietary_fiber": 1.0,
+                "sugars": 13.0,
+                "protein": 2.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 107,
+            "category": "Desserts",
+            "item_name": "Kids Ice Cream Cone",
+            "nutrition_facts": {
+                "serving_size": 28.4,
+                "calories": 45.0,
+                "calories_from_fat": 10.0,
+                "total_fat": 1.5,
+                "saturated_fat": 1.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.005,
+                "sodium": 0.02,
+                "carbohydrates": 7.0,
+                "dietary_fiber": 0.0,
+                "sugars": 6.0,
+                "protein": 1.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 108,
+            "category": "Desserts",
+            "item_name": "Hot Fudge Sundae",
+            "nutrition_facts": {
+                "serving_size": 178.6,
+                "calories": 330.0,
+                "calories_from_fat": 80.0,
+                "total_fat": 9.0,
+                "saturated_fat": 7.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.025,
+                "sodium": 0.17,
+                "carbohydrates": 53.0,
+                "dietary_fiber": 1.0,
+                "sugars": 48.0,
+                "protein": 8.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 109,
+            "category": "Desserts",
+            "item_name": "Hot Caramel Sundae",
+            "nutrition_facts": {
+                "serving_size": 181.4,
+                "calories": 340.0,
+                "calories_from_fat": 70.0,
+                "total_fat": 8.0,
+                "saturated_fat": 5.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.03,
+                "sodium": 0.15,
+                "carbohydrates": 60.0,
+                "dietary_fiber": 0.0,
+                "sugars": 43.0,
+                "protein": 7.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 110,
+            "category": "Desserts",
+            "item_name": "Strawberry Sundae",
+            "nutrition_facts": {
+                "serving_size": 178.6,
+                "calories": 280.0,
+                "calories_from_fat": 60.0,
+                "total_fat": 6.0,
+                "saturated_fat": 4.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.025,
+                "sodium": 0.085,
+                "carbohydrates": 49.0,
+                "dietary_fiber": 0.0,
+                "sugars": 45.0,
+                "protein": 6.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 111,
+            "category": "Beverages",
+            "item_name": "Coca-Cola Classic (Medium)",
+            "nutrition_facts": {
+                "serving_size": 595.4,
+                "calories": 200.0,
+                "calories_from_fat": 0.0,
+                "total_fat": 0.0,
+                "saturated_fat": 0.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.0,
+                "sodium": 0.005,
+                "carbohydrates": 55.0,
+                "dietary_fiber": 0.0,
+                "sugars": 55.0,
+                "protein": 0.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 112,
+            "category": "Beverages",
+            "item_name": "Diet Coke (Medium)",
+            "nutrition_facts": {
+                "serving_size": 595.4,
+                "calories": 0.0,
+                "calories_from_fat": 0.0,
+                "total_fat": 0.0,
+                "saturated_fat": 0.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.0,
+                "sodium": 0.02,
+                "carbohydrates": 0.0,
+                "dietary_fiber": 0.0,
+                "sugars": 0.0,
+                "protein": 0.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 113,
+            "category": "Beverages",
+            "item_name": "Dr Pepper (Medium)",
+            "nutrition_facts": {
+                "serving_size": 595.4,
+                "calories": 190.0,
+                "calories_from_fat": 0.0,
+                "total_fat": 0.0,
+                "saturated_fat": 0.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.0,
+                "sodium": 0.065,
+                "carbohydrates": 53.0,
+                "dietary_fiber": 0.0,
+                "sugars": 51.0,
+                "protein": 0.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 114,
+            "category": "Beverages",
+            "item_name": "Diet Dr Pepper (Medium)",
+            "nutrition_facts": {
+                "serving_size": 595.4,
+                "calories": 0.0,
+                "calories_from_fat": 0.0,
+                "total_fat": 0.0,
+                "saturated_fat": 0.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.0,
+                "sodium": 0.1,
+                "carbohydrates": 0.0,
+                "dietary_fiber": 0.0,
+                "sugars": 0.0,
+                "protein": 3.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 115,
+            "category": "Beverages",
+            "item_name": "Sprite (Medium)",
+            "nutrition_facts": {
+                "serving_size": 595.4,
+                "calories": 200.0,
+                "calories_from_fat": 0.0,
+                "total_fat": 0.0,
+                "saturated_fat": 0.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.0,
+                "sodium": 0.045,
+                "carbohydrates": 54.0,
+                "dietary_fiber": 0.0,
+                "sugars": 54.0,
+                "protein": 0.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 116,
+            "category": "Beverages",
+            "item_name": "Minute Maid Orange Juice (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 190.0,
+                "calories_from_fat": 0.0,
+                "total_fat": 0.0,
+                "saturated_fat": 0.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.0,
+                "sodium": 0.0,
+                "carbohydrates": 44.0,
+                "dietary_fiber": 0.0,
+                "sugars": 39.0,
+                "protein": 3.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 117,
+            "category": "Coffee & Tea",
+            "item_name": "Iced Tea (Medium)",
+            "nutrition_facts": {
+                "serving_size": 595.4,
+                "calories": 0.0,
+                "calories_from_fat": 0.0,
+                "total_fat": 0.0,
+                "saturated_fat": 0.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.0,
+                "sodium": 0.01,
+                "carbohydrates": 0.0,
+                "dietary_fiber": 0.0,
+                "sugars": 0.0,
+                "protein": 0.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 118,
+            "category": "Coffee & Tea",
+            "item_name": "Sweet Tea (Medium)",
+            "nutrition_facts": {
+                "serving_size": 595.4,
+                "calories": 180.0,
+                "calories_from_fat": 0.0,
+                "total_fat": 0.0,
+                "saturated_fat": 0.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.0,
+                "sodium": 0.01,
+                "carbohydrates": 45.0,
+                "dietary_fiber": 0.0,
+                "sugars": 45.0,
+                "protein": 1.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 119,
+            "category": "Coffee & Tea",
+            "item_name": "Coffee (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 0.0,
+                "calories_from_fat": 0.0,
+                "total_fat": 0.0,
+                "saturated_fat": 0.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.0,
+                "sodium": 0.0,
+                "carbohydrates": 0.0,
+                "dietary_fiber": 0.0,
+                "sugars": 0.0,
+                "protein": 0.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 120,
+            "category": "Coffee & Tea",
+            "item_name": "Latte (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 210.0,
+                "calories_from_fat": 90.0,
+                "total_fat": 10.0,
+                "saturated_fat": 6.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.03,
+                "sodium": 0.14,
+                "carbohydrates": 18.0,
+                "dietary_fiber": 1.0,
+                "sugars": 15.0,
+                "protein": 11.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 121,
+            "category": "Coffee & Tea",
+            "item_name": "Caramel Latte (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 340.0,
+                "calories_from_fat": 90.0,
+                "total_fat": 10.0,
+                "saturated_fat": 6.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.03,
+                "sodium": 0.14,
+                "carbohydrates": 50.0,
+                "dietary_fiber": 1.0,
+                "sugars": 48.0,
+                "protein": 11.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 122,
+            "category": "Coffee & Tea",
+            "item_name": "Hazelnut Latte (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 330.0,
+                "calories_from_fat": 90.0,
+                "total_fat": 10.0,
+                "saturated_fat": 6.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.03,
+                "sodium": 0.14,
+                "carbohydrates": 50.0,
+                "dietary_fiber": 1.0,
+                "sugars": 47.0,
+                "protein": 11.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 123,
+            "category": "Coffee & Tea",
+            "item_name": "French Vanilla Latte (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 330.0,
+                "calories_from_fat": 90.0,
+                "total_fat": 10.0,
+                "saturated_fat": 6.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.03,
+                "sodium": 0.14,
+                "carbohydrates": 48.0,
+                "dietary_fiber": 1.0,
+                "sugars": 45.0,
+                "protein": 11.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 124,
+            "category": "Coffee & Tea",
+            "item_name": "Latte with Sugar Free French Vanilla Syrup (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 260.0,
+                "calories_from_fat": 90.0,
+                "total_fat": 10.0,
+                "saturated_fat": 6.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.03,
+                "sodium": 0.19,
+                "carbohydrates": 29.0,
+                "dietary_fiber": 1.0,
+                "sugars": 15.0,
+                "protein": 12.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 125,
+            "category": "Coffee & Tea",
+            "item_name": "Nonfat Latte (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 130.0,
+                "calories_from_fat": 0.0,
+                "total_fat": 0.0,
+                "saturated_fat": 0.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.005,
+                "sodium": 0.135,
+                "carbohydrates": 19.0,
+                "dietary_fiber": 1.0,
+                "sugars": 16.0,
+                "protein": 12.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 126,
+            "category": "Coffee & Tea",
+            "item_name": "Nonfat Caramel Latte (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 250.0,
+                "calories_from_fat": 0.0,
+                "total_fat": 0.0,
+                "saturated_fat": 0.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.005,
+                "sodium": 0.135,
+                "carbohydrates": 51.0,
+                "dietary_fiber": 1.0,
+                "sugars": 48.0,
+                "protein": 12.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 127,
+            "category": "Coffee & Tea",
+            "item_name": "Nonfat Hazelnut Latte (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 250.0,
+                "calories_from_fat": 0.0,
+                "total_fat": 0.0,
+                "saturated_fat": 0.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.005,
+                "sodium": 0.135,
+                "carbohydrates": 51.0,
+                "dietary_fiber": 1.0,
+                "sugars": 48.0,
+                "protein": 12.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 128,
+            "category": "Coffee & Tea",
+            "item_name": "Nonfat French Vanilla Latte (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 240.0,
+                "calories_from_fat": 0.0,
+                "total_fat": 0.0,
+                "saturated_fat": 0.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.005,
+                "sodium": 0.14,
+                "carbohydrates": 49.0,
+                "dietary_fiber": 1.0,
+                "sugars": 46.0,
+                "protein": 12.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 129,
+            "category": "Coffee & Tea",
+            "item_name": "Nonfat Latte with Sugar Free French Vanilla Syrup (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 170.0,
+                "calories_from_fat": 0.0,
+                "total_fat": 0.0,
+                "saturated_fat": 0.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.005,
+                "sodium": 0.18,
+                "carbohydrates": 30.0,
+                "dietary_fiber": 1.0,
+                "sugars": 16.0,
+                "protein": 12.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 130,
+            "category": "Coffee & Tea",
+            "item_name": "Mocha (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 410.0,
+                "calories_from_fat": 120.0,
+                "total_fat": 14.0,
+                "saturated_fat": 8.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.04,
+                "sodium": 0.19,
+                "carbohydrates": 60.0,
+                "dietary_fiber": 2.0,
+                "sugars": 53.0,
+                "protein": 13.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 131,
+            "category": "Coffee & Tea",
+            "item_name": "Mocha with Nonfat Milk (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 330.0,
+                "calories_from_fat": 30.0,
+                "total_fat": 3.5,
+                "saturated_fat": 2.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.015,
+                "sodium": 0.19,
+                "carbohydrates": 60.0,
+                "dietary_fiber": 2.0,
+                "sugars": 53.0,
+                "protein": 13.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 132,
+            "category": "Coffee & Tea",
+            "item_name": "Caramel Mocha (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 390.0,
+                "calories_from_fat": 120.0,
+                "total_fat": 14.0,
+                "saturated_fat": 8.0,
+                "trans_fat": 0.5,
+                "cholesterol": 0.04,
+                "sodium": 0.22,
+                "carbohydrates": 55.0,
+                "dietary_fiber": 1.0,
+                "sugars": 50.0,
+                "protein": 12.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 133,
+            "category": "Coffee & Tea",
+            "item_name": "Nonfat Caramel Mocha (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 310.0,
+                "calories_from_fat": 30.0,
+                "total_fat": 3.5,
+                "saturated_fat": 2.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.015,
+                "sodium": 0.21,
+                "carbohydrates": 56.0,
+                "dietary_fiber": 1.0,
+                "sugars": 51.0,
+                "protein": 13.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 134,
+            "category": "Coffee & Tea",
+            "item_name": "Hot Chocolate (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 440.0,
+                "calories_from_fat": 140.0,
+                "total_fat": 16.0,
+                "saturated_fat": 9.0,
+                "trans_fat": 0.5,
+                "cholesterol": 0.05,
+                "sodium": 0.22,
+                "carbohydrates": 61.0,
+                "dietary_fiber": 1.0,
+                "sugars": 56.0,
+                "protein": 14.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 135,
+            "category": "Coffee & Tea",
+            "item_name": "Hot Chocolate with Nonfat Milk (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 340.0,
+                "calories_from_fat": 30.0,
+                "total_fat": 3.5,
+                "saturated_fat": 2.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.015,
+                "sodium": 0.22,
+                "carbohydrates": 61.0,
+                "dietary_fiber": 1.0,
+                "sugars": 57.0,
+                "protein": 14.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 136,
+            "category": "Coffee & Tea",
+            "item_name": "Regular Iced Coffee (Medium)",
+            "nutrition_facts": {
+                "serving_size": 623.7,
+                "calories": 190.0,
+                "calories_from_fat": 60.0,
+                "total_fat": 7.0,
+                "saturated_fat": 4.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.025,
+                "sodium": 0.05,
+                "carbohydrates": 31.0,
+                "dietary_fiber": 0.0,
+                "sugars": 30.0,
+                "protein": 1.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 137,
+            "category": "Coffee & Tea",
+            "item_name": "Caramel Iced Coffee (Medium)",
+            "nutrition_facts": {
+                "serving_size": 623.7,
+                "calories": 180.0,
+                "calories_from_fat": 60.0,
+                "total_fat": 7.0,
+                "saturated_fat": 4.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.025,
+                "sodium": 0.05,
+                "carbohydrates": 29.0,
+                "dietary_fiber": 0.0,
+                "sugars": 28.0,
+                "protein": 1.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 138,
+            "category": "Coffee & Tea",
+            "item_name": "Hazelnut Iced Coffee (Medium)",
+            "nutrition_facts": {
+                "serving_size": 623.7,
+                "calories": 180.0,
+                "calories_from_fat": 60.0,
+                "total_fat": 7.0,
+                "saturated_fat": 4.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.025,
+                "sodium": 0.05,
+                "carbohydrates": 29.0,
+                "dietary_fiber": 0.0,
+                "sugars": 28.0,
+                "protein": 1.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 139,
+            "category": "Coffee & Tea",
+            "item_name": "French Vanilla Iced Coffee (Medium)",
+            "nutrition_facts": {
+                "serving_size": 623.7,
+                "calories": 170.0,
+                "calories_from_fat": 60.0,
+                "total_fat": 7.0,
+                "saturated_fat": 4.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.025,
+                "sodium": 0.055,
+                "carbohydrates": 27.0,
+                "dietary_fiber": 0.0,
+                "sugars": 26.0,
+                "protein": 1.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 140,
+            "category": "Coffee & Tea",
+            "item_name": "Iced Coffee with Sugar Free French Vanilla Syrup (Medium)",
+            "nutrition_facts": {
+                "serving_size": 623.7,
+                "calories": 120.0,
+                "calories_from_fat": 60.0,
+                "total_fat": 7.0,
+                "saturated_fat": 4.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.025,
+                "sodium": 0.09,
+                "carbohydrates": 12.0,
+                "dietary_fiber": 0.0,
+                "sugars": 2.0,
+                "protein": 1.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 141,
+            "category": "Coffee & Tea",
+            "item_name": "Iced Mocha (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 350.0,
+                "calories_from_fat": 110.0,
+                "total_fat": 13.0,
+                "saturated_fat": 8.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.04,
+                "sodium": 0.15,
+                "carbohydrates": 50.0,
+                "dietary_fiber": 1.0,
+                "sugars": 43.0,
+                "protein": 9.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 142,
+            "category": "Coffee & Tea",
+            "item_name": "Iced Mocha with Nonfat Milk (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 290.0,
+                "calories_from_fat": 45.0,
+                "total_fat": 5.0,
+                "saturated_fat": 3.5,
+                "trans_fat": 0.0,
+                "cholesterol": 0.02,
+                "sodium": 0.15,
+                "carbohydrates": 50.0,
+                "dietary_fiber": 1.0,
+                "sugars": 43.0,
+                "protein": 10.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 143,
+            "category": "Coffee & Tea",
+            "item_name": "Iced Caramel Mocha (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 340.0,
+                "calories_from_fat": 110.0,
+                "total_fat": 13.0,
+                "saturated_fat": 7.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.04,
+                "sodium": 0.17,
+                "carbohydrates": 46.0,
+                "dietary_fiber": 1.0,
+                "sugars": 41.0,
+                "protein": 9.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 144,
+            "category": "Coffee & Tea",
+            "item_name": "Iced Nonfat Caramel Mocha (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 270.0,
+                "calories_from_fat": 45.0,
+                "total_fat": 5.0,
+                "saturated_fat": 3.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.02,
+                "sodium": 0.17,
+                "carbohydrates": 47.0,
+                "dietary_fiber": 1.0,
+                "sugars": 41.0,
+                "protein": 10.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 145,
+            "category": "Coffee & Tea",
+            "item_name": "Frapp\u00c3\u00a9 Mocha (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 550.0,
+                "calories_from_fat": 200.0,
+                "total_fat": 22.0,
+                "saturated_fat": 14.0,
+                "trans_fat": 1.0,
+                "cholesterol": 0.075,
+                "sodium": 0.16,
+                "carbohydrates": 80.0,
+                "dietary_fiber": 1.0,
+                "sugars": 71.0,
+                "protein": 9.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 146,
+            "category": "Coffee & Tea",
+            "item_name": "Frapp\u00c3\u00a9 Caramel (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 550.0,
+                "calories_from_fat": 200.0,
+                "total_fat": 23.0,
+                "saturated_fat": 15.0,
+                "trans_fat": 1.0,
+                "cholesterol": 0.08,
+                "sodium": 0.16,
+                "carbohydrates": 79.0,
+                "dietary_fiber": 0.0,
+                "sugars": 71.0,
+                "protein": 9.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 147,
+            "category": "Coffee & Tea",
+            "item_name": "Frapp\u00c3\u00a9 Chocolate Chip (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 630.0,
+                "calories_from_fat": 240.0,
+                "total_fat": 26.0,
+                "saturated_fat": 17.0,
+                "trans_fat": 1.0,
+                "cholesterol": 0.08,
+                "sodium": 0.16,
+                "carbohydrates": 91.0,
+                "dietary_fiber": 1.0,
+                "sugars": 81.0,
+                "protein": 9.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 148,
+            "category": "Smoothies & Shakes",
+            "item_name": "Blueberry Pomegranate Smoothie (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 260.0,
+                "calories_from_fat": 5.0,
+                "total_fat": 1.0,
+                "saturated_fat": 0.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.005,
+                "sodium": 0.05,
+                "carbohydrates": 62.0,
+                "dietary_fiber": 4.0,
+                "sugars": 54.0,
+                "protein": 3.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 149,
+            "category": "Smoothies & Shakes",
+            "item_name": "Strawberry Banana Smoothie (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 250.0,
+                "calories_from_fat": 5.0,
+                "total_fat": 1.0,
+                "saturated_fat": 0.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.005,
+                "sodium": 0.06,
+                "carbohydrates": 58.0,
+                "dietary_fiber": 3.0,
+                "sugars": 54.0,
+                "protein": 4.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 150,
+            "category": "Smoothies & Shakes",
+            "item_name": "Mango Pineapple Smoothie (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 260.0,
+                "calories_from_fat": 10.0,
+                "total_fat": 1.0,
+                "saturated_fat": 0.0,
+                "trans_fat": 0.0,
+                "cholesterol": 0.005,
+                "sodium": 0.045,
+                "carbohydrates": 61.0,
+                "dietary_fiber": 1.0,
+                "sugars": 56.0,
+                "protein": 3.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 151,
+            "category": "Smoothies & Shakes",
+            "item_name": "Vanilla Shake (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 660.0,
+                "calories_from_fat": 170.0,
+                "total_fat": 19.0,
+                "saturated_fat": 12.0,
+                "trans_fat": 1.0,
+                "cholesterol": 0.075,
+                "sodium": 0.2,
+                "carbohydrates": 109.0,
+                "dietary_fiber": 0.0,
+                "sugars": 81.0,
+                "protein": 14.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 152,
+            "category": "Smoothies & Shakes",
+            "item_name": "Strawberry Shake (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 690.0,
+                "calories_from_fat": 180.0,
+                "total_fat": 20.0,
+                "saturated_fat": 13.0,
+                "trans_fat": 1.0,
+                "cholesterol": 0.075,
+                "sodium": 0.21,
+                "carbohydrates": 114.0,
+                "dietary_fiber": 0.0,
+                "sugars": 100.0,
+                "protein": 15.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 153,
+            "category": "Smoothies & Shakes",
+            "item_name": "Chocolate Shake (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 700.0,
+                "calories_from_fat": 180.0,
+                "total_fat": 20.0,
+                "saturated_fat": 12.0,
+                "trans_fat": 1.0,
+                "cholesterol": 0.075,
+                "sodium": 0.3,
+                "carbohydrates": 114.0,
+                "dietary_fiber": 2.0,
+                "sugars": 97.0,
+                "protein": 15.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 154,
+            "category": "Smoothies & Shakes",
+            "item_name": "Shamrock Shake (Medium)",
+            "nutrition_facts": {
+                "serving_size": 453.6,
+                "calories": 660.0,
+                "calories_from_fat": 170.0,
+                "total_fat": 19.0,
+                "saturated_fat": 12.0,
+                "trans_fat": 1.0,
+                "cholesterol": 0.075,
+                "sodium": 0.21,
+                "carbohydrates": 109.0,
+                "dietary_fiber": 0.0,
+                "sugars": 93.0,
+                "protein": 14.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 155,
+            "category": "Smoothies & Shakes",
+            "item_name": "McFlurry with M&M\u00e2\u20ac\u2122s Candies (Medium)",
+            "nutrition_facts": {
+                "serving_size": 459.3,
+                "calories": 930.0,
+                "calories_from_fat": 290.0,
+                "total_fat": 33.0,
+                "saturated_fat": 20.0,
+                "trans_fat": 1.0,
+                "cholesterol": 0.075,
+                "sodium": 0.26,
+                "carbohydrates": 139.0,
+                "dietary_fiber": 2.0,
+                "sugars": 128.0,
+                "protein": 20.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 156,
+            "category": "Smoothies & Shakes",
+            "item_name": "McFlurry with Oreo Cookies (Medium)",
+            "nutrition_facts": {
+                "serving_size": 379.9,
+                "calories": 690.0,
+                "calories_from_fat": 200.0,
+                "total_fat": 23.0,
+                "saturated_fat": 12.0,
+                "trans_fat": 1.0,
+                "cholesterol": 0.055,
+                "sodium": 0.38,
+                "carbohydrates": 106.0,
+                "dietary_fiber": 1.0,
+                "sugars": 85.0,
+                "protein": 15.0
+            },
+            "ingredients": []
+        },
+        {
+            "item_id": 157,
+            "category": "Smoothies & Shakes",
+            "item_name": "McFlurry with Reese's Peanut Butter Cups (Medium)",
+            "nutrition_facts": {
+                "serving_size": 402.6,
+                "calories": 810.0,
+                "calories_from_fat": 290.0,
+                "total_fat": 32.0,
+                "saturated_fat": 15.0,
+                "trans_fat": 1.0,
+                "cholesterol": 0.06,
+                "sodium": 0.4,
+                "carbohydrates": 114.0,
+                "dietary_fiber": 2.0,
+                "sugars": 103.0,
+                "protein": 21.0
+            },
+            "ingredients": []
+        }
+    ]
+}
