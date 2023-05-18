@@ -6,7 +6,7 @@ This system contains two parts:
   1. Recommend food items based on the menu and the user preferences
   2. Update the user preferences based on users' orders
 
-But before I go over these two parts, let's examine the important elements in *restaurant.JSON*, *user.JSON*, and *order.JSON*. I will show some examples of these JSON files at the end.
+But before I go over these two parts, let's examine the important elements in *restaurant.JSON*, *user.JSON*, and *order.JSON*. I will show some examples of these JSON files in the ***Example*** section.
 
 ## restaurant.JSON
   The most important parts are *nutrition_facts* and *ingredients* inside the object *menu_items*.
@@ -31,12 +31,87 @@ Now let's check the two parts of the recommendation system.
   It takes restaurant.JSON, user.JSON, and *K* as input, and outputs the top K items that match the user's preferences most. Here are the main steps.
   1. Remove the ineligible food items. These items include those whose nutrition facts are missing some nutrients (because they are outdated) and those which have ingredients the user cannot have, according to the user's *filters*.
   2. Turn the nutrition facts of the food items into a value from 0 ~ 10, in order to match the user's preferences. Currently, to convert the value for a nutrient, we take "the amount of this nutrient", "the weight of the food item", "the Dietary Reference Intakes of this nutrient", and "the weight of food an average person eats". For example, the weight of Big Mac is 200g, the fat it contains is 27g, and we know one should take around 90g of fat daily, and one is expected to eat 1500g (these numbers may be inaccurate, but the inaccuracy should not affect the accuracy of results much, as we are mainly comparing different food items) of food daily. Thus, the ratio of nutrient_percentage and weight_percentage is ((27 / 90) / (200 / 1500)) = 2.25, meaning that the fat in the burger would be 2.25 times more than the "healthy and balanced food" recommended. And the new value we assign will be 10 * (2.25 / (1 + 2.25)) = 6.92. Note if the ratio is 1 instead, the value would be 5, which is the value for indifference.
-  3. Rank the food items based on their similarities with the user's preferences, and return the top K items. We originally were thinking of using Cosine Similarity, but later I realized that using Euclidean Distance makes more sense. If the distance between two vectors is small, it is likely this food item will be recommended.
+  3. Rank the food items based on their similarities with the user's preferences, and return the top K items. We originally were thinking of using Cosine Similarity, but later I realized that using Euclidean Distance makes more sense. If the distance between two vectors is small, this food item will likely be recommended.
 
 ## Update
   It takes restaurant.JSON, user.JSON, and order.JSON as input, and outputs an updated user.JSON (because the user's preferences are updated based on the order).
-  1. We combine all of the food items into a hodgepodge item for convenience, and transform the nutrition facts (refer to bullet point 2 of ***Recommend***). Suppose the weight of this item is w_item.
+  1. We combine all of the food items into a hodgepodge item for convenience and transform the nutrition facts (refer to bullet point 2 of ***Recommend***). Suppose the weight of this item is w_item.
   2. We also consider how much an average person eats per meal. Let's call it w_meal.
-  3. For each nutrition fact, suppose the original value of the user's preference of that nutrient is v_user, and the value of the hodgepodge item for that is v_item. The new value would be (v_user + v_item / (w_total / w_meal)) / (1 + w_total / w_meal). The more the user buys, the larger weight this order has (it has more influence) when updating the user's preference. Currently if the user buys exactly average meal, the formula will be simplified to (v_user + v_item) / 2. But no matters how much the user buys, the new value will always be a value between v_user and v_item.
+  3. For each nutrition fact, suppose the original value of the user's preference of that nutrient is v_user, and the value of the hodgepodge item for that is v_item. The new value would be (v_user + v_item / (w_total / w_meal)) / (1 + w_total / w_meal). The more the user buys, the larger weight this order has (it has more influence) when updating the user's preference. Currently, if the user buys exactly the average meal, the formula will be simplified to (v_user + v_item) / 2. But no matter how much the user buys, the new value will always be a value between v_user and v_item.
+
+## Example
+
+Here are the simplified restaurant.JSON, user.JSON, and order. JSON.
+
+### restaurant.JSON:
+    {
+      ...
+      "menu_items": [
+        {
+          "item_id": 43,
+          "item_name": "Big Mac",
+          "nutritionFacts": {
+            "serving_size": 209.8,
+            "calories": 530.0,
+            "total_fat": 27.0,
+            "sodium": 0.96,
+         },
+          "ingredients": [
+            "BEEF",
+            "SALT",
+            "WHEY"
+          ]
+        },
+        {
+          "item_id": 97,
+          "item_name": "Small French Fries",
+          "nutritionFacts": {
+            "serving_size": 73.7,
+            "calories": 230.0,
+            "total_fat": 11.0,
+            "sodium": 0.13,
+          },
+          "ingredients": [
+            "Potatoes",
+            "Rice Flour",
+            "Salt",
+          ]
+        },
+        {
+          "item_id": 54,
+          "item_name": "Bacon McDouble",
+          "nutritionFacts": {
+            "serving_size": 161.6,
+            "calories": 440.0,
+            "total_fat": 22.0,
+            "sodium": 1.11,
+          },
+          "ingredients": [
+            "bacon",
+            "chicken stock",
+            "cooked chicken",
+          ]
+        },
+      ]
+    }
+
+### user.JSON:
+    {
+      ...
+      "preferences" : {
+        "calories" : 2,
+        "total_fat": 4,
+        "sodium": 4,
+      },
+      "filters" : ["pork", "chicken"]
+    }
+
+### order.JSON
+    {
+      "orderId": 1,
+      "userId": 1,
+      "restaurantId": 1,
+      "ordered_items": [43, 97, 97]
+}
 
 I'm aware that the recommendation system may not be perfect, but I hope it is reasonable. And the algorithm will eventually be replaced by machine learning after enough data is gathered, so tuning my algorithm should not be the main focus of the project.
