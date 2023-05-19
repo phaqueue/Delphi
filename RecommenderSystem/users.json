@@ -1,20 +1,52 @@
-{
-    "_id": {
-        "$oid": "645d0501b7b17f58718a8347"
-    },
-    "user_id": 72986,
-    "bluetooth_id": null,
-    "name": {
-        "first_name": "Michelle",
-        "last_name": "Jones"
-    },
-    "email": "Michelle.Jones757@gmail.com",
-    "preferences": {
-        "calories": 10,
-        "protein": 2,
-        "fat": 9,
-        "carbohydrates": 1,
-        "sugars": 4
-    },
-    "filters": []
-}
+[{
+  "_id": {
+    "$oid": "64671e269363934d8620e868"
+  },
+  "first_name": "Daniel",
+  "last_name": "Soto",
+  "email": "sotodaniel531@gmail.com",
+  "password": "password",
+  "preferences": {
+    "calories": 1,
+    "total_fat": 1,
+    "saturated_fat": 3,
+    "sodium": 2,
+    "carbohydrates": 2,
+    "sugars": 4,
+    "protein": 4
+  },
+  "filters": [
+    "trans_fat",
+    "cholesterol",
+    "nuts",
+    "spiciness",
+    "beef",
+    "pork",
+    "chicken",
+    "milk",
+    "egg"
+  ],
+  "_class": "com.delphi.mongo_rest_api.models.User"
+},{
+  "_id": {
+    "$oid": "64671eef9363934d8620e869"
+  },
+  "first_name": "Algae",
+  "last_name": "AL",
+  "email": "zxl@uci.edu",
+  "password": "password",
+  "preferences": {
+    "calories": 5,
+    "total_fat": 5,
+    "saturated_fat": 5,
+    "sodium": 5,
+    "carbohydrates": 5,
+    "sugars": 5,
+    "protein": 5
+  },
+  "filters": [
+    "lactose",
+    "nuts"
+  ],
+  "_class": "com.delphi.mongo_rest_api.models.User"
+}]

@@ -20,6 +20,12 @@ DRI = {"calories": 2860, "total_fat": 88, "saturated_fat": 0,
 total_weight_daily = 1300
 totalWeightPerMeal = 500
 
+def safe_str(obj):
+    try:
+        return str(obj)
+    except UnicodeEncodeError:
+        return obj.encode('ascii', 'ignore').decode('ascii')
+    return ""
 
 class RecommendationSystem:
     def __init__(self):
@@ -31,6 +37,7 @@ class RecommendationSystem:
         self.userId = None
         self.restaurantId = None
         self.orderId = None
+
 
     def checking(self, ingredients, filter):
         for item in ingredients:
@@ -160,7 +167,7 @@ if __name__ == "__main__":
     rec.getUserAndRestaurantFromAPI()
     items = rec.recommend(10)
     for item in items:
-        result = "item_id: " + str(item['item_id']) + " item_name: " + str(item['item_name'])
-        print(str(result))
+        result = "item_id: " + safe_str(item['item_id']) + " item_name: " + safe_str(item['item_name'])
+        print(safe_str(result))
 
 

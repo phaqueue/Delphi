@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "64671f2d9363934d8620e86a"
+  },
+  "restaurantId": 1,
+  "userId": "64671e269363934d8620e868",
+  "orderId": "64671e269363934d8620e868atRestaurant1_3611e340-f613-11ed-82a6-6245b50ca00e",
+  "ordered_items": [
+    123,
+    125
+  ],
+  "_class": "com.delphi.mongo_rest_api.models.Order"
+},{
+  "_id": {
+    "$oid": "64671f499363934d8620e86b"
+  },
+  "restaurantId": 1,
+  "userId": "64671e269363934d8620e868",
+  "orderId": "64671e269363934d8620e868atRestaurant1_46c7b35c-f613-11ed-850b-6245b50ca00e",
+  "ordered_items": [],
+  "_class": "com.delphi.mongo_rest_api.models.Order"
+},{
+  "_id": {
+    "$oid": "6467bae89363934d8620e86c"
+  },
+  "restaurantId": 1,
+  "userId": "64671e269363934d8620e868",
+  "orderId": "64671e269363934d8620e868atRestaurant1_068ca772-f670-11ed-95d1-6c02e0442933",
+  "ordered_items": [],
+  "_class": "com.delphi.mongo_rest_api.models.Order"
+},{
+  "_id": {
+    "$oid": "6467bb729363934d8620e86d"
+  },
+  "restaurantId": 1,
+  "userId": "64671eef9363934d8620e869",
+  "orderId": "64671eef9363934d8620e869atRestaurant1_585dd1c9-f670-11ed-b276-6c02e0442933",
+  "ordered_items": [],
+  "_class": "com.delphi.mongo_rest_api.models.Order"
+},{
+  "_id": {
+    "$oid": "6467bbfb9363934d8620e86e"
+  },
+  "restaurantId": 1,
+  "userId": "64671eef9363934d8620e869",
+  "orderId": "64671eef9363934d8620e869atRestaurant1_aa6bdba8-f670-11ed-9d4b-6c02e0442933",
+  "ordered_items": [],
+  "_class": "com.delphi.mongo_rest_api.models.Order"
+},{
+  "_id": {
+    "$oid": "6467bd859363934d8620e86f"
+  },
+  "restaurantId": 1,
+  "userId": "64671eef9363934d8620e869",
+  "orderId": "64671eef9363934d8620e869atRestaurant1_94fa0ad3-f671-11ed-af17-6c02e0442933",
+  "ordered_items": [],
+  "_class": "com.delphi.mongo_rest_api.models.Order"
+},{
+  "_id": {
+    "$oid": "6467bda79363934d8620e870"
+  },
+  "restaurantId": 1,
+  "userId": "64671eef9363934d8620e869",
+  "orderId": "64671eef9363934d8620e869atRestaurant1_a9a1e208-f671-11ed-9907-6c02e0442933",
+  "ordered_items": [],
+  "_class": "com.delphi.mongo_rest_api.models.Order"
+},{
+  "_id": {
+    "$oid": "6467be289363934d8620e871"
+  },
+  "restaurantId": 1,
+  "userId": "64671eef9363934d8620e869",
+  "orderId": "64671eef9363934d8620e869atRestaurant1_f60c6f43-f671-11ed-b8e3-6c02e0442933",
+  "ordered_items": [],
+  "_class": "com.delphi.mongo_rest_api.models.Order"
+}]
