@@ -17,12 +17,23 @@ drink_ingredients = {
 requests_per_minute = 5
 delay_time = 60 / requests_per_minute
 
+def remove_unprintable_chars(s):
+    printable_string = ""
+    for c in s:
+        if ord(c) < 128 and c.isprintable():
+            printable_string += c
+        else:
+            printable_string += ""  # Replace unprintable character with whitespace
+    return printable_string.lstrip().strip()
+
 def filter_printable_strings(strings):
     filtered = []
     for s in strings:
-        if all(ord(c) < 128 and c.isprintable() for c in s):
-            filtered.append(s.lstrip())
+        filtered.append(remove_unprintable_chars(s))
     return filtered
+
+def convert_mg_to_g(amount):
+    return amount / 1000
 
 def get_ingredients(item):
     app_id = 'a396278c'
@@ -40,15 +51,28 @@ def get_ingredients(item):
     else:
         return []
 
-def convert_mg_to_g(amount):
-    return amount / 1000
-
 def create_restaurant(restaurant_obj):
-    with open("NOSQL/menu.csv", newline='') as csvfile:
+    with open("menu.csv", newline='') as csvfile:
         menu_item_id = 1
         reader = csv.DictReader(csvfile)
+
+        names = set()
         
         for row in reader:
+        
+            if "(Large Biscuit)" in row["Item"]:
+                row["Item"] = row["Item"].replace("(Large Biscuit)", "").rstrip()
+            
+            if "(Regular Biscuit)" in row["Item"]:
+                row["Item"] = row["Item"].replace("(Regular Biscuit)", "").rstrip()
+            
+            row["Item"] = remove_unprintable_chars(row["Item"])
+
+            if row["Item"] in names:
+                continue
+
+            names.add(row["Item"])
+               
             if row["Category"] in ["Beverages", "Coffee & Tea", "Smoothies & Shakes"]:
                 if "(Medium)" not in row["Item"]:
                     continue
@@ -59,11 +83,13 @@ def create_restaurant(restaurant_obj):
                 ingredients = get_ingredients(row["Item"])
                 time.sleep(delay_time)
 
+
+            if ingredients == []:
+                continue
             
             match = re.search(r'(\d+(?:\.\d+)?)\s*(fl\s+)?(oz|g)', row["Serving Size"])
 
             if match:
-                #serving_size = match.group(0)
                 amount = float(match.group(1))
                 unit = match.group(3)
                 if unit == 'oz':
@@ -93,7 +119,7 @@ def create_restaurant(restaurant_obj):
                 menu_item_id += 1
 
 
-    with open("NOSQL/restaurants.json", "w") as f:
+    with open("restaurants_test.json", "w") as f:
         json.dump(restaurant_obj, f, indent=4)
 
 
