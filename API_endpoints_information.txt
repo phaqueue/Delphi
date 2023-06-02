@@ -1,0 +1,112 @@
+Database address: mongodb://ec2-13-57-39-29.us-west-1.compute.amazonaws.com:23888/
+
+
+
+API endpoints:
+
+###
+POST http://ec2-13-57-39-29.us-west-1.compute.amazonaws.com:8080/delphi/users/login
+Login by sending login information, get user information
+example json sent:
+{
+    "email" : "zxl@uci.edu",
+    "password": "password"
+}
+
+###
+POST http://ec2-13-57-39-29.us-west-1.compute.amazonaws.com:8080/delphi/users/register
+register user by sending user information
+example json sent:
+{
+    "first_name": "Algae",
+    "last_name": "AL",
+    "email" : "zxl@uci.edu",
+    "password": "password",
+    "preferences" : {
+        "calories" : 2,
+        "total_fat": 4,
+        "saturated_fat": 0,
+        "sodium": 0,
+        "carbohydrates": 0,
+        "sugars" : 2,
+        "protein" : 7
+    },
+    "filters" : ["lactose","nuts"]
+}
+
+### 
+PUT http://ec2-13-57-39-29.us-west-1.compute.amazonaws.com:8080/delphi/users/{userId}/update
+update user's(userId) preference by sending new preference information
+example json sent:
+{
+        "calories" : 10,
+        "total_fat": 10,
+        "saturated_fat": 10,
+        "sodium": 10,
+        "carbohydrates": 10,
+        "sugars" : 10,
+        "protein" : 10
+    }
+
+
+###
+GET http://ec2-13-57-39-29.us-west-1.compute.amazonaws.com:8080/delphi/users/{userId}
+get json information containing the user information with userId
+
+###
+POST http://ec2-13-57-39-29.us-west-1.compute.amazonaws.com:8080/delphi/orders/register
+register order by sending order information
+example json sent:
+
+{
+    "userId": "6478f89fe9cd744d59901312",
+    "restaurantId": 1,
+    "ordered_items": [1, 2, 4]
+}
+
+Note: orderId is now _id in mongoDB
+
+###
+GET http://ec2-13-57-39-29.us-west-1.compute.amazonaws.com:8080/delphi/orders/{{orderID}}
+get order information with orderId
+###
+GET http://ec2-13-57-39-29.us-west-1.compute.amazonaws.com:8080/delphi/restaurants/{{restaurantID}}
+get restaurant information with restaurantId
+###
+GET http://ec2-13-57-39-29.us-west-1.compute.amazonaws.com:8080/delphi/orders/recommend/{{userId}}/{{restaurantId}}
+get 10 recommend items with userId and restaurantId
+###
+POST http://ec2-13-57-39-29.us-west-1.compute.amazonaws.com:8080/delphi/restaurants/create
+add restaurant to the database. send restaurant information json.
+example json sent:
+{
+  "restaurantId": 8,
+  "restaurant_name": "test",
+  "address": "test",
+  "menu_items": [
+    {
+      "item_id": 1,
+      "category": "test",
+      "item_name": "test",
+      "nutritionFacts": {
+        "serving_size": 136.1,
+        "calories": 300,
+        "calories_from_fat": 120,
+        "total_fat": 13,
+        "saturated_fat": 5,
+        "trans_fat": 0,
+        "cholesterol": 0.26,
+        "sodium": 0.75,
+        "carbohydrates": 31,
+        "dietary_fiber": 4,
+        "sugars": 3,
+        "protein": 17
+      },
+      "ingredients": [
+        "egg",
+        "English muffin",
+        "Canadian bacon",
+        "American cheese",
+        "butter"
+      ]
+    }]}
