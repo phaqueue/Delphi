@@ -9,3 +9,4 @@
 # Contributors
 
 - [Daniel Everardo Soto](https://github.com/dsoto30)
+- [Zixiao Liu](https://github.com/zixial3)
